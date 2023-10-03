@@ -1,0 +1,3301 @@
+skier_id,resort,jacket_color,ski_color,hours_skied,snow_quality,had_lunch,cm_of_new_snow,afternoon_beverage
+1,Laax,white,green,1,5,True,49,orange juice
+2,Lenzerheide,grey,black,6,7,False,31,wine
+3,Verbier,yellow,orange,5,7,False,1,wine
+4,Davos,pink,yellow,7,9,True,3,orange juice
+5,Verbier,white,blue,5,6,True,0,coffee
+6,Verbier,green,red,2,6,False,21,coffee
+7,Verbier,purple,purple,7,1,False,22,wine
+8,Arosa,pink,black,5,9,False,25,water
+9,Verbier,red,orange,5,1,True,23,water
+10,Davos,black,black,1,5,False,33,tea
+11,Arosa,white,red,5,9,True,29,wine
+12,Verbier,orange,grey,8,9,False,36,orange juice
+13,Verbier,red,purple,4,1,False,14,snow_mocha
+14,Zermatt,pink,black,3,6,True,40,orange juice
+15,Zermatt,purple,blue,5,10,True,41,snow_mocha
+16,Arosa,purple,white,6,7,False,33,tea
+17,St. Moritz,purple,purple,8,3,False,2,tea
+18,Jungfrau,white,pink,2,9,True,49,wine
+19,Lenzerheide,blue,yellow,4,5,True,21,tea
+20,Davos,orange,red,4,9,False,32,snow_mocha
+21,Davos,yellow,yellow,9,5,True,30,snow_mocha
+22,Engelberg,pink,purple,4,6,False,27,tea
+23,Lenzerheide,green,pink,8,4,True,42,wine
+24,Verbier,purple,orange,7,6,True,1,wine
+25,Zermatt,grey,red,2,3,True,31,coffee
+26,Davos,pink,pink,9,3,False,11,orange juice
+27,Verbier,green,grey,8,7,True,12,water
+28,Lenzerheide,white,white,7,5,False,39,coffee
+29,Crans-Montana,white,yellow,2,8,False,24,wine
+30,Zermatt,black,pink,5,3,True,31,coffee
+31,Verbier,blue,white,5,6,True,28,water
+32,Engelberg,green,purple,3,3,False,46,wine
+33,Lenzerheide,white,yellow,7,3,False,14,wine
+34,St. Moritz,orange,black,7,7,True,23,snow_mocha
+35,Crans-Montana,yellow,pink,5,6,True,18,wine
+36,Laax,green,black,7,5,False,6,snow_mocha
+37,Verbier,orange,purple,9,3,True,1,water
+38,St. Moritz,purple,blue,6,3,True,42,hot_chocolate
+39,Jungfrau,orange,blue,5,6,False,2,wine
+40,Lenzerheide,red,red,7,4,True,36,water
+41,Verbier,grey,white,7,6,False,35,snow_mocha
+42,St. Moritz,green,grey,3,8,False,18,snow_mocha
+43,Laax,grey,pink,3,4,False,22,tea
+44,Verbier,white,green,7,10,False,31,wine
+45,St. Moritz,pink,purple,8,1,False,39,orange juice
+46,Arosa,orange,red,2,5,True,16,wine
+47,St. Moritz,white,yellow,3,2,True,47,snow_mocha
+48,Davos,orange,blue,8,10,False,47,hot_chocolate
+49,Laax,black,blue,2,2,False,42,wine
+50,Engelberg,pink,black,6,6,True,25,snow_mocha
+51,Crans-Montana,grey,pink,2,10,True,31,wine
+52,Jungfrau,white,orange,5,7,True,2,wine
+53,Lenzerheide,orange,pink,1,7,True,49,orange juice
+54,Verbier,yellow,black,5,1,False,23,orange juice
+55,Jungfrau,blue,red,7,3,False,32,snow_mocha
+56,Laax,black,blue,3,3,False,49,wine
+57,Zermatt,yellow,orange,7,2,True,47,water
+58,Laax,purple,orange,9,2,True,43,water
+59,Zermatt,white,orange,9,6,False,23,orange juice
+60,Zermatt,orange,green,7,2,False,42,wine
+61,Arosa,black,grey,8,10,True,12,orange juice
+62,Lenzerheide,orange,blue,9,1,False,37,hot_chocolate
+63,Arosa,black,purple,2,8,False,44,coffee
+64,Zermatt,green,pink,8,5,False,46,orange juice
+65,Engelberg,red,grey,9,8,False,27,wine
+66,Jungfrau,purple,black,5,2,True,41,wine
+67,Jungfrau,blue,pink,8,5,True,31,wine
+68,Jungfrau,blue,orange,6,4,False,8,orange juice
+69,Zermatt,yellow,purple,9,9,True,44,tea
+70,Engelberg,yellow,purple,8,3,True,40,wine
+71,Laax,red,orange,9,9,False,1,wine
+72,Arosa,white,yellow,4,10,False,16,orange juice
+73,Engelberg,blue,yellow,3,5,True,20,tea
+74,St. Moritz,blue,grey,4,1,False,43,snow_mocha
+75,Davos,yellow,white,3,6,False,12,snow_mocha
+76,Laax,purple,yellow,4,3,False,20,coffee
+77,Verbier,black,white,8,6,True,0,water
+78,Jungfrau,black,black,7,8,False,31,water
+79,Zermatt,orange,red,3,2,True,20,tea
+80,Engelberg,yellow,grey,1,4,False,24,wine
+81,Arosa,red,yellow,5,1,True,47,snow_mocha
+82,Arosa,white,pink,2,9,False,16,wine
+83,Arosa,blue,orange,5,5,False,41,snow_mocha
+84,Arosa,red,orange,6,7,True,45,tea
+85,Zermatt,green,red,8,6,False,33,coffee
+86,Jungfrau,grey,white,7,4,True,10,wine
+87,Laax,white,grey,8,4,True,10,coffee
+88,Laax,pink,blue,5,8,False,33,tea
+89,St. Moritz,pink,yellow,5,6,True,35,snow_mocha
+90,Crans-Montana,green,red,1,2,False,2,coffee
+91,Lenzerheide,grey,grey,7,8,False,13,water
+92,Laax,pink,green,6,8,True,29,orange juice
+93,Laax,green,orange,4,2,True,24,orange juice
+94,Zermatt,blue,blue,5,5,False,9,tea
+95,Arosa,purple,black,3,5,True,32,tea
+96,Engelberg,blue,purple,5,7,True,49,snow_mocha
+97,Laax,green,green,2,4,False,19,snow_mocha
+98,Arosa,green,white,8,6,False,29,tea
+99,Arosa,purple,red,3,2,True,45,coffee
+100,Jungfrau,yellow,purple,8,3,False,27,tea
+101,Verbier,pink,red,4,7,False,44,wine
+102,Zermatt,pink,blue,9,2,False,2,hot_chocolate
+103,Verbier,red,orange,8,3,True,23,wine
+104,Engelberg,red,yellow,7,5,False,25,tea
+105,Zermatt,red,purple,3,6,True,44,wine
+106,Arosa,green,yellow,6,6,True,5,wine
+107,Lenzerheide,yellow,blue,7,2,False,32,hot_chocolate
+108,Laax,green,red,4,3,False,16,water
+109,Zermatt,black,black,3,4,False,0,wine
+110,Verbier,white,blue,6,6,True,15,hot_chocolate
+111,Lenzerheide,yellow,orange,9,5,False,15,tea
+112,Zermatt,green,purple,2,4,True,28,snow_mocha
+113,Davos,pink,white,1,4,False,0,tea
+114,Zermatt,red,white,6,6,True,23,wine
+115,Zermatt,green,yellow,7,2,True,33,orange juice
+116,Arosa,yellow,grey,3,6,True,5,coffee
+117,Crans-Montana,purple,red,8,7,False,3,water
+118,Crans-Montana,grey,black,2,1,False,3,wine
+119,Lenzerheide,white,white,4,1,True,31,wine
+120,Crans-Montana,green,purple,4,5,True,48,water
+121,Lenzerheide,red,grey,1,8,False,30,wine
+122,St. Moritz,yellow,yellow,6,9,True,35,tea
+123,Engelberg,grey,purple,1,8,False,49,coffee
+124,Verbier,pink,red,3,10,True,1,coffee
+125,Crans-Montana,green,pink,1,8,False,46,coffee
+126,St. Moritz,orange,yellow,6,9,True,34,coffee
+127,Laax,pink,purple,7,7,True,30,coffee
+128,Laax,purple,white,1,10,True,44,coffee
+129,Engelberg,green,black,5,10,False,10,wine
+130,Laax,blue,red,9,10,False,3,orange juice
+131,Crans-Montana,yellow,pink,4,3,False,25,snow_mocha
+132,Laax,black,white,2,5,True,24,water
+133,Arosa,orange,purple,2,5,True,17,snow_mocha
+134,Jungfrau,blue,white,5,3,False,21,tea
+135,Crans-Montana,green,grey,3,1,False,35,water
+136,Engelberg,black,pink,5,7,False,6,wine
+137,Zermatt,black,grey,7,8,True,38,wine
+138,Lenzerheide,blue,pink,3,1,True,16,coffee
+139,St. Moritz,blue,white,3,3,True,41,snow_mocha
+140,Engelberg,orange,red,4,4,True,36,snow_mocha
+141,Verbier,blue,orange,4,9,False,18,tea
+142,St. Moritz,orange,pink,3,9,False,46,snow_mocha
+143,Verbier,red,red,3,10,False,27,orange juice
+144,St. Moritz,white,purple,5,10,False,43,snow_mocha
+145,Davos,red,green,5,6,False,23,snow_mocha
+146,Arosa,black,orange,5,3,True,41,snow_mocha
+147,Davos,white,red,5,8,False,6,snow_mocha
+148,Arosa,yellow,yellow,3,5,False,6,orange juice
+149,Jungfrau,red,red,9,8,False,37,water
+150,Zermatt,black,grey,3,5,False,8,coffee
+151,Davos,pink,blue,5,1,True,29,snow_mocha
+152,St. Moritz,black,orange,4,4,False,37,snow_mocha
+153,Arosa,blue,blue,1,4,False,36,tea
+154,Arosa,purple,orange,8,1,True,8,orange juice
+155,Zermatt,grey,black,6,5,False,38,tea
+156,Arosa,purple,purple,4,6,True,47,coffee
+157,St. Moritz,orange,grey,9,6,False,9,water
+158,Laax,blue,blue,8,5,True,7,hot_chocolate
+159,Arosa,pink,grey,6,4,True,10,snow_mocha
+160,Engelberg,black,purple,3,3,True,34,wine
+161,Laax,red,blue,7,4,False,44,hot_chocolate
+162,Laax,yellow,grey,2,9,True,38,tea
+163,Zermatt,white,black,2,9,False,17,tea
+164,Arosa,purple,grey,5,8,True,18,tea
+165,Arosa,blue,red,6,7,False,11,snow_mocha
+166,Davos,red,white,7,6,False,17,coffee
+167,Jungfrau,blue,yellow,2,1,False,6,snow_mocha
+168,Engelberg,white,blue,4,1,True,29,wine
+169,Laax,white,grey,7,6,False,2,wine
+170,Zermatt,purple,orange,2,5,True,13,coffee
+171,Davos,green,yellow,2,7,False,35,snow_mocha
+172,Arosa,black,green,4,9,False,29,tea
+173,Zermatt,grey,grey,7,1,False,27,coffee
+174,Zermatt,blue,black,3,10,True,34,coffee
+175,Arosa,purple,pink,2,4,False,39,wine
+176,St. Moritz,orange,blue,2,7,True,16,tea
+177,St. Moritz,yellow,pink,3,1,False,26,snow_mocha
+178,St. Moritz,red,orange,6,8,False,13,coffee
+179,Lenzerheide,green,red,7,5,False,26,water
+180,Lenzerheide,white,blue,9,6,True,40,hot_chocolate
+181,Arosa,white,black,3,5,False,41,wine
+182,Engelberg,grey,white,7,6,False,39,water
+183,Engelberg,green,orange,2,5,False,10,orange juice
+184,Engelberg,black,green,1,1,False,42,wine
+185,Lenzerheide,orange,white,7,7,False,14,water
+186,Davos,purple,blue,1,6,True,49,coffee
+187,Jungfrau,orange,red,4,6,False,9,water
+188,Lenzerheide,blue,black,3,7,True,49,snow_mocha
+189,Zermatt,red,yellow,9,5,False,7,coffee
+190,St. Moritz,grey,yellow,1,6,False,20,coffee
+191,Davos,black,white,5,9,True,36,snow_mocha
+192,Lenzerheide,orange,white,5,3,True,27,tea
+193,Zermatt,grey,purple,5,5,False,32,wine
+194,Jungfrau,purple,purple,8,4,True,41,wine
+195,Jungfrau,blue,blue,4,2,True,10,tea
+196,Engelberg,yellow,grey,3,7,True,6,snow_mocha
+197,St. Moritz,blue,red,1,7,False,37,orange juice
+198,Zermatt,orange,white,5,2,True,1,wine
+199,Verbier,green,red,7,7,False,0,tea
+200,Verbier,blue,blue,3,2,True,41,coffee
+201,Lenzerheide,purple,black,2,7,True,43,orange juice
+202,Zermatt,purple,yellow,9,1,False,28,water
+203,Lenzerheide,orange,blue,8,3,True,24,hot_chocolate
+204,Zermatt,pink,yellow,7,4,False,37,coffee
+205,Engelberg,white,pink,2,4,False,4,tea
+206,St. Moritz,orange,purple,7,10,True,44,wine
+207,St. Moritz,yellow,green,9,5,True,30,snow_mocha
+208,Jungfrau,red,blue,4,4,False,27,tea
+209,Engelberg,purple,yellow,1,4,True,22,snow_mocha
+210,Davos,blue,grey,3,2,True,37,snow_mocha
+211,Arosa,white,orange,5,4,True,43,wine
+212,Engelberg,green,red,2,7,False,42,water
+213,Arosa,blue,purple,7,10,False,28,coffee
+214,Davos,black,yellow,3,5,False,27,snow_mocha
+215,St. Moritz,blue,pink,1,8,False,19,water
+216,Davos,white,purple,1,7,True,13,wine
+217,Verbier,orange,pink,2,7,True,17,tea
+218,Jungfrau,green,red,4,9,False,11,tea
+219,Jungfrau,grey,blue,5,2,False,49,water
+220,Arosa,black,red,8,1,True,22,wine
+221,Arosa,pink,yellow,3,4,True,38,coffee
+222,Jungfrau,blue,black,9,3,False,18,orange juice
+223,Laax,purple,white,8,3,True,49,orange juice
+224,Jungfrau,white,yellow,2,6,True,2,snow_mocha
+225,Davos,purple,red,4,9,True,14,snow_mocha
+226,Jungfrau,purple,purple,5,10,False,33,wine
+227,Zermatt,grey,purple,2,1,False,28,orange juice
+228,Lenzerheide,white,blue,4,5,True,34,orange juice
+229,Crans-Montana,orange,orange,2,10,False,13,tea
+230,Jungfrau,orange,green,3,9,False,36,water
+231,St. Moritz,black,grey,4,8,False,3,snow_mocha
+232,Jungfrau,yellow,grey,7,3,False,7,water
+233,Zermatt,green,orange,8,6,False,7,tea
+234,Verbier,grey,pink,3,4,False,27,wine
+235,Jungfrau,black,blue,6,9,False,16,hot_chocolate
+236,Laax,yellow,pink,4,3,True,19,coffee
+237,Verbier,pink,pink,8,10,True,23,tea
+238,Lenzerheide,yellow,red,9,5,False,35,orange juice
+239,Zermatt,white,yellow,2,3,False,30,orange juice
+240,Lenzerheide,yellow,green,9,10,False,35,wine
+241,St. Moritz,black,purple,7,8,True,27,wine
+242,Verbier,pink,white,1,10,True,40,tea
+243,Engelberg,red,pink,5,9,True,0,snow_mocha
+244,Arosa,pink,grey,9,9,False,35,snow_mocha
+245,Arosa,purple,blue,1,10,False,15,wine
+246,Lenzerheide,purple,white,8,2,False,45,orange juice
+247,Verbier,blue,pink,3,1,True,40,water
+248,Engelberg,blue,purple,9,9,True,46,wine
+249,Arosa,pink,white,5,9,True,12,tea
+250,Davos,blue,yellow,1,3,False,15,coffee
+251,Jungfrau,pink,black,7,3,True,20,orange juice
+252,Zermatt,purple,white,7,5,True,27,wine
+253,Engelberg,green,pink,1,2,True,46,coffee
+254,Zermatt,blue,red,8,7,False,1,water
+255,Lenzerheide,blue,green,7,10,True,13,snow_mocha
+256,Laax,orange,grey,3,2,False,3,tea
+257,Lenzerheide,green,yellow,9,10,False,12,snow_mocha
+258,Laax,orange,red,4,9,False,39,tea
+259,Lenzerheide,red,black,3,8,True,2,tea
+260,Laax,red,black,5,8,False,35,wine
+261,Verbier,orange,pink,3,7,True,44,coffee
+262,Verbier,pink,red,6,7,True,41,wine
+263,Lenzerheide,black,green,9,5,True,2,wine
+264,Crans-Montana,yellow,purple,9,10,False,24,coffee
+265,Engelberg,grey,pink,7,4,False,22,water
+266,St. Moritz,purple,red,1,5,False,37,wine
+267,Arosa,black,green,5,8,True,30,wine
+268,Davos,green,purple,9,10,False,18,water
+269,Engelberg,blue,orange,4,9,False,23,tea
+270,Jungfrau,blue,black,4,2,False,26,tea
+271,Laax,yellow,green,8,3,True,1,coffee
+272,Engelberg,blue,yellow,3,5,False,6,tea
+273,Davos,blue,white,9,5,True,35,water
+274,Crans-Montana,pink,black,3,4,True,32,snow_mocha
+275,Engelberg,pink,yellow,6,7,False,38,orange juice
+276,Arosa,blue,green,6,9,False,16,orange juice
+277,St. Moritz,green,pink,2,4,False,7,snow_mocha
+278,Crans-Montana,yellow,orange,1,9,False,3,water
+279,Arosa,grey,red,9,8,False,2,coffee
+280,Engelberg,purple,black,2,1,True,17,tea
+281,Davos,yellow,purple,6,9,False,7,water
+282,Crans-Montana,green,pink,3,8,True,15,wine
+283,Davos,pink,grey,6,8,False,37,orange juice
+284,Laax,orange,purple,5,1,True,13,water
+285,Engelberg,grey,red,6,6,True,6,wine
+286,Laax,purple,green,2,2,False,29,wine
+287,St. Moritz,pink,yellow,2,10,False,47,snow_mocha
+288,Laax,red,purple,4,3,False,22,tea
+289,Arosa,blue,purple,7,8,True,13,coffee
+290,Laax,green,black,6,9,False,17,tea
+291,Lenzerheide,white,grey,2,4,False,0,orange juice
+292,Lenzerheide,purple,green,4,7,True,32,water
+293,Engelberg,pink,blue,4,9,True,38,coffee
+294,Verbier,grey,blue,5,9,False,40,tea
+295,Lenzerheide,black,blue,8,5,True,35,hot_chocolate
+296,Lenzerheide,red,grey,7,3,True,6,orange juice
+297,Lenzerheide,green,red,7,6,False,7,tea
+298,St. Moritz,pink,blue,2,8,False,27,tea
+299,Jungfrau,black,blue,6,2,True,35,hot_chocolate
+300,Lenzerheide,orange,yellow,3,2,True,8,tea
+301,Crans-Montana,white,black,1,9,True,36,water
+302,Davos,black,black,5,9,True,25,snow_mocha
+303,Arosa,red,white,9,8,True,32,orange juice
+304,Davos,pink,pink,1,3,True,35,tea
+305,Arosa,purple,purple,4,4,True,12,water
+306,Davos,green,green,2,6,False,23,wine
+307,Crans-Montana,white,yellow,1,8,False,46,tea
+308,Lenzerheide,pink,red,1,4,False,42,tea
+309,Laax,grey,yellow,7,6,True,10,water
+310,Jungfrau,grey,pink,3,1,False,33,coffee
+311,St. Moritz,black,orange,8,4,False,45,snow_mocha
+312,Verbier,grey,orange,5,2,False,35,snow_mocha
+313,Laax,pink,purple,9,2,True,13,water
+314,Arosa,green,black,8,3,False,9,tea
+315,Laax,yellow,pink,6,2,False,32,wine
+316,Laax,blue,black,3,9,False,14,coffee
+317,Engelberg,grey,green,5,3,True,33,wine
+318,Jungfrau,red,pink,1,2,True,46,tea
+319,Jungfrau,grey,purple,9,6,False,22,wine
+320,Zermatt,purple,green,5,1,False,25,wine
+321,Lenzerheide,orange,blue,2,10,False,45,wine
+322,Lenzerheide,blue,blue,8,3,False,28,hot_chocolate
+323,Arosa,grey,orange,8,3,True,34,snow_mocha
+324,St. Moritz,yellow,yellow,6,10,True,17,orange juice
+325,Lenzerheide,grey,green,9,8,True,44,tea
+326,Engelberg,pink,blue,2,8,True,11,water
+327,Zermatt,black,red,5,1,True,26,tea
+328,Arosa,green,black,9,1,True,43,water
+329,Jungfrau,white,red,5,5,False,31,orange juice
+330,Engelberg,black,grey,1,2,True,28,tea
+331,Engelberg,white,yellow,5,1,True,26,wine
+332,St. Moritz,black,red,8,4,True,5,wine
+333,Engelberg,green,grey,8,1,True,47,orange juice
+334,Laax,black,yellow,2,4,True,9,tea
+335,Laax,orange,yellow,5,4,True,17,orange juice
+336,Verbier,red,blue,8,3,False,31,hot_chocolate
+337,Davos,purple,orange,6,6,False,37,snow_mocha
+338,Crans-Montana,pink,blue,4,10,False,12,snow_mocha
+339,Verbier,purple,orange,2,3,False,39,water
+340,Zermatt,pink,white,2,5,True,37,orange juice
+341,Arosa,yellow,green,2,6,False,34,coffee
+342,Laax,black,pink,4,10,False,14,water
+343,Arosa,yellow,white,3,2,False,19,orange juice
+344,Verbier,orange,grey,5,2,True,49,coffee
+345,Laax,black,blue,2,5,False,7,wine
+346,Arosa,green,green,4,4,False,10,water
+347,Engelberg,red,yellow,7,7,True,8,tea
+348,Zermatt,white,green,4,7,True,34,coffee
+349,Laax,grey,green,7,5,True,14,tea
+350,St. Moritz,black,red,9,9,True,34,wine
+351,Zermatt,orange,yellow,7,6,False,30,tea
+352,Arosa,purple,black,8,2,True,28,snow_mocha
+353,Zermatt,black,orange,4,4,True,10,tea
+354,St. Moritz,pink,orange,6,10,False,39,tea
+355,Verbier,blue,pink,3,8,True,31,water
+356,Laax,green,red,1,10,True,44,water
+357,Zermatt,pink,grey,5,2,False,7,water
+358,Davos,black,black,4,10,True,28,snow_mocha
+359,St. Moritz,yellow,blue,8,7,True,41,hot_chocolate
+360,St. Moritz,black,purple,6,10,True,24,wine
+361,Jungfrau,grey,blue,8,8,False,45,hot_chocolate
+362,Zermatt,black,orange,2,9,False,45,tea
+363,Verbier,red,blue,5,3,True,37,snow_mocha
+364,Davos,orange,red,5,3,True,19,snow_mocha
+365,St. Moritz,yellow,green,8,4,True,4,coffee
+366,Zermatt,black,yellow,6,7,False,18,tea
+367,Zermatt,green,green,3,5,True,30,orange juice
+368,Jungfrau,yellow,purple,5,5,False,8,orange juice
+369,Davos,blue,blue,6,3,False,40,hot_chocolate
+370,Engelberg,purple,yellow,3,1,True,37,tea
+371,Engelberg,pink,black,1,1,False,20,coffee
+372,Davos,black,yellow,7,9,False,14,coffee
+373,Jungfrau,yellow,yellow,9,2,True,2,orange juice
+374,Verbier,blue,yellow,2,9,True,22,orange juice
+375,Engelberg,green,orange,1,6,False,17,tea
+376,St. Moritz,green,black,5,5,True,35,snow_mocha
+377,Engelberg,pink,blue,8,8,False,9,hot_chocolate
+378,St. Moritz,red,black,7,10,False,23,coffee
+379,Lenzerheide,purple,blue,6,7,True,33,hot_chocolate
+380,Crans-Montana,blue,red,9,4,True,18,tea
+381,Laax,grey,yellow,2,5,False,15,water
+382,Verbier,orange,black,5,1,False,19,coffee
+383,Arosa,purple,green,5,5,True,11,orange juice
+384,Davos,yellow,purple,3,6,True,43,snow_mocha
+385,St. Moritz,red,orange,7,5,True,48,wine
+386,Zermatt,purple,blue,7,1,True,20,hot_chocolate
+387,Arosa,blue,pink,9,6,False,7,coffee
+388,Jungfrau,orange,blue,7,2,True,6,hot_chocolate
+389,Jungfrau,green,grey,2,6,False,49,orange juice
+390,Davos,orange,yellow,5,7,True,15,snow_mocha
+391,Zermatt,red,yellow,9,3,True,0,orange juice
+392,Jungfrau,purple,blue,3,4,True,22,orange juice
+393,Arosa,grey,red,6,2,False,11,wine
+394,Zermatt,grey,grey,6,8,False,49,tea
+395,Laax,white,black,8,9,False,29,coffee
+396,Arosa,yellow,black,6,8,True,17,wine
+397,Engelberg,blue,yellow,5,5,True,33,tea
+398,Arosa,yellow,grey,2,4,False,38,orange juice
+399,Verbier,red,green,2,7,True,37,orange juice
+400,Zermatt,green,white,1,5,True,17,tea
+401,Verbier,red,red,9,6,True,17,orange juice
+402,Arosa,grey,green,9,2,True,47,orange juice
+403,Engelberg,yellow,white,8,3,False,33,tea
+404,St. Moritz,purple,grey,5,6,True,47,snow_mocha
+405,Davos,yellow,blue,9,6,True,23,hot_chocolate
+406,Verbier,yellow,black,4,2,False,41,wine
+407,Zermatt,green,white,5,7,False,1,coffee
+408,St. Moritz,green,black,3,6,False,32,snow_mocha
+409,St. Moritz,red,black,2,6,False,47,orange juice
+410,Lenzerheide,blue,white,6,4,False,42,wine
+411,Davos,red,orange,2,10,False,27,wine
+412,Jungfrau,yellow,yellow,2,3,False,42,tea
+413,Verbier,blue,orange,8,3,True,10,orange juice
+414,Davos,blue,black,4,7,False,43,snow_mocha
+415,Davos,green,blue,2,2,True,23,wine
+416,Crans-Montana,purple,yellow,8,7,False,32,tea
+417,Laax,green,black,4,8,True,8,wine
+418,Arosa,grey,orange,6,6,True,23,coffee
+419,St. Moritz,pink,orange,5,5,True,33,snow_mocha
+420,Zermatt,red,purple,6,6,True,12,orange juice
+421,Lenzerheide,orange,yellow,1,7,True,5,orange juice
+422,Arosa,blue,orange,8,6,False,2,water
+423,Engelberg,green,white,3,8,True,44,tea
+424,Crans-Montana,red,blue,9,7,True,29,hot_chocolate
+425,Davos,black,purple,8,6,True,46,tea
+426,Laax,yellow,blue,9,8,False,11,hot_chocolate
+427,St. Moritz,blue,black,7,3,False,32,orange juice
+428,Jungfrau,grey,yellow,3,10,True,49,water
+429,Jungfrau,yellow,grey,7,8,True,3,coffee
+430,Laax,blue,orange,7,2,True,23,snow_mocha
+431,Lenzerheide,yellow,green,9,4,False,36,wine
+432,Arosa,blue,red,7,4,True,28,snow_mocha
+433,Davos,pink,white,9,4,True,14,orange juice
+434,St. Moritz,blue,green,7,1,False,48,coffee
+435,Jungfrau,purple,yellow,7,4,False,41,orange juice
+436,Crans-Montana,black,grey,7,9,False,24,orange juice
+437,St. Moritz,white,yellow,1,8,False,43,coffee
+438,Jungfrau,white,red,4,9,False,45,water
+439,Crans-Montana,pink,pink,5,4,False,35,tea
+440,Jungfrau,pink,grey,2,9,True,17,wine
+441,Lenzerheide,orange,blue,7,5,False,7,hot_chocolate
+442,Crans-Montana,green,green,2,7,True,39,wine
+443,St. Moritz,black,green,4,1,False,40,snow_mocha
+444,Arosa,grey,pink,3,2,True,27,orange juice
+445,Lenzerheide,pink,grey,8,8,False,27,wine
+446,St. Moritz,green,blue,3,9,False,14,snow_mocha
+447,St. Moritz,green,white,7,6,True,28,coffee
+448,Crans-Montana,pink,pink,2,3,False,48,coffee
+449,Lenzerheide,purple,green,9,1,True,32,water
+450,St. Moritz,blue,orange,6,2,False,23,water
+451,Lenzerheide,red,orange,8,6,True,4,wine
+452,Verbier,purple,grey,6,7,True,33,snow_mocha
+453,Davos,purple,white,8,5,True,36,coffee
+454,Davos,orange,white,4,5,False,33,snow_mocha
+455,Jungfrau,green,yellow,7,7,True,40,water
+456,Engelberg,blue,white,4,3,False,35,wine
+457,Arosa,red,grey,1,9,False,18,wine
+458,Davos,blue,grey,2,4,False,9,coffee
+459,Zermatt,white,black,6,1,True,8,water
+460,Arosa,orange,green,8,2,True,49,orange juice
+461,Crans-Montana,pink,pink,2,6,True,32,orange juice
+462,Laax,grey,orange,2,2,True,43,tea
+463,Davos,black,pink,7,4,True,20,coffee
+464,Verbier,grey,yellow,6,8,True,43,water
+465,St. Moritz,black,pink,4,2,False,41,snow_mocha
+466,Crans-Montana,yellow,purple,2,3,True,22,coffee
+467,Davos,grey,black,2,1,True,31,tea
+468,Crans-Montana,white,pink,7,2,False,26,tea
+469,Crans-Montana,pink,pink,4,3,False,28,coffee
+470,Jungfrau,blue,white,4,7,False,10,coffee
+471,St. Moritz,red,red,7,2,False,31,coffee
+472,Jungfrau,grey,green,7,3,False,0,orange juice
+473,Laax,orange,blue,8,6,True,19,hot_chocolate
+474,Davos,purple,pink,6,8,True,7,snow_mocha
+475,Lenzerheide,grey,white,2,4,False,32,wine
+476,Laax,blue,green,8,10,False,44,snow_mocha
+477,Jungfrau,blue,white,6,7,False,2,snow_mocha
+478,Crans-Montana,orange,pink,8,8,False,34,orange juice
+479,Verbier,red,pink,8,10,False,14,tea
+480,Arosa,yellow,blue,1,5,False,14,tea
+481,Engelberg,red,pink,1,3,False,19,tea
+482,Jungfrau,green,green,3,3,True,8,tea
+483,Arosa,orange,purple,1,2,False,21,orange juice
+484,Lenzerheide,grey,yellow,3,5,True,49,orange juice
+485,Crans-Montana,orange,grey,8,3,True,40,orange juice
+486,Crans-Montana,green,orange,3,8,False,29,orange juice
+487,Jungfrau,white,red,5,9,False,39,wine
+488,Verbier,orange,grey,2,4,True,48,wine
+489,Jungfrau,purple,blue,8,10,False,33,hot_chocolate
+490,Engelberg,black,white,7,5,False,1,coffee
+491,Jungfrau,orange,blue,6,2,True,38,hot_chocolate
+492,Engelberg,green,pink,6,10,True,35,coffee
+493,St. Moritz,blue,pink,3,5,False,19,snow_mocha
+494,Davos,orange,grey,8,1,True,36,tea
+495,Davos,blue,grey,8,10,False,35,coffee
+496,St. Moritz,grey,yellow,4,2,False,1,snow_mocha
+497,Engelberg,pink,grey,4,6,False,39,coffee
+498,Laax,blue,white,3,2,True,10,coffee
+499,Davos,orange,orange,7,1,False,29,tea
+500,Davos,red,black,5,4,True,27,snow_mocha
+501,Davos,purple,yellow,7,4,False,11,coffee
+502,Davos,blue,purple,6,6,True,0,coffee
+503,Engelberg,green,blue,2,3,False,14,orange juice
+504,Arosa,black,purple,3,2,False,35,wine
+505,Zermatt,red,red,7,10,True,14,tea
+506,Arosa,grey,grey,9,7,True,41,orange juice
+507,Arosa,white,yellow,8,10,True,43,snow_mocha
+508,Engelberg,orange,yellow,2,10,False,4,orange juice
+509,Zermatt,blue,yellow,2,2,False,4,tea
+510,St. Moritz,orange,purple,4,2,True,19,snow_mocha
+511,Crans-Montana,green,black,4,6,True,26,coffee
+512,Arosa,white,blue,9,4,True,41,hot_chocolate
+513,St. Moritz,purple,yellow,7,3,True,10,wine
+514,Jungfrau,white,pink,5,10,True,24,wine
+515,Crans-Montana,blue,grey,7,10,False,48,coffee
+516,Arosa,blue,red,2,10,True,0,snow_mocha
+517,Davos,green,black,2,1,True,40,tea
+518,St. Moritz,yellow,yellow,5,10,True,19,snow_mocha
+519,Lenzerheide,yellow,orange,3,2,False,25,tea
+520,St. Moritz,orange,grey,8,2,True,28,tea
+521,Verbier,pink,yellow,1,3,False,17,tea
+522,Lenzerheide,orange,pink,2,6,False,30,orange juice
+523,St. Moritz,yellow,grey,3,5,False,43,snow_mocha
+524,Verbier,yellow,pink,6,7,True,19,orange juice
+525,Lenzerheide,white,grey,5,10,True,48,wine
+526,Crans-Montana,pink,purple,1,2,True,49,snow_mocha
+527,Arosa,red,black,6,6,True,25,orange juice
+528,Laax,pink,green,4,7,False,18,wine
+529,Davos,blue,orange,7,9,True,24,orange juice
+530,Arosa,grey,black,8,5,False,31,coffee
+531,Jungfrau,grey,white,3,7,False,27,orange juice
+532,Verbier,blue,pink,6,4,False,36,tea
+533,Crans-Montana,white,pink,8,3,False,7,coffee
+534,Laax,red,purple,9,1,False,5,snow_mocha
+535,Laax,purple,green,7,8,False,12,orange juice
+536,Engelberg,white,grey,8,4,True,4,snow_mocha
+537,Verbier,pink,orange,9,6,True,21,tea
+538,Jungfrau,red,yellow,3,2,True,12,water
+539,Davos,yellow,white,3,5,False,14,snow_mocha
+540,Zermatt,green,pink,8,8,False,42,wine
+541,Davos,yellow,red,3,10,True,22,snow_mocha
+542,Laax,green,purple,6,3,False,39,orange juice
+543,Davos,orange,black,8,4,True,20,orange juice
+544,Crans-Montana,purple,pink,4,5,True,13,orange juice
+545,Crans-Montana,purple,yellow,2,3,True,20,orange juice
+546,Laax,purple,purple,3,4,False,41,wine
+547,St. Moritz,black,white,9,6,True,2,water
+548,Jungfrau,white,black,9,7,True,29,snow_mocha
+549,St. Moritz,grey,black,9,4,False,25,coffee
+550,Lenzerheide,red,green,2,4,True,12,orange juice
+551,Engelberg,green,white,2,7,True,24,water
+552,Crans-Montana,blue,red,1,2,True,35,snow_mocha
+553,Zermatt,white,yellow,1,4,False,18,tea
+554,Laax,yellow,pink,4,8,True,32,coffee
+555,Laax,pink,green,1,2,False,0,snow_mocha
+556,Arosa,red,orange,6,9,True,7,coffee
+557,Engelberg,pink,yellow,2,10,True,32,tea
+558,Lenzerheide,orange,green,8,3,False,13,water
+559,St. Moritz,white,purple,9,2,True,5,wine
+560,Lenzerheide,orange,white,3,1,True,48,tea
+561,Lenzerheide,blue,red,8,10,True,32,water
+562,Zermatt,green,yellow,6,7,True,15,wine
+563,Arosa,yellow,yellow,5,1,False,47,wine
+564,Davos,orange,white,7,5,True,18,wine
+565,Crans-Montana,yellow,white,9,6,False,12,water
+566,Zermatt,black,green,7,3,False,16,coffee
+567,Crans-Montana,red,white,8,3,False,20,snow_mocha
+568,Zermatt,pink,orange,7,4,False,35,tea
+569,Engelberg,white,red,2,8,False,26,wine
+570,Crans-Montana,pink,white,3,7,False,33,coffee
+571,Lenzerheide,yellow,white,4,5,False,10,coffee
+572,St. Moritz,green,green,7,6,False,1,orange juice
+573,Crans-Montana,black,red,7,9,False,49,wine
+574,Zermatt,red,green,5,8,False,25,water
+575,Arosa,purple,purple,5,8,False,31,water
+576,Arosa,grey,red,3,7,False,2,coffee
+577,St. Moritz,green,yellow,8,1,True,28,water
+578,Jungfrau,blue,white,8,8,False,7,water
+579,Laax,pink,grey,9,10,True,13,tea
+580,Engelberg,black,red,1,9,False,10,snow_mocha
+581,Laax,orange,pink,6,1,True,45,snow_mocha
+582,Lenzerheide,red,red,3,7,False,32,snow_mocha
+583,Crans-Montana,green,grey,8,2,True,31,water
+584,Crans-Montana,blue,blue,6,8,False,20,hot_chocolate
+585,Arosa,green,yellow,1,5,True,38,tea
+586,Crans-Montana,orange,yellow,4,5,False,35,wine
+587,Crans-Montana,yellow,blue,8,3,False,48,hot_chocolate
+588,St. Moritz,black,white,1,3,False,26,tea
+589,Arosa,orange,purple,7,1,False,0,water
+590,Jungfrau,grey,pink,7,6,True,34,orange juice
+591,Engelberg,white,green,4,2,False,16,wine
+592,Crans-Montana,orange,red,9,3,False,12,tea
+593,Zermatt,pink,green,9,10,False,18,water
+594,Zermatt,red,white,4,1,False,40,snow_mocha
+595,St. Moritz,red,pink,3,10,False,17,snow_mocha
+596,Laax,red,blue,2,8,True,26,tea
+597,Engelberg,orange,pink,2,4,False,12,water
+598,Verbier,yellow,purple,4,10,False,22,coffee
+599,Crans-Montana,green,yellow,6,5,True,11,snow_mocha
+600,Lenzerheide,black,grey,2,5,True,19,tea
+601,Laax,orange,grey,7,2,False,25,tea
+602,Crans-Montana,black,yellow,9,3,False,45,water
+603,Lenzerheide,red,green,5,10,False,6,coffee
+604,Lenzerheide,red,red,4,4,False,11,coffee
+605,St. Moritz,orange,orange,3,10,True,21,snow_mocha
+606,Zermatt,grey,black,1,8,False,11,tea
+607,Davos,pink,white,3,5,True,24,snow_mocha
+608,Arosa,red,pink,9,6,False,39,orange juice
+609,Lenzerheide,pink,yellow,8,9,True,16,water
+610,Jungfrau,white,yellow,3,10,False,37,snow_mocha
+611,Zermatt,pink,orange,7,1,True,9,tea
+612,Verbier,pink,blue,4,7,False,0,water
+613,St. Moritz,orange,pink,3,9,True,18,snow_mocha
+614,Jungfrau,orange,red,3,3,False,2,wine
+615,Verbier,purple,white,2,6,True,9,snow_mocha
+616,Crans-Montana,red,grey,6,3,True,30,snow_mocha
+617,Davos,grey,yellow,8,2,False,23,water
+618,Arosa,black,white,9,10,True,45,snow_mocha
+619,Arosa,yellow,purple,3,10,True,30,orange juice
+620,Verbier,pink,blue,4,10,False,7,water
+621,Davos,red,black,3,9,False,34,snow_mocha
+622,Engelberg,pink,green,4,8,False,23,tea
+623,Jungfrau,yellow,orange,1,5,False,48,orange juice
+624,Zermatt,white,pink,5,3,False,23,tea
+625,Jungfrau,pink,grey,2,10,False,4,wine
+626,Laax,green,red,2,3,False,33,coffee
+627,St. Moritz,yellow,pink,3,8,False,46,snow_mocha
+628,Crans-Montana,green,grey,3,6,False,14,tea
+629,St. Moritz,red,red,2,2,False,24,tea
+630,Arosa,purple,blue,8,4,True,35,hot_chocolate
+631,St. Moritz,red,white,1,5,False,17,wine
+632,Verbier,grey,pink,2,3,False,18,orange juice
+633,St. Moritz,black,yellow,9,4,True,9,water
+634,Laax,yellow,black,3,9,True,24,orange juice
+635,St. Moritz,red,grey,9,6,True,38,wine
+636,Jungfrau,white,red,1,3,True,39,water
+637,Engelberg,yellow,grey,2,3,False,42,water
+638,Zermatt,yellow,purple,8,2,False,14,water
+639,Laax,red,yellow,6,4,False,15,wine
+640,Jungfrau,red,blue,9,8,True,2,hot_chocolate
+641,Engelberg,grey,pink,7,7,True,28,coffee
+642,Davos,white,yellow,2,6,True,35,water
+643,Laax,red,yellow,2,9,True,7,wine
+644,Lenzerheide,green,black,9,4,False,43,tea
+645,Lenzerheide,green,yellow,8,3,False,9,tea
+646,Laax,black,blue,9,4,False,7,hot_chocolate
+647,Laax,green,black,4,5,True,17,snow_mocha
+648,Zermatt,red,pink,7,6,False,5,wine
+649,Zermatt,orange,black,6,3,True,49,coffee
+650,Crans-Montana,black,green,3,9,False,45,water
+651,Verbier,red,orange,8,7,True,24,snow_mocha
+652,Engelberg,grey,white,3,5,False,16,tea
+653,Zermatt,black,blue,2,8,True,33,water
+654,Davos,green,grey,4,5,False,23,snow_mocha
+655,Zermatt,pink,green,6,5,False,21,tea
+656,Zermatt,red,pink,2,1,False,19,snow_mocha
+657,Lenzerheide,green,orange,5,7,True,39,snow_mocha
+658,Zermatt,orange,orange,1,6,False,12,tea
+659,Engelberg,white,purple,4,6,False,11,wine
+660,Laax,orange,blue,7,4,True,47,hot_chocolate
+661,Lenzerheide,yellow,black,2,7,False,34,water
+662,Arosa,grey,black,8,7,False,1,coffee
+663,St. Moritz,pink,white,5,1,False,5,snow_mocha
+664,St. Moritz,white,black,8,7,False,4,coffee
+665,St. Moritz,blue,white,4,2,False,44,snow_mocha
+666,Lenzerheide,black,yellow,3,2,False,35,tea
+667,Laax,grey,yellow,1,6,True,19,water
+668,Engelberg,pink,grey,6,4,True,46,wine
+669,Lenzerheide,black,grey,5,1,True,37,tea
+670,Arosa,red,red,5,7,True,32,coffee
+671,Lenzerheide,white,orange,1,9,False,20,snow_mocha
+672,Crans-Montana,pink,white,8,8,False,23,coffee
+673,Jungfrau,green,orange,1,6,True,33,snow_mocha
+674,Zermatt,white,green,3,8,False,21,water
+675,Verbier,white,pink,1,5,True,35,tea
+676,Verbier,white,red,3,3,True,33,wine
+677,Jungfrau,orange,white,3,4,False,16,coffee
+678,Arosa,grey,black,3,7,False,1,wine
+679,Verbier,black,yellow,5,5,False,28,coffee
+680,Lenzerheide,orange,green,4,6,False,0,snow_mocha
+681,Verbier,pink,blue,1,2,True,0,tea
+682,Lenzerheide,blue,grey,6,10,True,36,water
+683,Davos,grey,grey,3,7,False,15,snow_mocha
+684,Laax,green,purple,3,2,False,33,water
+685,Laax,white,orange,1,3,False,10,coffee
+686,Davos,red,orange,3,3,False,3,snow_mocha
+687,Jungfrau,white,orange,1,3,False,18,water
+688,St. Moritz,pink,red,3,7,True,12,snow_mocha
+689,Lenzerheide,green,blue,9,2,True,33,hot_chocolate
+690,St. Moritz,pink,pink,2,8,True,47,water
+691,St. Moritz,yellow,grey,2,1,True,8,snow_mocha
+692,St. Moritz,black,blue,7,2,False,33,hot_chocolate
+693,Lenzerheide,red,white,8,2,True,6,wine
+694,Zermatt,grey,red,8,6,True,3,wine
+695,Jungfrau,green,black,3,9,True,11,coffee
+696,Zermatt,pink,yellow,6,3,False,46,snow_mocha
+697,Zermatt,white,black,5,10,False,7,tea
+698,Arosa,yellow,red,8,9,True,16,wine
+699,Verbier,pink,green,1,2,True,47,tea
+700,Engelberg,yellow,green,2,10,True,17,water
+701,Laax,green,red,8,3,True,10,coffee
+702,St. Moritz,pink,grey,8,9,True,13,coffee
+703,Arosa,orange,blue,8,10,False,45,hot_chocolate
+704,Laax,green,white,4,6,True,27,coffee
+705,Zermatt,black,white,5,10,True,44,orange juice
+706,Davos,red,red,5,10,True,45,snow_mocha
+707,Crans-Montana,blue,green,2,3,False,10,wine
+708,Laax,green,orange,4,1,True,9,orange juice
+709,Verbier,yellow,yellow,9,8,True,45,wine
+710,Davos,black,pink,5,2,False,26,snow_mocha
+711,St. Moritz,blue,blue,2,9,True,32,wine
+712,Laax,grey,pink,4,2,False,35,snow_mocha
+713,Verbier,purple,pink,5,7,False,8,water
+714,Zermatt,green,green,5,1,True,44,water
+715,Jungfrau,blue,yellow,2,4,False,13,snow_mocha
+716,Lenzerheide,blue,pink,3,9,False,4,wine
+717,Davos,white,blue,3,3,False,37,snow_mocha
+718,Davos,green,white,6,3,False,44,tea
+719,Arosa,black,white,6,7,True,15,orange juice
+720,Jungfrau,white,yellow,8,8,True,46,orange juice
+721,Engelberg,pink,grey,9,2,False,31,water
+722,St. Moritz,purple,green,8,7,False,0,coffee
+723,St. Moritz,blue,pink,4,2,True,34,snow_mocha
+724,St. Moritz,purple,grey,7,8,False,5,snow_mocha
+725,Crans-Montana,black,white,4,4,True,3,orange juice
+726,Davos,blue,green,9,5,False,20,coffee
+727,Zermatt,grey,red,5,8,True,5,snow_mocha
+728,St. Moritz,red,blue,7,8,True,26,hot_chocolate
+729,Lenzerheide,pink,green,1,8,True,30,wine
+730,St. Moritz,red,pink,9,6,False,39,wine
+731,Laax,red,purple,4,5,True,17,snow_mocha
+732,Arosa,green,orange,1,2,False,45,wine
+733,St. Moritz,purple,white,4,5,False,0,snow_mocha
+734,Lenzerheide,grey,black,7,10,False,3,tea
+735,Lenzerheide,orange,yellow,9,2,True,36,snow_mocha
+736,Arosa,white,white,6,1,False,40,wine
+737,Engelberg,purple,pink,6,1,True,33,snow_mocha
+738,Davos,white,grey,2,5,True,44,wine
+739,Jungfrau,purple,grey,4,6,True,36,snow_mocha
+740,Laax,purple,yellow,1,8,False,34,tea
+741,Arosa,green,yellow,9,6,True,19,coffee
+742,Jungfrau,pink,grey,9,5,False,28,coffee
+743,St. Moritz,white,pink,1,7,False,23,snow_mocha
+744,Engelberg,yellow,grey,9,9,True,14,wine
+745,Jungfrau,purple,purple,2,4,False,21,water
+746,Crans-Montana,red,black,4,5,False,34,tea
+747,Lenzerheide,green,black,9,5,True,6,tea
+748,Davos,orange,yellow,7,4,True,49,water
+749,Lenzerheide,red,purple,4,10,False,17,tea
+750,Engelberg,grey,orange,7,8,False,47,coffee
+751,Verbier,green,grey,3,6,True,33,coffee
+752,Jungfrau,orange,orange,8,10,False,23,coffee
+753,St. Moritz,orange,grey,8,7,True,29,coffee
+754,Jungfrau,grey,blue,8,3,False,32,hot_chocolate
+755,Lenzerheide,black,purple,5,5,True,1,tea
+756,Davos,pink,yellow,1,1,True,11,water
+757,Jungfrau,orange,yellow,2,9,True,49,coffee
+758,Lenzerheide,green,pink,4,9,True,18,snow_mocha
+759,Jungfrau,white,grey,1,7,False,17,snow_mocha
+760,Jungfrau,black,blue,8,9,True,27,hot_chocolate
+761,Engelberg,red,grey,8,8,True,30,wine
+762,Laax,grey,purple,8,1,True,15,wine
+763,Verbier,black,green,8,5,False,8,coffee
+764,Verbier,grey,grey,6,9,False,40,wine
+765,Jungfrau,orange,purple,8,9,True,41,water
+766,Zermatt,red,blue,4,2,False,14,coffee
+767,Zermatt,yellow,pink,5,7,False,3,coffee
+768,Zermatt,pink,red,6,3,False,13,snow_mocha
+769,Engelberg,pink,grey,1,9,False,13,wine
+770,Zermatt,white,black,4,2,True,49,wine
+771,Engelberg,black,purple,9,10,False,45,water
+772,Zermatt,pink,yellow,3,4,True,7,coffee
+773,Davos,yellow,orange,3,3,True,25,snow_mocha
+774,Laax,yellow,grey,6,2,True,38,orange juice
+775,St. Moritz,grey,pink,5,5,False,33,snow_mocha
+776,Zermatt,blue,orange,5,6,True,0,snow_mocha
+777,Lenzerheide,black,green,2,1,True,22,wine
+778,Engelberg,blue,white,7,3,True,26,snow_mocha
+779,Verbier,black,orange,3,4,True,9,wine
+780,Engelberg,orange,grey,4,4,False,15,orange juice
+781,Davos,blue,white,8,5,False,36,snow_mocha
+782,Arosa,orange,grey,8,4,False,8,wine
+783,Lenzerheide,black,blue,8,5,False,25,hot_chocolate
+784,Davos,purple,black,4,1,False,9,snow_mocha
+785,St. Moritz,yellow,yellow,2,1,False,30,water
+786,Laax,black,red,2,7,False,47,coffee
+787,Verbier,green,red,4,1,False,44,wine
+788,Engelberg,black,white,3,8,True,40,wine
+789,Crans-Montana,orange,green,2,2,False,10,wine
+790,Crans-Montana,pink,blue,7,6,True,31,hot_chocolate
+791,St. Moritz,red,grey,8,6,False,48,orange juice
+792,Zermatt,white,white,8,6,True,44,snow_mocha
+793,Engelberg,purple,purple,1,7,False,27,snow_mocha
+794,Lenzerheide,yellow,orange,9,4,False,33,water
+795,Laax,red,red,5,10,False,46,tea
+796,Arosa,blue,red,7,4,True,27,tea
+797,Lenzerheide,pink,blue,5,3,False,39,water
+798,Engelberg,blue,orange,1,6,False,13,wine
+799,St. Moritz,blue,black,2,6,True,37,orange juice
+800,Lenzerheide,pink,grey,3,6,True,19,wine
+801,Lenzerheide,orange,white,1,9,True,45,orange juice
+802,Davos,white,white,3,7,True,41,snow_mocha
+803,Engelberg,black,black,6,2,True,26,water
+804,Verbier,pink,orange,4,10,True,20,snow_mocha
+805,Engelberg,black,orange,9,4,False,37,water
+806,Laax,green,red,8,1,True,46,tea
+807,St. Moritz,pink,pink,4,4,False,42,snow_mocha
+808,Laax,purple,yellow,5,9,True,5,water
+809,St. Moritz,yellow,blue,6,1,False,0,hot_chocolate
+810,Jungfrau,red,purple,4,2,True,49,wine
+811,Verbier,green,blue,6,10,False,26,hot_chocolate
+812,Verbier,yellow,white,9,10,False,47,snow_mocha
+813,Arosa,red,yellow,1,1,True,24,tea
+814,Jungfrau,purple,grey,3,2,False,11,orange juice
+815,Lenzerheide,black,blue,5,6,True,15,water
+816,Crans-Montana,white,pink,6,8,False,0,coffee
+817,Zermatt,white,pink,2,4,False,26,orange juice
+818,St. Moritz,green,orange,9,7,False,34,orange juice
+819,Arosa,blue,blue,9,2,True,16,hot_chocolate
+820,Arosa,orange,yellow,9,4,True,26,coffee
+821,Engelberg,red,grey,8,6,False,0,tea
+822,Crans-Montana,green,purple,2,9,False,38,wine
+823,Jungfrau,red,pink,1,4,True,39,wine
+824,Davos,black,green,7,7,True,35,snow_mocha
+825,Engelberg,grey,pink,9,3,True,31,orange juice
+826,Lenzerheide,grey,red,1,9,False,43,coffee
+827,Davos,black,black,6,7,False,26,water
+828,Crans-Montana,yellow,blue,8,4,False,26,hot_chocolate
+829,Engelberg,white,white,9,9,True,22,orange juice
+830,Davos,black,orange,7,4,False,36,tea
+831,St. Moritz,pink,pink,8,7,False,18,orange juice
+832,Jungfrau,green,yellow,7,10,False,0,coffee
+833,Lenzerheide,grey,purple,1,1,True,8,snow_mocha
+834,Davos,red,yellow,1,6,False,13,water
+835,St. Moritz,orange,purple,2,10,False,33,wine
+836,Lenzerheide,yellow,purple,7,9,True,25,wine
+837,Davos,yellow,grey,4,2,False,37,snow_mocha
+838,Engelberg,purple,purple,7,5,True,18,snow_mocha
+839,Zermatt,green,green,7,2,True,5,coffee
+840,Verbier,yellow,grey,5,8,False,18,coffee
+841,Laax,pink,red,7,5,False,25,tea
+842,Verbier,blue,blue,2,7,False,32,wine
+843,Lenzerheide,blue,white,1,1,False,21,tea
+844,St. Moritz,red,green,6,5,True,38,tea
+845,Laax,grey,grey,3,6,False,24,orange juice
+846,Jungfrau,yellow,white,7,7,False,38,wine
+847,Crans-Montana,yellow,orange,1,8,False,21,wine
+848,Jungfrau,blue,pink,1,4,True,40,wine
+849,Crans-Montana,green,orange,7,5,True,18,orange juice
+850,Jungfrau,red,green,5,2,False,25,snow_mocha
+851,Davos,green,white,3,2,True,5,snow_mocha
+852,Engelberg,grey,blue,8,9,False,5,hot_chocolate
+853,Engelberg,blue,green,8,8,True,17,coffee
+854,Zermatt,yellow,purple,7,6,True,13,water
+855,Zermatt,green,blue,5,8,False,17,coffee
+856,Engelberg,green,pink,4,1,False,38,coffee
+857,Engelberg,black,pink,7,4,False,22,orange juice
+858,Laax,white,purple,7,7,True,39,snow_mocha
+859,Engelberg,pink,black,2,3,False,44,coffee
+860,Engelberg,grey,red,5,10,True,43,snow_mocha
+861,Lenzerheide,green,blue,2,4,False,5,water
+862,Verbier,red,pink,2,9,True,0,water
+863,Davos,red,green,5,6,False,7,snow_mocha
+864,Lenzerheide,grey,blue,9,2,True,38,hot_chocolate
+865,Zermatt,green,yellow,3,3,False,19,orange juice
+866,Laax,purple,blue,3,8,True,21,snow_mocha
+867,Zermatt,yellow,pink,1,5,True,27,tea
+868,Verbier,white,pink,2,2,True,22,wine
+869,Arosa,pink,green,2,3,True,49,wine
+870,Jungfrau,grey,grey,4,2,False,31,water
+871,Lenzerheide,black,black,9,8,False,16,snow_mocha
+872,Lenzerheide,white,pink,6,4,False,29,coffee
+873,Verbier,purple,white,4,6,True,27,wine
+874,Zermatt,orange,pink,3,3,False,40,water
+875,Lenzerheide,yellow,green,8,4,True,37,tea
+876,Engelberg,purple,red,8,4,False,33,coffee
+877,Lenzerheide,yellow,grey,9,2,False,45,orange juice
+878,Engelberg,white,pink,8,6,False,26,snow_mocha
+879,Davos,orange,white,6,3,False,37,water
+880,St. Moritz,green,red,8,1,True,14,orange juice
+881,Arosa,green,grey,5,4,True,41,orange juice
+882,Zermatt,pink,blue,4,4,True,7,snow_mocha
+883,Laax,purple,black,5,10,False,43,wine
+884,Jungfrau,orange,yellow,3,4,False,42,snow_mocha
+885,Lenzerheide,white,black,6,8,True,38,water
+886,St. Moritz,black,orange,6,10,True,7,orange juice
+887,Jungfrau,green,yellow,2,10,True,30,wine
+888,Zermatt,pink,pink,7,8,True,10,tea
+889,Crans-Montana,red,green,5,6,False,40,wine
+890,Laax,pink,black,8,4,True,15,wine
+891,Crans-Montana,purple,black,4,1,True,26,coffee
+892,Zermatt,green,purple,1,10,False,32,tea
+893,St. Moritz,white,grey,3,5,False,45,snow_mocha
+894,Jungfrau,yellow,yellow,9,3,False,37,tea
+895,Davos,purple,black,1,5,True,15,coffee
+896,Lenzerheide,green,black,8,1,False,49,tea
+897,Lenzerheide,grey,grey,6,4,False,5,coffee
+898,Laax,yellow,black,2,2,False,22,water
+899,Laax,black,yellow,9,3,False,28,tea
+900,Laax,blue,grey,7,4,False,14,orange juice
+901,St. Moritz,green,orange,3,4,False,33,snow_mocha
+902,Lenzerheide,purple,black,7,4,True,31,wine
+903,Davos,blue,blue,6,1,False,35,hot_chocolate
+904,Zermatt,white,green,2,10,True,23,tea
+905,Zermatt,green,black,8,7,False,35,tea
+906,Laax,pink,pink,8,9,False,32,tea
+907,Verbier,orange,green,2,2,True,1,coffee
+908,St. Moritz,black,purple,3,2,False,23,snow_mocha
+909,Engelberg,red,grey,2,2,True,27,wine
+910,Verbier,yellow,green,8,5,True,45,coffee
+911,Verbier,blue,blue,8,5,False,21,hot_chocolate
+912,Verbier,blue,orange,8,10,True,13,coffee
+913,Jungfrau,blue,red,9,4,False,8,tea
+914,St. Moritz,blue,white,2,9,True,41,coffee
+915,Laax,purple,yellow,4,5,True,32,wine
+916,Arosa,red,white,2,2,False,15,coffee
+917,Jungfrau,red,purple,7,10,True,30,snow_mocha
+918,Crans-Montana,red,orange,8,3,False,39,coffee
+919,Verbier,blue,yellow,5,8,True,14,orange juice
+920,Laax,red,green,7,3,False,25,coffee
+921,Verbier,pink,green,4,8,True,39,snow_mocha
+922,Verbier,orange,black,3,9,False,35,wine
+923,Arosa,orange,green,7,10,True,22,wine
+924,St. Moritz,black,yellow,7,7,False,47,wine
+925,Crans-Montana,green,blue,8,3,False,0,hot_chocolate
+926,Davos,yellow,grey,8,1,True,1,tea
+927,Laax,purple,black,5,7,True,11,coffee
+928,Laax,pink,blue,3,2,True,9,snow_mocha
+929,St. Moritz,grey,orange,7,5,False,16,wine
+930,Zermatt,black,purple,1,9,False,11,tea
+931,Arosa,white,grey,8,8,True,30,snow_mocha
+932,Davos,pink,pink,8,3,True,13,tea
+933,Arosa,purple,orange,1,9,False,3,snow_mocha
+934,Jungfrau,blue,green,9,1,False,8,wine
+935,Zermatt,green,black,5,2,False,38,coffee
+936,Zermatt,yellow,green,2,10,False,30,water
+937,Arosa,white,orange,8,6,False,10,snow_mocha
+938,Crans-Montana,green,blue,1,10,True,32,wine
+939,Laax,blue,green,4,1,True,25,water
+940,Arosa,purple,orange,9,3,True,44,wine
+941,Verbier,green,pink,2,10,False,45,orange juice
+942,Crans-Montana,blue,yellow,6,6,False,38,orange juice
+943,Lenzerheide,blue,white,1,4,False,39,snow_mocha
+944,Crans-Montana,grey,purple,1,6,False,26,snow_mocha
+945,Arosa,white,blue,3,1,False,15,wine
+946,Davos,purple,white,4,1,False,46,snow_mocha
+947,Engelberg,blue,white,4,4,False,11,water
+948,Crans-Montana,orange,white,1,7,True,43,wine
+949,Arosa,red,orange,3,2,False,28,orange juice
+950,Laax,black,black,9,5,False,24,snow_mocha
+951,Zermatt,purple,green,1,10,False,13,tea
+952,Lenzerheide,red,grey,1,3,False,1,snow_mocha
+953,Lenzerheide,orange,pink,8,5,False,21,coffee
+954,Laax,grey,grey,2,9,True,21,orange juice
+955,Arosa,white,green,7,4,False,25,orange juice
+956,Engelberg,grey,pink,8,5,False,33,snow_mocha
+957,Engelberg,red,yellow,6,1,True,43,orange juice
+958,Laax,pink,orange,5,7,False,45,tea
+959,Zermatt,grey,purple,9,7,True,23,wine
+960,Davos,yellow,grey,9,9,True,1,wine
+961,Zermatt,purple,green,9,6,False,9,coffee
+962,Zermatt,yellow,blue,3,3,False,28,tea
+963,Arosa,pink,pink,5,5,False,45,snow_mocha
+964,Laax,pink,purple,7,7,True,5,snow_mocha
+965,Zermatt,purple,black,4,4,False,3,water
+966,Engelberg,red,grey,8,2,True,20,tea
+967,Laax,orange,pink,5,3,False,7,coffee
+968,Laax,red,grey,1,2,False,31,wine
+969,Jungfrau,purple,red,6,5,False,37,water
+970,Davos,grey,pink,1,6,False,41,coffee
+971,Jungfrau,purple,yellow,4,8,True,8,wine
+972,Arosa,blue,purple,4,6,False,41,coffee
+973,Engelberg,grey,black,8,7,False,27,coffee
+974,Davos,yellow,orange,5,10,True,5,snow_mocha
+975,Crans-Montana,purple,black,1,6,True,38,water
+976,Arosa,white,black,3,3,True,35,orange juice
+977,Engelberg,white,red,9,2,False,47,coffee
+978,Engelberg,yellow,white,2,4,True,49,water
+979,Crans-Montana,grey,purple,9,2,True,20,coffee
+980,Verbier,green,grey,7,10,True,14,snow_mocha
+981,Arosa,red,green,4,4,False,26,water
+982,Verbier,purple,red,1,8,True,48,tea
+983,Zermatt,purple,red,4,5,True,15,tea
+984,Verbier,blue,blue,1,10,True,13,tea
+985,Crans-Montana,purple,blue,7,8,False,28,hot_chocolate
+986,Davos,purple,grey,1,1,False,12,water
+987,Engelberg,black,purple,8,10,False,41,tea
+988,Laax,white,white,3,10,True,35,wine
+989,Zermatt,black,blue,2,8,False,27,tea
+990,Jungfrau,grey,white,5,7,False,37,water
+991,Zermatt,yellow,purple,4,5,True,20,tea
+992,Jungfrau,red,orange,3,3,True,15,wine
+993,Crans-Montana,yellow,white,8,4,False,2,wine
+994,Crans-Montana,green,red,6,8,True,5,orange juice
+995,Lenzerheide,pink,grey,8,2,True,0,coffee
+996,Arosa,yellow,grey,8,8,False,31,water
+997,Engelberg,red,green,3,8,True,23,wine
+998,Laax,blue,pink,8,8,True,18,coffee
+999,Jungfrau,pink,red,3,9,True,49,tea
+1000,Crans-Montana,purple,pink,6,2,False,23,water
+1001,Jungfrau,orange,pink,4,4,True,8,snow_mocha
+1002,Lenzerheide,grey,purple,1,9,False,18,orange juice
+1003,Arosa,yellow,purple,9,4,True,11,coffee
+1004,St. Moritz,pink,purple,7,7,True,33,water
+1005,Arosa,grey,black,1,4,True,8,water
+1006,Zermatt,orange,green,8,3,False,49,water
+1007,St. Moritz,grey,pink,2,5,False,48,water
+1008,Zermatt,grey,white,3,4,True,30,snow_mocha
+1009,Laax,blue,orange,5,3,False,6,snow_mocha
+1010,Lenzerheide,orange,blue,5,1,False,46,orange juice
+1011,Crans-Montana,orange,white,3,6,False,32,tea
+1012,Davos,orange,black,5,7,False,20,snow_mocha
+1013,Engelberg,white,yellow,1,10,True,38,orange juice
+1014,Davos,white,black,4,9,False,4,snow_mocha
+1015,Davos,white,orange,9,8,False,17,snow_mocha
+1016,Verbier,white,blue,1,6,False,15,tea
+1017,Laax,white,white,5,8,False,3,tea
+1018,Davos,pink,pink,4,8,True,28,snow_mocha
+1019,Jungfrau,pink,green,4,4,True,22,tea
+1020,Verbier,white,purple,2,9,False,10,wine
+1021,Davos,grey,orange,8,3,False,49,snow_mocha
+1022,St. Moritz,orange,yellow,2,4,True,24,tea
+1023,Engelberg,yellow,red,7,5,True,7,orange juice
+1024,Engelberg,yellow,green,2,6,True,24,tea
+1025,Crans-Montana,white,red,6,6,True,8,snow_mocha
+1026,Zermatt,green,pink,9,3,True,34,tea
+1027,Arosa,green,green,2,1,True,21,tea
+1028,Crans-Montana,grey,green,1,5,False,10,water
+1029,Davos,black,purple,4,6,False,43,snow_mocha
+1030,Crans-Montana,grey,black,7,1,True,6,tea
+1031,Laax,grey,yellow,8,4,True,29,orange juice
+1032,Davos,orange,pink,9,6,False,38,coffee
+1033,St. Moritz,black,purple,9,7,True,25,wine
+1034,Jungfrau,grey,purple,1,2,True,23,snow_mocha
+1035,Lenzerheide,orange,orange,3,1,False,10,tea
+1036,Crans-Montana,red,green,5,9,False,29,tea
+1037,Verbier,red,blue,2,2,True,35,water
+1038,St. Moritz,orange,purple,5,4,False,15,snow_mocha
+1039,Laax,white,black,4,8,False,15,tea
+1040,Laax,orange,green,3,6,False,47,tea
+1041,St. Moritz,blue,black,6,9,True,38,orange juice
+1042,Verbier,orange,white,4,3,False,22,snow_mocha
+1043,Arosa,red,purple,6,8,False,19,coffee
+1044,Davos,orange,grey,2,8,False,2,orange juice
+1045,Jungfrau,green,blue,2,2,True,5,tea
+1046,Lenzerheide,orange,grey,9,9,False,38,coffee
+1047,Laax,red,white,1,2,True,47,snow_mocha
+1048,St. Moritz,pink,grey,6,6,False,6,water
+1049,Crans-Montana,black,red,7,6,False,48,snow_mocha
+1050,Lenzerheide,purple,yellow,2,2,False,8,water
+1051,Lenzerheide,green,red,3,4,False,3,orange juice
+1052,Jungfrau,orange,orange,7,2,True,29,snow_mocha
+1053,Engelberg,white,orange,9,6,True,13,orange juice
+1054,Crans-Montana,white,blue,7,9,True,45,hot_chocolate
+1055,Engelberg,white,yellow,8,10,True,20,coffee
+1056,Crans-Montana,blue,grey,9,5,False,0,tea
+1057,Davos,orange,orange,5,10,False,4,snow_mocha
+1058,St. Moritz,white,blue,4,6,True,19,snow_mocha
+1059,Laax,green,pink,9,4,False,18,water
+1060,Davos,grey,red,6,1,False,49,wine
+1061,Zermatt,purple,blue,7,5,True,1,hot_chocolate
+1062,Davos,blue,orange,4,9,False,2,snow_mocha
+1063,Engelberg,pink,green,5,4,False,43,snow_mocha
+1064,Arosa,blue,white,8,8,True,21,orange juice
+1065,Davos,orange,purple,9,4,False,39,snow_mocha
+1066,Jungfrau,blue,blue,1,9,False,3,wine
+1067,Lenzerheide,white,black,7,5,True,30,water
+1068,Arosa,yellow,orange,4,4,True,44,snow_mocha
+1069,Crans-Montana,black,yellow,5,7,False,4,snow_mocha
+1070,Arosa,grey,pink,3,8,True,30,snow_mocha
+1071,Engelberg,black,green,8,5,False,36,water
+1072,Verbier,green,orange,1,3,False,24,tea
+1073,Zermatt,blue,blue,6,9,False,28,hot_chocolate
+1074,Verbier,purple,black,7,1,True,41,orange juice
+1075,Zermatt,red,blue,4,8,False,17,wine
+1076,Lenzerheide,red,green,9,4,False,48,water
+1077,Arosa,red,white,1,5,False,47,coffee
+1078,Davos,blue,red,7,10,True,31,wine
+1079,Zermatt,grey,purple,4,1,True,45,coffee
+1080,Crans-Montana,blue,black,8,3,False,17,tea
+1081,Arosa,grey,red,7,10,False,38,tea
+1082,Zermatt,green,blue,8,4,True,19,hot_chocolate
+1083,Jungfrau,black,orange,5,10,False,31,tea
+1084,Engelberg,pink,pink,6,5,False,7,wine
+1085,St. Moritz,purple,yellow,9,2,True,19,orange juice
+1086,Davos,blue,orange,3,6,True,32,snow_mocha
+1087,Crans-Montana,black,black,1,6,False,33,water
+1088,Davos,grey,pink,6,9,False,38,coffee
+1089,Arosa,grey,yellow,2,10,True,23,orange juice
+1090,Verbier,purple,pink,3,3,True,8,snow_mocha
+1091,St. Moritz,black,orange,8,9,True,2,wine
+1092,Davos,black,blue,7,10,True,14,hot_chocolate
+1093,Davos,purple,purple,1,4,False,17,water
+1094,Engelberg,purple,black,4,1,True,32,coffee
+1095,Crans-Montana,yellow,pink,3,6,False,1,orange juice
+1096,Laax,blue,orange,3,2,False,5,orange juice
+1097,Laax,pink,white,4,6,True,41,wine
+1098,Arosa,grey,yellow,3,7,False,15,snow_mocha
+1099,Zermatt,orange,black,1,10,False,20,tea
+1100,Arosa,yellow,orange,2,5,True,37,tea
+1101,Zermatt,red,blue,7,9,True,29,hot_chocolate
+1102,St. Moritz,blue,pink,4,10,False,5,snow_mocha
+1103,Verbier,green,grey,2,5,True,43,coffee
+1104,Davos,white,yellow,7,2,False,24,orange juice
+1105,Arosa,white,grey,2,5,False,34,tea
+1106,Verbier,white,grey,9,1,True,1,orange juice
+1107,Engelberg,red,blue,2,9,True,9,coffee
+1108,Engelberg,blue,purple,9,6,False,43,tea
+1109,Verbier,white,blue,7,1,True,4,hot_chocolate
+1110,Laax,white,red,5,8,False,28,coffee
+1111,Davos,black,white,7,4,True,21,orange juice
+1112,Arosa,yellow,yellow,3,9,True,40,orange juice
+1113,Zermatt,pink,pink,2,3,True,14,snow_mocha
+1114,Verbier,red,grey,1,2,True,29,tea
+1115,Jungfrau,white,red,2,7,True,44,water
+1116,Arosa,yellow,grey,5,1,True,25,coffee
+1117,Engelberg,red,white,9,2,False,24,coffee
+1118,Davos,grey,green,5,9,False,13,snow_mocha
+1119,Zermatt,purple,grey,2,3,True,32,wine
+1120,Davos,blue,blue,9,6,False,48,hot_chocolate
+1121,Zermatt,black,purple,1,9,False,3,tea
+1122,Zermatt,yellow,yellow,2,8,True,35,water
+1123,Davos,white,orange,7,7,False,30,snow_mocha
+1124,Jungfrau,yellow,grey,3,5,False,34,wine
+1125,Engelberg,red,orange,4,9,False,33,tea
+1126,Verbier,grey,grey,9,5,True,46,wine
+1127,Verbier,orange,white,6,3,True,19,coffee
+1128,Laax,orange,pink,1,5,False,35,snow_mocha
+1129,Laax,black,blue,9,5,True,15,hot_chocolate
+1130,Davos,grey,purple,5,3,True,43,snow_mocha
+1131,Zermatt,green,pink,3,5,True,4,snow_mocha
+1132,St. Moritz,pink,pink,1,3,True,30,water
+1133,Jungfrau,purple,grey,3,10,True,28,water
+1134,Jungfrau,green,green,8,10,True,32,wine
+1135,Davos,purple,pink,2,9,True,0,tea
+1136,Laax,orange,orange,7,10,True,4,wine
+1137,Lenzerheide,white,orange,8,1,False,21,wine
+1138,Crans-Montana,yellow,orange,3,2,True,19,wine
+1139,Engelberg,grey,orange,4,8,True,19,wine
+1140,Verbier,green,black,7,5,False,41,tea
+1141,Laax,pink,blue,3,5,True,21,coffee
+1142,Arosa,green,yellow,2,6,True,12,tea
+1143,Zermatt,red,grey,5,10,True,0,snow_mocha
+1144,Crans-Montana,red,red,4,1,False,29,water
+1145,Arosa,red,purple,7,2,False,40,water
+1146,St. Moritz,pink,pink,2,5,True,43,snow_mocha
+1147,Jungfrau,red,pink,3,6,False,46,coffee
+1148,Zermatt,grey,purple,1,8,True,42,tea
+1149,Engelberg,orange,grey,3,5,True,29,snow_mocha
+1150,Arosa,orange,pink,8,4,False,33,water
+1151,Jungfrau,white,green,6,2,False,2,orange juice
+1152,Arosa,purple,red,2,6,False,22,coffee
+1153,St. Moritz,black,red,8,2,False,6,tea
+1154,Engelberg,white,green,8,2,False,35,coffee
+1155,Jungfrau,grey,pink,9,2,True,2,orange juice
+1156,Lenzerheide,blue,red,3,8,False,36,coffee
+1157,Arosa,green,red,4,10,True,40,tea
+1158,Zermatt,black,white,6,3,False,42,coffee
+1159,Laax,blue,red,4,3,False,39,snow_mocha
+1160,Jungfrau,pink,green,8,6,True,24,wine
+1161,Laax,yellow,blue,8,10,True,9,hot_chocolate
+1162,Davos,orange,green,6,1,True,18,water
+1163,Engelberg,white,white,9,3,True,25,water
+1164,Crans-Montana,blue,pink,5,10,True,9,coffee
+1165,Jungfrau,black,red,6,10,False,4,snow_mocha
+1166,Crans-Montana,black,blue,2,4,False,4,orange juice
+1167,Zermatt,grey,grey,6,3,False,49,wine
+1168,Zermatt,yellow,pink,7,9,True,17,coffee
+1169,St. Moritz,blue,black,4,9,True,21,snow_mocha
+1170,Jungfrau,yellow,purple,1,7,False,49,orange juice
+1171,Arosa,green,yellow,1,5,True,38,tea
+1172,Arosa,grey,grey,9,6,False,26,coffee
+1173,Crans-Montana,pink,purple,9,8,True,15,tea
+1174,Jungfrau,grey,orange,1,1,True,23,orange juice
+1175,St. Moritz,black,blue,4,10,False,1,snow_mocha
+1176,Verbier,purple,grey,8,4,True,9,coffee
+1177,Zermatt,yellow,grey,8,5,False,48,tea
+1178,Lenzerheide,pink,red,8,2,True,9,wine
+1179,Lenzerheide,green,black,3,1,True,9,water
+1180,Arosa,grey,yellow,6,4,False,41,snow_mocha
+1181,Engelberg,green,black,3,2,False,49,coffee
+1182,Davos,white,yellow,2,9,True,1,wine
+1183,Crans-Montana,blue,yellow,1,4,True,8,wine
+1184,Lenzerheide,pink,purple,7,9,False,8,water
+1185,St. Moritz,orange,yellow,7,7,False,46,water
+1186,Arosa,black,black,7,9,False,2,wine
+1187,Arosa,yellow,purple,6,1,False,6,coffee
+1188,Laax,red,blue,6,2,False,25,hot_chocolate
+1189,Lenzerheide,purple,orange,5,6,False,2,snow_mocha
+1190,Crans-Montana,pink,yellow,7,4,False,32,orange juice
+1191,Jungfrau,red,red,7,1,True,29,tea
+1192,Jungfrau,white,purple,8,8,True,26,coffee
+1193,Arosa,orange,blue,2,2,True,27,tea
+1194,Lenzerheide,yellow,white,7,6,False,43,orange juice
+1195,Verbier,black,white,2,9,True,38,tea
+1196,Arosa,orange,orange,9,8,True,16,tea
+1197,Davos,white,pink,7,2,True,15,orange juice
+1198,Crans-Montana,orange,grey,4,8,False,18,coffee
+1199,Engelberg,orange,green,1,6,False,28,coffee
+1200,Lenzerheide,pink,blue,3,6,True,4,wine
+1201,Laax,pink,yellow,7,2,False,28,tea
+1202,Crans-Montana,green,purple,8,10,True,34,water
+1203,Engelberg,orange,green,5,6,True,19,coffee
+1204,Laax,white,blue,9,7,True,27,hot_chocolate
+1205,Engelberg,green,grey,9,9,False,45,orange juice
+1206,Jungfrau,pink,grey,2,2,False,6,coffee
+1207,Zermatt,purple,grey,8,9,False,40,tea
+1208,Verbier,grey,red,7,8,False,32,snow_mocha
+1209,Verbier,blue,green,6,3,True,26,wine
+1210,Zermatt,grey,black,4,5,False,9,tea
+1211,Laax,black,grey,6,9,True,38,coffee
+1212,Jungfrau,white,blue,1,8,True,22,snow_mocha
+1213,Engelberg,black,green,1,8,True,4,coffee
+1214,St. Moritz,grey,grey,1,4,True,29,coffee
+1215,Lenzerheide,pink,orange,5,2,True,42,coffee
+1216,Zermatt,grey,yellow,5,10,False,38,coffee
+1217,St. Moritz,purple,yellow,8,4,False,24,coffee
+1218,Arosa,orange,blue,9,2,False,19,hot_chocolate
+1219,St. Moritz,orange,purple,2,2,True,18,orange juice
+1220,Crans-Montana,purple,pink,3,3,False,36,coffee
+1221,Davos,blue,blue,2,3,True,25,orange juice
+1222,Crans-Montana,orange,blue,7,2,True,34,hot_chocolate
+1223,Verbier,yellow,pink,3,1,True,23,orange juice
+1224,St. Moritz,white,yellow,1,4,False,30,water
+1225,Verbier,grey,green,2,7,True,44,snow_mocha
+1226,Zermatt,orange,white,4,10,False,1,coffee
+1227,Crans-Montana,green,purple,4,8,False,17,coffee
+1228,Verbier,blue,green,2,7,True,28,snow_mocha
+1229,Crans-Montana,green,blue,7,1,False,47,hot_chocolate
+1230,Engelberg,purple,purple,6,5,False,37,coffee
+1231,Zermatt,grey,white,3,1,False,41,orange juice
+1232,Crans-Montana,blue,white,7,10,False,20,snow_mocha
+1233,Zermatt,grey,blue,2,7,False,13,coffee
+1234,St. Moritz,black,purple,8,6,False,30,snow_mocha
+1235,Jungfrau,purple,green,8,10,True,32,orange juice
+1236,Verbier,red,yellow,7,5,True,23,wine
+1237,Crans-Montana,yellow,black,4,1,True,10,water
+1238,St. Moritz,orange,green,5,4,False,27,snow_mocha
+1239,St. Moritz,pink,pink,9,8,True,41,coffee
+1240,Engelberg,red,green,4,9,False,45,coffee
+1241,Jungfrau,purple,pink,8,10,False,20,wine
+1242,Verbier,orange,white,7,10,False,40,tea
+1243,Davos,purple,purple,3,6,True,47,snow_mocha
+1244,St. Moritz,white,blue,3,5,False,47,snow_mocha
+1245,Engelberg,pink,blue,6,1,True,2,hot_chocolate
+1246,Lenzerheide,red,grey,6,3,True,28,water
+1247,Laax,purple,grey,9,6,True,42,tea
+1248,Lenzerheide,green,grey,3,10,False,21,wine
+1249,Engelberg,white,purple,3,10,False,33,coffee
+1250,Davos,black,white,1,7,False,33,orange juice
+1251,Zermatt,blue,yellow,3,1,False,36,snow_mocha
+1252,Engelberg,green,pink,1,2,True,8,coffee
+1253,Zermatt,grey,white,9,6,True,4,coffee
+1254,Arosa,blue,pink,7,3,True,14,snow_mocha
+1255,Verbier,orange,blue,6,4,False,30,hot_chocolate
+1256,Davos,yellow,purple,7,5,True,1,coffee
+1257,Jungfrau,orange,orange,1,2,False,16,wine
+1258,St. Moritz,white,white,7,9,True,0,coffee
+1259,St. Moritz,grey,orange,8,6,True,26,orange juice
+1260,Engelberg,white,green,3,6,False,39,tea
+1261,Engelberg,green,white,2,1,True,16,water
+1262,Crans-Montana,green,grey,9,7,False,0,wine
+1263,Laax,pink,black,7,9,False,44,coffee
+1264,Lenzerheide,yellow,pink,2,8,True,49,orange juice
+1265,Jungfrau,blue,black,7,8,True,17,water
+1266,Engelberg,green,blue,6,8,True,18,hot_chocolate
+1267,Engelberg,purple,yellow,4,2,True,11,tea
+1268,Jungfrau,yellow,red,7,2,False,15,water
+1269,St. Moritz,pink,purple,3,8,False,38,snow_mocha
+1270,Crans-Montana,pink,grey,3,10,True,32,snow_mocha
+1271,St. Moritz,red,orange,8,8,False,25,coffee
+1272,Arosa,green,red,2,5,True,26,wine
+1273,St. Moritz,orange,red,8,1,False,26,snow_mocha
+1274,St. Moritz,purple,white,5,1,True,18,snow_mocha
+1275,Jungfrau,white,grey,4,6,True,45,coffee
+1276,Davos,purple,red,7,9,False,20,tea
+1277,Crans-Montana,grey,pink,9,10,False,15,orange juice
+1278,St. Moritz,red,red,6,3,True,46,tea
+1279,Lenzerheide,yellow,green,5,7,True,8,water
+1280,Engelberg,purple,blue,1,1,False,40,water
+1281,Jungfrau,red,yellow,3,1,False,44,tea
+1282,Verbier,green,red,2,6,False,29,water
+1283,Crans-Montana,green,black,2,9,True,41,orange juice
+1284,Arosa,blue,pink,2,5,True,35,snow_mocha
+1285,Davos,yellow,grey,2,4,True,16,wine
+1286,St. Moritz,black,grey,2,5,False,35,coffee
+1287,Crans-Montana,blue,green,4,1,False,9,tea
+1288,Davos,pink,orange,1,5,True,30,tea
+1289,Jungfrau,white,red,9,4,True,1,coffee
+1290,Lenzerheide,red,black,5,6,True,1,tea
+1291,Zermatt,yellow,orange,1,3,False,0,tea
+1292,Verbier,white,pink,5,6,False,9,water
+1293,Laax,blue,purple,5,6,True,8,tea
+1294,St. Moritz,black,blue,5,4,False,39,snow_mocha
+1295,St. Moritz,blue,black,4,1,True,13,snow_mocha
+1296,Arosa,orange,white,6,8,True,29,coffee
+1297,Zermatt,yellow,yellow,6,10,False,28,orange juice
+1298,Crans-Montana,red,grey,4,1,False,48,snow_mocha
+1299,Engelberg,orange,white,4,2,True,27,wine
+1300,Zermatt,purple,grey,3,3,True,43,orange juice
+1301,Davos,red,green,2,7,False,6,wine
+1302,Zermatt,yellow,grey,5,7,True,42,orange juice
+1303,Engelberg,blue,yellow,1,5,True,31,orange juice
+1304,Davos,blue,black,9,2,False,8,wine
+1305,Crans-Montana,yellow,red,4,3,True,17,coffee
+1306,Lenzerheide,pink,blue,8,2,False,40,hot_chocolate
+1307,Zermatt,blue,blue,5,8,True,33,snow_mocha
+1308,Davos,pink,blue,6,6,True,36,hot_chocolate
+1309,Davos,white,orange,8,10,True,9,snow_mocha
+1310,Engelberg,purple,orange,9,9,True,47,snow_mocha
+1311,Jungfrau,black,white,5,5,True,34,coffee
+1312,Davos,red,pink,1,4,True,32,coffee
+1313,Davos,green,grey,1,6,True,12,tea
+1314,Crans-Montana,purple,orange,3,9,True,18,coffee
+1315,Lenzerheide,orange,blue,7,8,False,27,hot_chocolate
+1316,Crans-Montana,black,red,5,3,False,3,coffee
+1317,Laax,orange,purple,2,1,False,26,snow_mocha
+1318,Laax,blue,grey,5,10,True,33,wine
+1319,Engelberg,pink,yellow,1,1,True,4,coffee
+1320,Jungfrau,blue,red,1,2,True,33,orange juice
+1321,St. Moritz,green,blue,6,9,False,29,hot_chocolate
+1322,Lenzerheide,black,yellow,1,3,True,37,snow_mocha
+1323,Verbier,white,red,4,6,False,13,wine
+1324,Davos,green,blue,2,1,False,37,wine
+1325,Lenzerheide,blue,black,4,6,False,32,wine
+1326,Laax,red,green,7,6,False,6,water
+1327,Arosa,red,orange,2,3,True,37,orange juice
+1328,Arosa,black,pink,9,2,True,18,wine
+1329,Jungfrau,blue,purple,7,2,True,17,orange juice
+1330,Crans-Montana,blue,black,5,1,False,35,wine
+1331,Lenzerheide,green,white,8,10,False,39,water
+1332,St. Moritz,orange,white,6,8,True,21,orange juice
+1333,Jungfrau,pink,white,2,3,True,34,snow_mocha
+1334,Jungfrau,pink,white,2,7,True,8,coffee
+1335,Jungfrau,yellow,orange,5,3,True,1,tea
+1336,Davos,grey,red,6,8,True,37,tea
+1337,Verbier,grey,yellow,9,6,False,38,coffee
+1338,Arosa,grey,grey,6,3,False,31,water
+1339,Davos,blue,green,7,5,True,11,coffee
+1340,Laax,yellow,orange,3,5,True,33,orange juice
+1341,Lenzerheide,purple,white,9,6,False,32,wine
+1342,Davos,grey,pink,9,8,False,14,snow_mocha
+1343,Verbier,purple,red,6,1,True,3,snow_mocha
+1344,Arosa,black,grey,9,1,True,18,snow_mocha
+1345,Lenzerheide,orange,grey,2,7,True,43,orange juice
+1346,Laax,blue,grey,2,9,True,4,wine
+1347,Lenzerheide,purple,grey,2,3,False,45,tea
+1348,Davos,yellow,orange,2,6,False,3,tea
+1349,Jungfrau,green,orange,7,1,False,17,snow_mocha
+1350,Davos,orange,grey,2,7,True,1,snow_mocha
+1351,Verbier,green,white,2,10,False,27,snow_mocha
+1352,Verbier,red,grey,2,1,True,16,wine
+1353,Crans-Montana,red,grey,1,8,True,42,water
+1354,Verbier,black,grey,9,4,True,13,snow_mocha
+1355,Laax,blue,blue,2,5,False,0,coffee
+1356,Verbier,black,blue,6,3,True,6,hot_chocolate
+1357,Jungfrau,grey,blue,2,1,True,4,orange juice
+1358,Lenzerheide,pink,purple,6,10,False,46,water
+1359,St. Moritz,green,orange,4,5,True,41,snow_mocha
+1360,Davos,green,red,3,10,True,2,snow_mocha
+1361,Engelberg,pink,white,7,8,False,21,snow_mocha
+1362,Laax,yellow,purple,3,7,True,6,coffee
+1363,Jungfrau,white,orange,1,7,False,4,water
+1364,Crans-Montana,purple,black,3,2,True,23,snow_mocha
+1365,Arosa,orange,pink,3,5,False,15,water
+1366,St. Moritz,purple,black,4,4,True,28,snow_mocha
+1367,Arosa,grey,yellow,3,6,True,0,water
+1368,Verbier,green,red,7,1,False,12,snow_mocha
+1369,Davos,white,pink,9,4,True,32,wine
+1370,St. Moritz,blue,green,6,2,False,26,snow_mocha
+1371,Engelberg,grey,yellow,8,5,True,19,tea
+1372,Lenzerheide,yellow,green,6,9,False,32,tea
+1373,Davos,green,pink,2,10,False,8,snow_mocha
+1374,Zermatt,black,pink,2,4,True,13,coffee
+1375,Engelberg,blue,red,5,8,False,44,wine
+1376,Lenzerheide,black,yellow,1,4,False,17,water
+1377,Lenzerheide,grey,white,9,4,False,8,orange juice
+1378,Laax,blue,purple,5,3,True,25,water
+1379,Arosa,red,grey,9,9,True,43,orange juice
+1380,Arosa,black,green,6,3,False,6,orange juice
+1381,St. Moritz,white,yellow,5,4,True,23,snow_mocha
+1382,Engelberg,pink,blue,8,6,False,29,hot_chocolate
+1383,Lenzerheide,red,pink,4,4,True,0,coffee
+1384,Jungfrau,black,red,7,3,False,43,tea
+1385,Crans-Montana,pink,blue,3,7,True,4,coffee
+1386,Engelberg,red,grey,1,4,False,40,water
+1387,Davos,black,white,6,7,False,22,coffee
+1388,Jungfrau,green,yellow,1,6,False,31,tea
+1389,Engelberg,green,white,6,4,True,48,orange juice
+1390,Lenzerheide,red,black,7,2,False,13,wine
+1391,Jungfrau,blue,pink,7,4,True,25,water
+1392,Verbier,black,grey,2,2,False,7,water
+1393,Jungfrau,yellow,purple,2,5,True,7,snow_mocha
+1394,Verbier,white,pink,4,1,True,32,orange juice
+1395,Engelberg,pink,purple,9,9,True,22,water
+1396,Verbier,purple,black,4,8,True,38,coffee
+1397,Davos,grey,grey,2,6,False,48,wine
+1398,Lenzerheide,red,black,9,3,False,2,coffee
+1399,Engelberg,black,red,6,5,False,21,snow_mocha
+1400,Crans-Montana,green,orange,7,6,False,45,water
+1401,Jungfrau,pink,purple,3,6,False,11,water
+1402,Davos,black,white,7,6,False,5,coffee
+1403,Laax,green,blue,4,5,False,20,wine
+1404,Laax,pink,grey,8,4,True,19,orange juice
+1405,Laax,red,purple,1,2,False,34,water
+1406,Lenzerheide,black,green,6,2,True,49,wine
+1407,Davos,orange,black,8,1,True,32,wine
+1408,Engelberg,blue,pink,5,10,True,35,snow_mocha
+1409,Laax,orange,red,8,10,False,27,orange juice
+1410,Davos,green,white,1,3,True,19,water
+1411,Zermatt,black,yellow,7,6,True,21,coffee
+1412,Jungfrau,grey,green,2,4,False,29,coffee
+1413,Lenzerheide,pink,orange,1,2,True,23,tea
+1414,Davos,yellow,orange,6,8,True,7,wine
+1415,Laax,black,white,1,8,True,47,coffee
+1416,Lenzerheide,white,yellow,6,4,True,20,wine
+1417,Davos,blue,blue,1,3,False,7,water
+1418,Jungfrau,blue,purple,5,10,False,14,orange juice
+1419,Laax,green,yellow,3,1,True,40,water
+1420,Crans-Montana,red,blue,2,8,False,11,tea
+1421,Arosa,orange,red,9,4,True,38,coffee
+1422,Lenzerheide,grey,red,4,8,True,8,wine
+1423,Davos,grey,black,7,10,False,32,wine
+1424,Crans-Montana,red,pink,8,5,True,7,wine
+1425,Davos,blue,black,9,5,True,13,coffee
+1426,Jungfrau,purple,orange,6,3,True,4,orange juice
+1427,Lenzerheide,black,grey,1,7,True,30,tea
+1428,Arosa,orange,grey,7,6,False,35,water
+1429,Laax,yellow,blue,5,4,False,46,coffee
+1430,Crans-Montana,yellow,black,9,6,False,32,coffee
+1431,Laax,green,blue,1,9,True,25,wine
+1432,St. Moritz,white,orange,5,8,True,46,snow_mocha
+1433,Zermatt,green,grey,9,7,True,39,wine
+1434,St. Moritz,red,purple,6,10,False,30,tea
+1435,Crans-Montana,blue,red,4,4,True,41,wine
+1436,St. Moritz,green,black,8,8,True,43,orange juice
+1437,Zermatt,yellow,pink,6,8,False,40,snow_mocha
+1438,Davos,pink,blue,8,2,False,49,hot_chocolate
+1439,Arosa,green,orange,3,5,True,44,tea
+1440,Jungfrau,orange,grey,6,5,False,9,tea
+1441,Arosa,black,green,6,3,False,33,water
+1442,Laax,orange,yellow,6,5,True,0,snow_mocha
+1443,Jungfrau,black,orange,5,8,False,13,orange juice
+1444,Lenzerheide,pink,black,4,5,False,5,orange juice
+1445,Davos,black,red,3,2,True,39,snow_mocha
+1446,Lenzerheide,grey,red,3,5,False,40,orange juice
+1447,Engelberg,green,blue,2,3,True,1,coffee
+1448,Laax,blue,yellow,1,3,False,29,tea
+1449,Lenzerheide,black,pink,9,2,False,13,wine
+1450,Engelberg,green,red,6,8,False,15,tea
+1451,Lenzerheide,black,green,7,6,False,26,snow_mocha
+1452,Davos,yellow,yellow,1,9,False,40,water
+1453,Engelberg,red,yellow,1,8,True,22,snow_mocha
+1454,Arosa,red,purple,9,2,False,2,snow_mocha
+1455,Jungfrau,yellow,blue,8,10,False,23,hot_chocolate
+1456,Zermatt,grey,orange,4,9,False,41,tea
+1457,St. Moritz,green,pink,4,7,False,37,snow_mocha
+1458,Zermatt,white,blue,7,9,False,32,hot_chocolate
+1459,Arosa,green,yellow,7,2,False,29,tea
+1460,Zermatt,purple,green,1,7,False,25,tea
+1461,Zermatt,purple,yellow,3,3,False,35,coffee
+1462,Engelberg,yellow,black,3,7,True,15,orange juice
+1463,St. Moritz,yellow,green,1,10,False,5,water
+1464,Laax,purple,red,4,6,True,14,tea
+1465,Arosa,green,grey,3,6,True,0,water
+1466,Engelberg,black,white,1,1,False,46,snow_mocha
+1467,St. Moritz,red,blue,1,3,True,41,orange juice
+1468,Davos,red,grey,6,8,True,43,snow_mocha
+1469,Davos,pink,grey,5,1,True,39,snow_mocha
+1470,Lenzerheide,yellow,grey,4,7,False,1,orange juice
+1471,Jungfrau,white,black,8,10,False,1,coffee
+1472,Davos,blue,orange,2,2,True,48,orange juice
+1473,Davos,orange,purple,9,1,False,4,orange juice
+1474,Lenzerheide,orange,black,2,5,True,40,coffee
+1475,Zermatt,yellow,orange,4,10,True,23,tea
+1476,St. Moritz,grey,purple,5,5,False,12,snow_mocha
+1477,Verbier,yellow,red,9,8,False,24,water
+1478,Engelberg,orange,pink,1,10,True,32,wine
+1479,Lenzerheide,pink,yellow,2,4,False,19,coffee
+1480,Arosa,purple,purple,6,4,True,12,coffee
+1481,Davos,green,blue,5,2,True,15,snow_mocha
+1482,Laax,green,purple,1,8,True,17,orange juice
+1483,Zermatt,black,purple,3,8,False,32,water
+1484,St. Moritz,blue,purple,3,10,True,19,snow_mocha
+1485,Jungfrau,purple,yellow,6,3,False,30,snow_mocha
+1486,Zermatt,black,grey,6,5,False,10,snow_mocha
+1487,Crans-Montana,white,grey,9,4,False,34,tea
+1488,Lenzerheide,purple,orange,3,5,True,16,orange juice
+1489,Crans-Montana,red,white,9,7,False,5,tea
+1490,Arosa,grey,purple,4,3,True,5,coffee
+1491,Verbier,yellow,white,5,8,False,18,coffee
+1492,Lenzerheide,red,yellow,4,7,True,26,tea
+1493,Arosa,orange,red,5,10,True,10,tea
+1494,Laax,blue,black,2,9,False,25,wine
+1495,Jungfrau,white,black,6,5,False,10,tea
+1496,Zermatt,grey,yellow,7,3,False,31,coffee
+1497,Engelberg,yellow,yellow,1,5,False,47,orange juice
+1498,Laax,orange,white,9,5,True,13,orange juice
+1499,Davos,yellow,grey,1,8,False,35,water
+1500,Engelberg,green,red,6,6,True,48,wine
+1501,Arosa,purple,pink,5,3,False,9,water
+1502,Crans-Montana,purple,green,4,10,True,5,wine
+1503,St. Moritz,grey,red,4,8,False,4,snow_mocha
+1504,Verbier,green,white,6,9,False,3,wine
+1505,Davos,yellow,white,7,9,False,2,water
+1506,Jungfrau,red,purple,5,8,True,40,coffee
+1507,St. Moritz,blue,blue,9,1,True,37,hot_chocolate
+1508,Zermatt,grey,grey,4,7,True,17,wine
+1509,Verbier,orange,grey,1,8,False,4,tea
+1510,Lenzerheide,orange,black,1,2,True,42,coffee
+1511,Zermatt,yellow,orange,1,8,False,15,tea
+1512,Verbier,white,white,1,9,False,29,tea
+1513,Lenzerheide,purple,green,2,9,False,27,orange juice
+1514,Crans-Montana,orange,yellow,8,1,False,16,wine
+1515,Jungfrau,pink,orange,7,10,True,20,snow_mocha
+1516,Zermatt,pink,blue,3,5,False,32,wine
+1517,Engelberg,red,blue,4,8,True,28,water
+1518,Crans-Montana,red,green,6,4,True,7,wine
+1519,Engelberg,grey,orange,5,4,True,34,water
+1520,Laax,blue,orange,7,5,False,28,water
+1521,St. Moritz,white,blue,7,9,True,26,hot_chocolate
+1522,Crans-Montana,red,black,9,6,False,46,water
+1523,Arosa,yellow,grey,2,9,True,12,wine
+1524,Lenzerheide,green,yellow,1,9,False,9,coffee
+1525,Jungfrau,grey,blue,4,4,True,46,orange juice
+1526,Jungfrau,grey,blue,9,6,True,37,hot_chocolate
+1527,St. Moritz,yellow,white,7,7,True,41,coffee
+1528,Lenzerheide,grey,yellow,8,1,False,46,coffee
+1529,Engelberg,grey,blue,4,8,False,8,tea
+1530,Arosa,yellow,orange,8,9,False,42,coffee
+1531,Lenzerheide,white,red,8,6,True,11,water
+1532,Jungfrau,red,black,5,6,False,12,wine
+1533,Zermatt,blue,grey,1,10,True,27,tea
+1534,Verbier,yellow,grey,2,7,True,37,orange juice
+1535,Laax,grey,grey,3,8,True,13,wine
+1536,Zermatt,black,black,2,1,True,24,orange juice
+1537,Verbier,red,purple,9,7,True,1,orange juice
+1538,St. Moritz,white,white,4,7,False,18,snow_mocha
+1539,St. Moritz,pink,red,1,4,False,34,wine
+1540,Crans-Montana,yellow,black,1,10,True,0,water
+1541,Verbier,pink,green,2,9,False,39,orange juice
+1542,St. Moritz,red,grey,3,3,True,31,snow_mocha
+1543,Zermatt,orange,red,8,1,True,31,tea
+1544,Engelberg,black,orange,6,4,True,8,orange juice
+1545,Jungfrau,pink,blue,5,3,True,47,coffee
+1546,Engelberg,blue,orange,5,1,False,43,water
+1547,Laax,green,pink,8,2,False,46,wine
+1548,Lenzerheide,white,black,2,1,False,11,snow_mocha
+1549,Davos,grey,green,2,8,True,8,orange juice
+1550,Crans-Montana,white,purple,9,3,False,41,coffee
+1551,Jungfrau,yellow,green,8,3,True,41,tea
+1552,Verbier,white,red,6,10,True,36,wine
+1553,Arosa,white,blue,1,6,False,27,water
+1554,Arosa,pink,red,7,5,False,17,tea
+1555,St. Moritz,pink,grey,2,6,False,30,orange juice
+1556,Lenzerheide,orange,red,7,6,True,12,wine
+1557,Crans-Montana,red,red,3,5,False,31,coffee
+1558,St. Moritz,red,orange,9,10,True,31,coffee
+1559,Arosa,red,yellow,8,2,False,44,coffee
+1560,Crans-Montana,yellow,purple,7,5,True,17,snow_mocha
+1561,Jungfrau,pink,purple,4,2,True,48,tea
+1562,Laax,green,grey,7,10,True,47,wine
+1563,Jungfrau,pink,purple,9,4,True,49,water
+1564,Verbier,yellow,orange,4,3,False,35,tea
+1565,Verbier,black,orange,9,5,False,28,orange juice
+1566,Davos,pink,blue,4,2,False,11,snow_mocha
+1567,St. Moritz,pink,black,5,1,True,40,snow_mocha
+1568,Verbier,black,purple,9,5,False,33,tea
+1569,Arosa,pink,grey,2,7,False,1,wine
+1570,Verbier,blue,purple,9,6,True,17,coffee
+1571,Engelberg,yellow,blue,7,5,False,2,hot_chocolate
+1572,Arosa,black,grey,2,6,True,19,coffee
+1573,Crans-Montana,black,white,6,7,False,40,orange juice
+1574,St. Moritz,orange,yellow,5,4,False,17,snow_mocha
+1575,Lenzerheide,purple,orange,1,3,True,10,water
+1576,Arosa,green,yellow,5,4,True,47,tea
+1577,Engelberg,blue,yellow,5,2,False,36,snow_mocha
+1578,Crans-Montana,green,blue,4,3,True,45,tea
+1579,Arosa,red,green,5,1,False,39,water
+1580,Verbier,blue,pink,9,8,True,18,water
+1581,Laax,orange,red,8,1,True,3,water
+1582,Engelberg,white,grey,6,9,True,23,orange juice
+1583,Laax,pink,pink,7,3,False,13,water
+1584,Jungfrau,purple,yellow,5,1,False,24,tea
+1585,Crans-Montana,purple,blue,6,6,False,7,hot_chocolate
+1586,Davos,orange,green,3,5,True,22,snow_mocha
+1587,Crans-Montana,red,grey,7,10,False,18,wine
+1588,Crans-Montana,grey,red,8,8,False,10,wine
+1589,Davos,purple,white,6,3,False,38,water
+1590,Lenzerheide,pink,orange,9,3,True,8,orange juice
+1591,Crans-Montana,blue,purple,7,3,False,24,orange juice
+1592,Arosa,white,orange,1,5,False,15,wine
+1593,Davos,blue,blue,7,9,True,15,hot_chocolate
+1594,Jungfrau,pink,white,8,2,True,23,snow_mocha
+1595,Jungfrau,white,purple,2,2,True,43,coffee
+1596,Zermatt,purple,orange,1,2,True,12,tea
+1597,Arosa,black,pink,7,10,False,20,water
+1598,Zermatt,blue,blue,5,3,False,31,snow_mocha
+1599,Jungfrau,green,blue,7,1,True,42,hot_chocolate
+1600,Lenzerheide,green,orange,6,4,True,44,snow_mocha
+1601,Davos,grey,yellow,2,6,False,39,tea
+1602,Crans-Montana,blue,orange,6,4,False,25,coffee
+1603,Zermatt,blue,yellow,9,5,True,3,wine
+1604,Zermatt,red,orange,1,9,False,4,tea
+1605,Zermatt,black,red,5,3,True,34,orange juice
+1606,Arosa,white,pink,4,3,True,47,water
+1607,Jungfrau,blue,blue,5,9,False,25,orange juice
+1608,Laax,white,blue,8,6,False,1,hot_chocolate
+1609,St. Moritz,red,green,8,2,False,48,water
+1610,Crans-Montana,yellow,red,8,2,False,33,snow_mocha
+1611,Jungfrau,red,purple,6,1,False,2,coffee
+1612,Crans-Montana,yellow,white,8,5,False,34,wine
+1613,Crans-Montana,green,pink,9,9,False,32,coffee
+1614,Arosa,blue,pink,4,5,False,10,wine
+1615,Davos,yellow,pink,3,10,True,39,snow_mocha
+1616,Laax,yellow,orange,9,10,True,49,snow_mocha
+1617,Crans-Montana,pink,pink,8,3,False,35,tea
+1618,St. Moritz,red,white,5,3,False,41,snow_mocha
+1619,Verbier,grey,grey,5,2,False,32,wine
+1620,Lenzerheide,yellow,orange,4,1,True,39,tea
+1621,Laax,white,yellow,3,10,False,31,water
+1622,Davos,green,blue,4,6,False,2,snow_mocha
+1623,Verbier,white,purple,3,1,False,48,orange juice
+1624,Crans-Montana,white,orange,7,3,True,43,water
+1625,Arosa,pink,purple,4,7,True,42,tea
+1626,St. Moritz,green,yellow,5,8,True,44,snow_mocha
+1627,Lenzerheide,black,grey,6,3,True,3,orange juice
+1628,Jungfrau,white,black,6,3,True,17,orange juice
+1629,Davos,white,grey,3,3,True,41,snow_mocha
+1630,Lenzerheide,white,pink,7,9,True,35,coffee
+1631,Davos,grey,black,6,6,True,16,water
+1632,Engelberg,purple,blue,4,1,True,35,orange juice
+1633,St. Moritz,purple,yellow,5,3,True,44,snow_mocha
+1634,Laax,red,blue,7,10,True,39,hot_chocolate
+1635,Davos,yellow,purple,4,7,False,8,snow_mocha
+1636,Arosa,pink,grey,2,3,False,32,water
+1637,Arosa,red,red,2,6,False,46,orange juice
+1638,Lenzerheide,red,white,4,3,False,5,orange juice
+1639,Verbier,pink,green,7,6,False,13,coffee
+1640,St. Moritz,purple,pink,7,7,True,10,orange juice
+1641,Engelberg,black,green,4,3,False,45,water
+1642,Davos,green,pink,9,8,False,31,wine
+1643,Lenzerheide,orange,green,5,8,True,48,wine
+1644,St. Moritz,purple,yellow,9,7,False,47,orange juice
+1645,St. Moritz,black,green,1,9,True,8,coffee
+1646,Laax,grey,pink,1,8,False,43,snow_mocha
+1647,Laax,blue,yellow,8,2,True,14,tea
+1648,Jungfrau,white,blue,9,4,False,35,hot_chocolate
+1649,Crans-Montana,red,grey,1,6,True,12,orange juice
+1650,Laax,orange,red,6,1,True,6,tea
+1651,Davos,yellow,purple,6,4,False,36,coffee
+1652,Zermatt,green,blue,5,8,True,38,wine
+1653,St. Moritz,white,red,4,4,True,1,snow_mocha
+1654,Laax,green,black,7,10,False,12,tea
+1655,Laax,orange,green,7,10,False,40,tea
+1656,Davos,white,pink,7,1,False,18,snow_mocha
+1657,Davos,grey,yellow,3,4,True,20,snow_mocha
+1658,Engelberg,blue,grey,2,2,True,20,orange juice
+1659,Verbier,white,purple,8,5,True,40,tea
+1660,Crans-Montana,black,blue,6,5,True,40,hot_chocolate
+1661,Jungfrau,pink,black,8,10,False,37,wine
+1662,Laax,blue,yellow,4,3,False,25,orange juice
+1663,Crans-Montana,yellow,green,6,10,False,20,wine
+1664,Lenzerheide,green,green,7,1,False,33,orange juice
+1665,Verbier,orange,grey,7,8,False,49,orange juice
+1666,Engelberg,white,red,2,10,True,43,orange juice
+1667,Engelberg,white,grey,9,4,False,2,coffee
+1668,Davos,purple,red,2,8,False,4,coffee
+1669,Arosa,white,black,2,10,False,15,tea
+1670,Arosa,orange,white,6,6,False,41,orange juice
+1671,Lenzerheide,green,orange,1,5,False,1,tea
+1672,Laax,red,purple,8,10,True,45,orange juice
+1673,Verbier,grey,grey,2,6,True,44,snow_mocha
+1674,Arosa,purple,red,2,3,True,41,snow_mocha
+1675,Laax,grey,green,6,1,False,1,coffee
+1676,Jungfrau,pink,green,3,9,False,0,orange juice
+1677,Davos,black,purple,4,9,False,18,snow_mocha
+1678,Engelberg,green,yellow,4,5,True,39,water
+1679,Jungfrau,red,blue,9,2,False,29,hot_chocolate
+1680,Zermatt,blue,red,3,3,True,44,coffee
+1681,Crans-Montana,blue,black,4,3,True,17,orange juice
+1682,Crans-Montana,blue,orange,2,9,False,13,wine
+1683,Arosa,purple,blue,4,5,False,5,water
+1684,St. Moritz,pink,purple,7,6,False,44,tea
+1685,Davos,grey,green,8,2,False,32,coffee
+1686,Zermatt,pink,white,9,4,True,17,orange juice
+1687,Arosa,red,blue,4,10,True,11,snow_mocha
+1688,Arosa,orange,yellow,9,4,False,19,coffee
+1689,Jungfrau,red,black,9,4,False,18,orange juice
+1690,Crans-Montana,grey,grey,4,10,False,3,tea
+1691,Laax,white,black,6,7,True,6,tea
+1692,Engelberg,orange,white,4,6,True,32,wine
+1693,Verbier,green,black,9,5,False,14,tea
+1694,Lenzerheide,pink,green,9,4,False,38,snow_mocha
+1695,Zermatt,purple,grey,7,2,True,38,orange juice
+1696,Verbier,green,orange,9,8,True,2,coffee
+1697,Laax,pink,red,5,10,True,46,water
+1698,Verbier,blue,green,4,8,False,36,water
+1699,Jungfrau,green,orange,8,4,False,11,water
+1700,St. Moritz,pink,pink,6,9,True,42,water
+1701,Verbier,grey,purple,5,10,False,10,tea
+1702,Engelberg,black,blue,6,8,True,1,hot_chocolate
+1703,Lenzerheide,yellow,green,1,9,True,48,water
+1704,St. Moritz,green,black,5,9,True,38,snow_mocha
+1705,Engelberg,pink,grey,9,8,True,39,water
+1706,Engelberg,white,blue,6,10,False,10,hot_chocolate
+1707,St. Moritz,orange,yellow,2,6,False,13,coffee
+1708,Engelberg,purple,red,5,10,True,36,wine
+1709,St. Moritz,grey,black,5,9,False,15,snow_mocha
+1710,Engelberg,grey,red,1,4,False,7,wine
+1711,Crans-Montana,red,green,8,9,False,41,wine
+1712,Crans-Montana,pink,orange,2,5,True,27,water
+1713,St. Moritz,red,orange,3,6,True,19,snow_mocha
+1714,Arosa,pink,black,2,5,False,6,wine
+1715,Zermatt,red,pink,2,5,True,14,coffee
+1716,Lenzerheide,green,yellow,8,10,False,23,wine
+1717,Crans-Montana,yellow,black,3,6,True,34,water
+1718,Laax,red,yellow,6,10,False,16,coffee
+1719,Laax,orange,pink,9,2,True,19,coffee
+1720,St. Moritz,purple,pink,2,4,False,36,orange juice
+1721,Arosa,green,pink,3,1,False,22,snow_mocha
+1722,St. Moritz,green,orange,5,1,True,46,snow_mocha
+1723,Engelberg,orange,grey,9,10,True,18,tea
+1724,Lenzerheide,yellow,green,3,7,True,13,wine
+1725,Laax,green,black,7,1,False,10,tea
+1726,Davos,grey,blue,3,1,True,0,snow_mocha
+1727,Crans-Montana,pink,white,4,8,False,18,tea
+1728,Laax,grey,pink,6,9,True,32,coffee
+1729,Davos,blue,blue,4,7,True,1,snow_mocha
+1730,Davos,orange,red,1,5,True,8,water
+1731,Davos,blue,white,3,6,True,36,snow_mocha
+1732,Crans-Montana,black,black,7,8,False,34,snow_mocha
+1733,Verbier,blue,blue,9,6,False,0,hot_chocolate
+1734,Engelberg,green,grey,8,7,True,10,tea
+1735,Davos,purple,grey,6,4,False,45,water
+1736,Crans-Montana,pink,red,3,1,True,29,tea
+1737,Laax,grey,red,7,10,True,24,wine
+1738,Verbier,green,red,6,4,False,45,wine
+1739,Lenzerheide,yellow,grey,1,7,False,34,orange juice
+1740,Engelberg,blue,blue,8,4,True,14,hot_chocolate
+1741,Verbier,blue,grey,7,7,False,40,snow_mocha
+1742,Zermatt,blue,grey,1,5,False,2,tea
+1743,St. Moritz,pink,orange,4,5,True,49,snow_mocha
+1744,Zermatt,black,orange,6,7,True,11,wine
+1745,Arosa,grey,white,6,4,False,13,orange juice
+1746,Verbier,red,grey,9,1,True,26,snow_mocha
+1747,St. Moritz,blue,pink,8,4,False,23,orange juice
+1748,Jungfrau,purple,orange,9,7,True,49,water
+1749,St. Moritz,green,red,2,4,False,8,wine
+1750,Engelberg,grey,blue,8,8,True,39,hot_chocolate
+1751,Arosa,green,pink,9,1,True,5,orange juice
+1752,Engelberg,green,green,8,1,True,14,tea
+1753,Laax,black,red,5,10,True,23,snow_mocha
+1754,Zermatt,green,blue,4,5,True,29,orange juice
+1755,Zermatt,white,green,8,8,True,26,tea
+1756,Jungfrau,green,red,1,7,False,36,coffee
+1757,Engelberg,purple,blue,1,5,True,33,wine
+1758,Crans-Montana,black,green,4,5,False,4,coffee
+1759,Arosa,purple,white,2,7,False,15,wine
+1760,St. Moritz,orange,red,7,1,True,48,water
+1761,Verbier,red,black,9,5,True,16,tea
+1762,Jungfrau,yellow,orange,8,10,False,39,orange juice
+1763,Zermatt,yellow,green,3,1,False,4,tea
+1764,Davos,blue,blue,9,10,False,41,hot_chocolate
+1765,Laax,grey,black,5,3,True,44,tea
+1766,Jungfrau,orange,pink,9,4,True,20,water
+1767,Jungfrau,pink,green,3,10,False,29,snow_mocha
+1768,Engelberg,black,blue,5,5,True,27,water
+1769,Zermatt,red,pink,3,9,False,7,tea
+1770,Crans-Montana,red,pink,6,6,True,40,tea
+1771,Laax,black,pink,5,8,False,12,coffee
+1772,Engelberg,white,pink,5,6,False,35,water
+1773,Davos,blue,green,6,8,True,26,coffee
+1774,Crans-Montana,blue,black,8,4,False,0,orange juice
+1775,Crans-Montana,yellow,blue,9,9,True,45,hot_chocolate
+1776,St. Moritz,pink,yellow,4,7,True,39,snow_mocha
+1777,Arosa,blue,grey,8,1,True,13,water
+1778,Jungfrau,green,blue,5,6,False,33,water
+1779,Verbier,blue,blue,9,10,False,15,hot_chocolate
+1780,Crans-Montana,pink,white,4,10,False,11,wine
+1781,Zermatt,black,purple,4,5,True,13,wine
+1782,Jungfrau,grey,black,9,7,False,15,tea
+1783,Davos,green,purple,3,4,True,22,snow_mocha
+1784,Engelberg,green,yellow,8,7,False,8,coffee
+1785,Verbier,green,black,7,6,False,47,coffee
+1786,Davos,grey,purple,8,2,True,10,wine
+1787,Laax,blue,grey,1,2,True,3,wine
+1788,Zermatt,yellow,blue,9,1,True,25,hot_chocolate
+1789,Crans-Montana,purple,white,9,6,False,18,wine
+1790,St. Moritz,pink,white,7,1,True,0,water
+1791,Jungfrau,blue,red,4,9,True,6,tea
+1792,Engelberg,yellow,pink,5,9,True,4,orange juice
+1793,Engelberg,yellow,pink,5,9,False,27,coffee
+1794,Jungfrau,blue,white,2,3,True,5,orange juice
+1795,Crans-Montana,orange,blue,1,10,True,21,wine
+1796,Crans-Montana,red,pink,6,9,True,27,orange juice
+1797,Jungfrau,orange,pink,5,5,True,15,snow_mocha
+1798,Engelberg,blue,grey,2,4,False,21,tea
+1799,Verbier,pink,green,9,6,False,12,tea
+1800,St. Moritz,grey,green,4,2,False,23,snow_mocha
+1801,Lenzerheide,black,yellow,8,1,True,18,water
+1802,Laax,black,orange,6,1,True,41,water
+1803,Laax,blue,grey,4,6,False,32,coffee
+1804,Engelberg,yellow,red,2,9,False,24,coffee
+1805,Davos,purple,white,9,7,True,10,coffee
+1806,Engelberg,grey,pink,7,1,True,28,wine
+1807,Lenzerheide,white,purple,1,7,False,35,tea
+1808,Arosa,purple,black,1,8,False,38,water
+1809,Crans-Montana,grey,pink,3,8,True,44,orange juice
+1810,Engelberg,blue,grey,5,3,False,47,water
+1811,Davos,black,yellow,3,2,True,2,snow_mocha
+1812,Zermatt,purple,purple,2,5,True,6,water
+1813,Engelberg,orange,black,8,10,False,22,orange juice
+1814,Lenzerheide,grey,pink,1,4,False,18,orange juice
+1815,Jungfrau,purple,grey,8,2,True,49,water
+1816,Verbier,green,white,3,6,False,12,orange juice
+1817,St. Moritz,orange,white,6,4,False,25,tea
+1818,Engelberg,green,red,3,4,False,17,snow_mocha
+1819,Crans-Montana,white,yellow,6,2,False,19,orange juice
+1820,Davos,green,black,2,4,True,45,snow_mocha
+1821,Arosa,black,grey,6,7,True,7,tea
+1822,Jungfrau,red,green,3,10,True,35,coffee
+1823,Lenzerheide,white,pink,5,5,True,26,coffee
+1824,Jungfrau,orange,blue,2,1,True,2,tea
+1825,Crans-Montana,yellow,green,2,5,True,23,orange juice
+1826,Arosa,pink,purple,9,6,True,6,orange juice
+1827,Davos,orange,orange,8,1,True,46,snow_mocha
+1828,Arosa,black,purple,2,7,True,18,wine
+1829,Arosa,orange,yellow,4,9,True,34,orange juice
+1830,Davos,red,white,1,4,False,14,coffee
+1831,Crans-Montana,purple,white,2,3,True,27,tea
+1832,Crans-Montana,grey,blue,7,5,True,47,hot_chocolate
+1833,Arosa,black,yellow,6,6,True,41,snow_mocha
+1834,Jungfrau,pink,blue,9,2,False,49,hot_chocolate
+1835,Engelberg,orange,pink,1,7,False,24,wine
+1836,Crans-Montana,green,yellow,8,3,True,47,coffee
+1837,Davos,yellow,pink,5,2,True,40,snow_mocha
+1838,Engelberg,blue,pink,2,5,True,44,coffee
+1839,Crans-Montana,blue,yellow,2,1,True,1,snow_mocha
+1840,Arosa,yellow,red,7,9,True,31,coffee
+1841,Verbier,black,grey,3,6,False,1,water
+1842,Lenzerheide,yellow,green,1,9,True,49,snow_mocha
+1843,Arosa,grey,green,9,3,False,24,water
+1844,Zermatt,yellow,yellow,7,10,False,14,tea
+1845,St. Moritz,red,red,5,6,True,10,snow_mocha
+1846,St. Moritz,green,orange,3,2,False,35,snow_mocha
+1847,Lenzerheide,orange,red,6,9,False,37,wine
+1848,Verbier,black,black,6,1,False,46,coffee
+1849,Davos,black,grey,4,4,False,19,snow_mocha
+1850,Zermatt,blue,white,2,8,False,45,coffee
+1851,Crans-Montana,white,yellow,1,7,True,28,coffee
+1852,Zermatt,yellow,blue,1,3,False,32,tea
+1853,Zermatt,red,yellow,5,10,True,6,wine
+1854,Laax,black,orange,5,10,False,34,orange juice
+1855,Engelberg,white,pink,6,8,True,30,orange juice
+1856,St. Moritz,pink,black,6,7,False,20,orange juice
+1857,St. Moritz,grey,green,7,3,True,43,coffee
+1858,Engelberg,pink,orange,6,8,True,1,orange juice
+1859,Laax,yellow,red,8,7,True,21,tea
+1860,Laax,grey,green,7,4,False,2,tea
+1861,Verbier,yellow,green,7,1,False,2,water
+1862,Arosa,pink,white,5,5,False,46,tea
+1863,Engelberg,pink,yellow,9,4,False,8,coffee
+1864,Engelberg,purple,black,4,6,True,9,snow_mocha
+1865,Lenzerheide,pink,pink,2,1,True,43,wine
+1866,Jungfrau,white,yellow,6,1,False,18,orange juice
+1867,Laax,grey,red,4,7,False,23,orange juice
+1868,Davos,green,orange,6,9,False,21,wine
+1869,Laax,black,purple,6,5,False,32,coffee
+1870,Jungfrau,pink,purple,2,6,True,3,water
+1871,Crans-Montana,black,black,1,6,True,13,water
+1872,Engelberg,blue,black,4,4,True,46,coffee
+1873,Lenzerheide,grey,yellow,2,8,True,32,coffee
+1874,Jungfrau,pink,green,6,3,False,9,water
+1875,Jungfrau,green,purple,7,4,False,0,tea
+1876,St. Moritz,blue,purple,1,4,True,21,snow_mocha
+1877,Lenzerheide,orange,purple,7,10,False,29,coffee
+1878,Engelberg,black,pink,4,4,False,44,wine
+1879,Verbier,green,red,5,2,True,49,tea
+1880,Davos,purple,green,2,2,False,38,coffee
+1881,Verbier,green,pink,2,8,False,44,snow_mocha
+1882,Crans-Montana,yellow,green,4,2,True,28,orange juice
+1883,Davos,green,black,9,1,True,20,orange juice
+1884,Laax,orange,white,9,1,False,15,water
+1885,Verbier,yellow,pink,7,2,False,18,water
+1886,St. Moritz,purple,grey,6,2,True,0,wine
+1887,Zermatt,yellow,grey,3,4,True,16,orange juice
+1888,Zermatt,green,pink,5,8,True,34,snow_mocha
+1889,Verbier,purple,grey,1,8,True,7,tea
+1890,Crans-Montana,yellow,purple,3,7,True,6,tea
+1891,Zermatt,purple,grey,8,9,False,3,coffee
+1892,St. Moritz,black,blue,6,8,True,33,hot_chocolate
+1893,Laax,grey,blue,1,8,False,16,wine
+1894,Zermatt,yellow,white,5,8,False,20,water
+1895,Verbier,green,purple,2,9,False,40,snow_mocha
+1896,St. Moritz,grey,grey,2,2,True,38,snow_mocha
+1897,Davos,orange,grey,2,3,True,32,wine
+1898,Laax,green,blue,3,3,False,14,water
+1899,Verbier,white,blue,5,9,True,28,wine
+1900,Verbier,orange,white,4,5,True,20,orange juice
+1901,Engelberg,blue,pink,1,7,False,35,coffee
+1902,Zermatt,black,pink,9,6,True,25,tea
+1903,Zermatt,white,orange,7,2,False,13,coffee
+1904,Engelberg,yellow,grey,5,3,True,17,orange juice
+1905,Davos,white,purple,9,6,True,42,orange juice
+1906,Davos,yellow,yellow,8,6,False,8,wine
+1907,Lenzerheide,blue,yellow,7,4,True,34,snow_mocha
+1908,Davos,green,yellow,7,3,True,17,wine
+1909,Crans-Montana,pink,purple,2,8,False,31,coffee
+1910,St. Moritz,purple,green,9,10,False,19,snow_mocha
+1911,Engelberg,black,blue,1,1,False,49,coffee
+1912,Arosa,pink,yellow,6,5,False,12,water
+1913,Zermatt,red,purple,8,1,True,25,orange juice
+1914,Verbier,purple,grey,2,10,True,1,water
+1915,Zermatt,green,blue,8,9,False,40,hot_chocolate
+1916,Arosa,pink,black,6,9,True,13,orange juice
+1917,Lenzerheide,blue,blue,9,4,False,39,hot_chocolate
+1918,St. Moritz,blue,yellow,9,9,False,34,tea
+1919,Laax,green,purple,6,4,True,22,water
+1920,Verbier,grey,purple,5,3,True,44,coffee
+1921,St. Moritz,black,yellow,4,1,True,32,snow_mocha
+1922,Engelberg,orange,blue,8,10,True,17,hot_chocolate
+1923,Laax,green,purple,4,1,True,5,wine
+1924,Laax,black,grey,9,6,False,40,orange juice
+1925,Jungfrau,grey,white,2,9,True,49,snow_mocha
+1926,St. Moritz,pink,orange,6,5,False,49,orange juice
+1927,Verbier,purple,white,9,1,False,28,snow_mocha
+1928,Crans-Montana,grey,green,3,1,True,19,water
+1929,Lenzerheide,white,yellow,2,2,False,2,orange juice
+1930,Engelberg,red,orange,1,3,True,48,water
+1931,Jungfrau,green,purple,6,10,True,4,tea
+1932,Jungfrau,red,green,5,4,True,9,coffee
+1933,Verbier,red,white,5,10,True,37,orange juice
+1934,Arosa,purple,pink,2,10,False,32,coffee
+1935,St. Moritz,white,orange,7,1,False,17,tea
+1936,Lenzerheide,purple,pink,9,7,False,1,tea
+1937,St. Moritz,pink,black,5,8,False,31,snow_mocha
+1938,Arosa,black,red,6,2,False,34,wine
+1939,Arosa,grey,blue,6,6,True,4,hot_chocolate
+1940,Crans-Montana,purple,grey,2,1,True,9,orange juice
+1941,Davos,orange,white,8,10,False,44,water
+1942,Lenzerheide,yellow,grey,5,3,True,40,wine
+1943,St. Moritz,orange,green,7,4,False,43,coffee
+1944,Davos,blue,black,8,1,True,46,water
+1945,Davos,orange,purple,7,9,True,45,water
+1946,Jungfrau,black,pink,7,4,True,17,orange juice
+1947,Zermatt,orange,pink,1,3,False,26,tea
+1948,Crans-Montana,orange,red,2,2,False,25,wine
+1949,Zermatt,orange,purple,4,3,False,43,coffee
+1950,Crans-Montana,orange,grey,4,8,False,3,coffee
+1951,Lenzerheide,orange,pink,1,2,False,32,tea
+1952,Engelberg,white,black,4,5,True,11,orange juice
+1953,Verbier,grey,pink,4,5,False,28,orange juice
+1954,Arosa,red,black,2,2,False,4,coffee
+1955,Davos,orange,grey,9,6,False,19,tea
+1956,Davos,yellow,green,2,8,False,5,tea
+1957,Zermatt,white,black,9,6,False,29,orange juice
+1958,Crans-Montana,orange,blue,7,4,True,26,hot_chocolate
+1959,Crans-Montana,orange,blue,1,9,False,34,water
+1960,Verbier,blue,grey,9,6,True,2,orange juice
+1961,Engelberg,pink,green,2,7,True,25,wine
+1962,Lenzerheide,purple,yellow,4,3,False,26,wine
+1963,Crans-Montana,black,white,5,9,False,13,snow_mocha
+1964,Engelberg,yellow,orange,3,9,False,10,wine
+1965,Engelberg,pink,orange,6,1,False,4,water
+1966,Lenzerheide,black,grey,6,7,True,7,coffee
+1967,St. Moritz,black,grey,4,9,True,35,snow_mocha
+1968,Jungfrau,blue,grey,7,2,True,34,orange juice
+1969,Engelberg,orange,pink,5,3,False,47,coffee
+1970,Lenzerheide,purple,grey,2,7,True,24,tea
+1971,Zermatt,red,red,9,5,True,17,snow_mocha
+1972,Verbier,black,orange,4,1,False,39,snow_mocha
+1973,Engelberg,yellow,white,5,1,False,9,coffee
+1974,St. Moritz,white,white,4,10,True,3,snow_mocha
+1975,Crans-Montana,black,blue,2,1,False,7,snow_mocha
+1976,Verbier,grey,yellow,5,9,True,13,tea
+1977,Zermatt,green,orange,7,6,False,44,snow_mocha
+1978,Engelberg,blue,green,3,10,False,20,tea
+1979,Engelberg,blue,grey,9,10,False,37,orange juice
+1980,Laax,yellow,green,7,8,True,4,orange juice
+1981,Davos,blue,blue,6,2,True,34,hot_chocolate
+1982,Arosa,pink,white,5,9,True,3,tea
+1983,Crans-Montana,yellow,red,4,8,True,38,water
+1984,Laax,yellow,pink,9,3,True,29,tea
+1985,Laax,red,green,5,10,False,2,orange juice
+1986,Lenzerheide,red,pink,5,7,True,0,water
+1987,Crans-Montana,orange,green,9,5,True,38,tea
+1988,St. Moritz,red,pink,2,9,False,45,tea
+1989,St. Moritz,pink,yellow,2,6,False,46,wine
+1990,Lenzerheide,grey,blue,2,5,True,43,coffee
+1991,Zermatt,blue,yellow,8,2,True,16,tea
+1992,Davos,purple,red,7,5,False,41,coffee
+1993,Lenzerheide,black,pink,9,7,True,39,wine
+1994,Verbier,orange,blue,9,3,True,11,hot_chocolate
+1995,Lenzerheide,black,orange,4,9,False,21,wine
+1996,Davos,black,black,1,5,False,14,orange juice
+1997,Verbier,yellow,grey,7,2,False,16,water
+1998,Engelberg,red,black,3,8,False,38,water
+1999,Davos,yellow,purple,2,10,True,42,snow_mocha
+2000,Arosa,pink,yellow,3,2,True,26,orange juice
+2001,St. Moritz,pink,blue,5,4,False,36,hot_chocolate
+2002,Arosa,green,blue,4,4,False,40,hot_chocolate
+2003,Engelberg,black,green,6,9,False,37,hot_chocolate
+2004,Jungfrau,pink,blue,7,5,False,37,hot_chocolate
+2005,Crans-Montana,purple,blue,7,2,False,21,hot_chocolate
+2006,Lenzerheide,white,blue,4,8,False,12,hot_chocolate
+2007,Verbier,black,blue,6,10,False,34,hot_chocolate
+2008,Lenzerheide,grey,blue,4,1,False,44,hot_chocolate
+2009,St. Moritz,pink,green,7,8,False,42,hot_chocolate
+2010,Davos,green,blue,7,5,False,13,hot_chocolate
+2011,St. Moritz,green,blue,6,5,False,4,hot_chocolate
+2012,Crans-Montana,pink,blue,7,9,False,49,hot_chocolate
+2013,Laax,white,blue,8,3,False,18,hot_chocolate
+2014,Davos,orange,blue,8,3,False,30,hot_chocolate
+2015,Verbier,blue,green,5,2,False,7,hot_chocolate
+2016,Laax,grey,blue,6,3,False,22,hot_chocolate
+2017,Laax,pink,green,5,8,False,49,hot_chocolate
+2018,Davos,yellow,blue,4,9,False,19,hot_chocolate
+2019,Davos,yellow,green,7,10,False,35,hot_chocolate
+2020,Engelberg,pink,green,8,9,False,17,hot_chocolate
+2021,Arosa,yellow,green,8,5,False,31,hot_chocolate
+2022,Laax,white,blue,7,10,False,5,hot_chocolate
+2023,Verbier,purple,blue,4,6,False,14,hot_chocolate
+2024,St. Moritz,red,blue,4,3,False,12,hot_chocolate
+2025,Jungfrau,yellow,blue,6,3,False,12,hot_chocolate
+2026,Crans-Montana,blue,green,8,1,False,27,hot_chocolate
+2027,Zermatt,purple,blue,6,4,False,21,hot_chocolate
+2028,Jungfrau,blue,green,8,10,False,47,hot_chocolate
+2029,Lenzerheide,purple,blue,4,1,False,3,hot_chocolate
+2030,Arosa,blue,blue,8,4,False,42,hot_chocolate
+2031,Engelberg,white,blue,8,9,False,29,hot_chocolate
+2032,Jungfrau,grey,green,8,4,False,19,hot_chocolate
+2033,Lenzerheide,purple,blue,7,2,False,19,hot_chocolate
+2034,Davos,black,blue,6,4,False,41,hot_chocolate
+2035,Zermatt,green,blue,8,2,False,23,hot_chocolate
+2036,Crans-Montana,green,green,8,4,False,35,hot_chocolate
+2037,Crans-Montana,purple,green,5,7,False,25,hot_chocolate
+2038,Zermatt,white,blue,8,7,False,20,hot_chocolate
+2039,Davos,green,green,7,7,False,25,hot_chocolate
+2040,Zermatt,yellow,green,8,5,False,44,hot_chocolate
+2041,Arosa,orange,blue,8,3,False,10,hot_chocolate
+2042,Zermatt,red,blue,6,8,False,42,hot_chocolate
+2043,Jungfrau,red,green,7,6,False,30,hot_chocolate
+2044,Verbier,pink,blue,6,5,False,21,hot_chocolate
+2045,Lenzerheide,purple,blue,7,6,False,36,hot_chocolate
+2046,St. Moritz,pink,blue,8,6,False,31,hot_chocolate
+2047,Zermatt,orange,green,7,1,False,38,hot_chocolate
+2048,Crans-Montana,green,blue,6,5,False,16,hot_chocolate
+2049,Crans-Montana,blue,blue,7,8,False,49,hot_chocolate
+2050,Lenzerheide,blue,blue,8,5,False,12,hot_chocolate
+2051,St. Moritz,yellow,green,7,9,False,23,hot_chocolate
+2052,Laax,red,blue,7,6,False,39,hot_chocolate
+2053,Arosa,pink,blue,4,3,False,9,hot_chocolate
+2054,Zermatt,black,green,5,4,False,6,hot_chocolate
+2055,Zermatt,red,green,7,10,False,34,hot_chocolate
+2056,Jungfrau,red,green,4,2,False,17,hot_chocolate
+2057,Crans-Montana,blue,green,4,7,False,11,hot_chocolate
+2058,Laax,grey,blue,8,3,False,39,hot_chocolate
+2059,Laax,black,blue,4,2,False,12,hot_chocolate
+2060,Jungfrau,yellow,blue,6,5,False,21,hot_chocolate
+2061,St. Moritz,purple,green,8,5,False,30,hot_chocolate
+2062,Arosa,grey,green,5,1,False,27,hot_chocolate
+2063,St. Moritz,pink,green,7,8,False,30,hot_chocolate
+2064,Verbier,green,green,6,2,False,26,hot_chocolate
+2065,St. Moritz,blue,blue,6,3,False,20,hot_chocolate
+2066,Davos,red,green,4,10,False,27,hot_chocolate
+2067,Lenzerheide,purple,blue,7,6,False,1,hot_chocolate
+2068,Verbier,orange,green,5,7,False,11,hot_chocolate
+2069,Arosa,black,blue,7,5,False,18,hot_chocolate
+2070,Lenzerheide,purple,green,8,3,False,24,hot_chocolate
+2071,Verbier,pink,blue,5,9,False,20,hot_chocolate
+2072,Arosa,red,blue,4,8,False,29,hot_chocolate
+2073,Laax,white,blue,8,10,False,8,hot_chocolate
+2074,Verbier,grey,green,6,2,False,21,hot_chocolate
+2075,Laax,purple,green,8,2,False,25,hot_chocolate
+2076,Verbier,green,blue,4,9,False,10,hot_chocolate
+2077,Verbier,black,blue,6,8,False,42,hot_chocolate
+2078,Engelberg,pink,green,5,7,False,24,hot_chocolate
+2079,Crans-Montana,green,green,7,5,False,32,hot_chocolate
+2080,Verbier,orange,green,4,6,False,6,hot_chocolate
+2081,St. Moritz,pink,green,6,10,False,17,hot_chocolate
+2082,Arosa,yellow,green,7,8,False,34,hot_chocolate
+2083,Crans-Montana,pink,green,4,1,False,8,hot_chocolate
+2084,Davos,green,blue,5,5,False,25,hot_chocolate
+2085,Davos,green,blue,6,10,False,5,hot_chocolate
+2086,Jungfrau,green,blue,5,8,False,34,hot_chocolate
+2087,St. Moritz,black,green,8,4,False,11,hot_chocolate
+2088,Arosa,purple,blue,8,1,False,41,hot_chocolate
+2089,Laax,yellow,blue,6,1,False,22,hot_chocolate
+2090,Engelberg,red,blue,7,4,False,8,hot_chocolate
+2091,Lenzerheide,white,green,6,7,False,11,hot_chocolate
+2092,Laax,blue,green,4,2,False,41,hot_chocolate
+2093,Crans-Montana,white,green,6,9,False,23,hot_chocolate
+2094,Crans-Montana,grey,blue,6,8,False,44,hot_chocolate
+2095,Crans-Montana,purple,blue,6,4,False,8,hot_chocolate
+2096,Crans-Montana,purple,green,5,6,False,32,hot_chocolate
+2097,Engelberg,yellow,blue,4,5,False,21,hot_chocolate
+2098,Lenzerheide,black,blue,8,7,False,47,hot_chocolate
+2099,Crans-Montana,white,blue,8,5,False,25,hot_chocolate
+2100,Jungfrau,pink,green,4,1,False,38,hot_chocolate
+2101,Verbier,orange,orange,2,4,False,39,tea
+2102,Zermatt,purple,green,1,1,False,25,tea
+2103,Verbier,pink,purple,2,7,True,40,tea
+2104,Zermatt,grey,blue,2,5,True,40,tea
+2105,Zermatt,green,blue,2,3,True,18,tea
+2106,Zermatt,orange,orange,2,8,True,24,tea
+2107,Zermatt,blue,black,2,8,True,31,tea
+2108,Verbier,orange,pink,2,1,True,39,tea
+2109,Zermatt,purple,grey,2,1,False,30,tea
+2110,Zermatt,red,grey,2,8,True,29,tea
+2111,Verbier,red,green,1,6,True,10,tea
+2112,Verbier,yellow,yellow,2,5,False,12,tea
+2113,Zermatt,black,grey,2,7,True,31,tea
+2114,Verbier,green,grey,2,5,False,38,tea
+2115,Zermatt,yellow,black,1,9,True,17,tea
+2116,Verbier,yellow,grey,2,4,True,5,tea
+2117,Verbier,grey,red,2,1,False,49,tea
+2118,Verbier,yellow,yellow,2,7,True,8,tea
+2119,Verbier,white,white,1,7,True,0,tea
+2120,Zermatt,red,yellow,2,8,True,26,tea
+2121,Zermatt,orange,black,2,6,False,33,tea
+2122,Zermatt,pink,red,2,8,True,3,tea
+2123,Verbier,yellow,blue,1,2,False,16,tea
+2124,Zermatt,green,purple,1,6,True,22,tea
+2125,Zermatt,green,black,1,2,False,44,tea
+2126,Verbier,red,blue,1,9,True,35,tea
+2127,Verbier,black,green,1,9,True,47,tea
+2128,Zermatt,purple,white,2,9,True,24,tea
+2129,Zermatt,grey,red,2,6,False,48,tea
+2130,Zermatt,pink,white,2,4,True,49,tea
+2131,Verbier,green,yellow,2,1,True,6,tea
+2132,Verbier,white,green,2,1,False,39,tea
+2133,Zermatt,black,orange,2,6,True,10,tea
+2134,Zermatt,purple,blue,2,10,False,7,tea
+2135,Zermatt,yellow,black,1,4,False,37,tea
+2136,Verbier,green,green,1,10,False,45,tea
+2137,Zermatt,red,white,2,2,False,33,tea
+2138,Verbier,white,green,2,2,True,47,tea
+2139,Zermatt,green,pink,2,5,False,29,tea
+2140,Verbier,red,red,1,2,True,29,tea
+2141,Zermatt,blue,red,1,7,True,15,tea
+2142,Zermatt,grey,pink,1,7,False,3,tea
+2143,Verbier,white,orange,1,1,False,46,tea
+2144,Zermatt,pink,pink,1,2,False,43,tea
+2145,Verbier,orange,red,1,9,True,4,tea
+2146,Verbier,grey,blue,2,2,True,15,tea
+2147,Verbier,grey,white,1,1,True,27,tea
+2148,Zermatt,black,green,1,6,False,1,tea
+2149,Zermatt,pink,black,1,10,False,40,tea
+2150,Verbier,purple,yellow,2,9,True,19,tea
+2151,Verbier,purple,black,2,6,False,17,tea
+2152,Verbier,grey,black,1,4,False,19,tea
+2153,Zermatt,grey,white,1,6,False,37,tea
+2154,Zermatt,black,white,1,5,True,40,tea
+2155,Zermatt,grey,white,1,9,False,27,tea
+2156,Verbier,blue,grey,2,8,True,14,tea
+2157,Verbier,red,purple,1,3,False,15,tea
+2158,Verbier,grey,blue,1,4,True,13,tea
+2159,Verbier,red,pink,2,7,False,36,tea
+2160,Verbier,purple,yellow,1,10,True,39,tea
+2161,Zermatt,orange,purple,2,10,True,8,tea
+2162,Verbier,black,black,1,7,True,19,tea
+2163,Zermatt,blue,white,2,6,False,40,tea
+2164,Verbier,pink,red,1,4,True,47,tea
+2165,Verbier,orange,white,2,5,False,10,tea
+2166,Verbier,red,red,2,10,True,49,tea
+2167,Verbier,pink,white,1,2,True,38,tea
+2168,Verbier,red,pink,2,7,True,42,tea
+2169,Verbier,grey,black,2,8,True,26,tea
+2170,Verbier,purple,orange,1,7,False,3,tea
+2171,Verbier,purple,blue,1,6,True,39,tea
+2172,Verbier,grey,green,2,10,True,16,tea
+2173,Zermatt,purple,purple,1,5,False,13,tea
+2174,Zermatt,grey,white,1,1,False,25,tea
+2175,Verbier,black,green,1,10,False,44,tea
+2176,Zermatt,black,blue,2,2,False,26,tea
+2177,Zermatt,yellow,pink,1,7,False,7,tea
+2178,Zermatt,black,red,2,8,True,10,tea
+2179,Verbier,white,grey,1,8,False,10,tea
+2180,Verbier,grey,green,2,1,True,22,tea
+2181,Verbier,red,purple,2,2,False,40,tea
+2182,Verbier,black,pink,2,7,True,41,tea
+2183,Verbier,yellow,red,1,5,True,6,tea
+2184,Verbier,black,black,1,6,True,46,tea
+2185,Verbier,pink,white,2,8,False,2,tea
+2186,Verbier,grey,yellow,2,3,False,6,tea
+2187,Verbier,black,purple,2,2,True,24,tea
+2188,Verbier,white,orange,1,1,False,39,tea
+2189,Verbier,orange,yellow,2,6,False,6,tea
+2190,Verbier,blue,red,1,6,True,40,tea
+2191,Verbier,pink,white,1,1,False,36,tea
+2192,Verbier,purple,pink,2,2,True,9,tea
+2193,Zermatt,white,grey,2,10,False,2,tea
+2194,Verbier,purple,yellow,2,10,True,17,tea
+2195,Verbier,green,red,2,10,True,8,tea
+2196,Zermatt,grey,yellow,2,1,False,8,tea
+2197,Verbier,green,red,2,8,False,4,tea
+2198,Zermatt,black,orange,2,4,True,12,tea
+2199,Verbier,yellow,green,2,1,True,16,tea
+2200,Verbier,black,orange,1,7,True,15,tea
+2201,Verbier,pink,black,2,10,True,6,tea
+2202,Verbier,red,grey,2,10,False,10,tea
+2203,Zermatt,orange,purple,2,3,True,17,tea
+2204,Zermatt,green,pink,2,4,True,47,tea
+2205,Verbier,black,purple,2,9,False,40,tea
+2206,Verbier,purple,white,1,5,True,16,tea
+2207,Zermatt,red,yellow,1,9,False,29,tea
+2208,Verbier,green,black,2,7,True,7,tea
+2209,Verbier,yellow,white,2,6,True,20,tea
+2210,Zermatt,grey,blue,1,3,True,34,tea
+2211,Verbier,red,purple,1,7,True,12,tea
+2212,Verbier,orange,red,2,7,True,40,tea
+2213,Zermatt,blue,orange,1,9,True,40,tea
+2214,Verbier,pink,blue,1,7,True,22,tea
+2215,Zermatt,pink,white,1,3,True,14,tea
+2216,Verbier,blue,pink,1,4,False,42,tea
+2217,Verbier,yellow,pink,2,10,True,36,tea
+2218,Zermatt,grey,grey,2,2,False,35,tea
+2219,Verbier,white,blue,2,4,True,19,tea
+2220,Zermatt,green,green,2,9,False,3,tea
+2221,Zermatt,purple,purple,2,4,False,31,tea
+2222,Verbier,black,blue,2,3,True,2,tea
+2223,Verbier,white,blue,1,10,False,21,tea
+2224,Zermatt,grey,white,1,7,False,10,tea
+2225,Verbier,blue,red,1,10,True,37,tea
+2226,Zermatt,blue,black,2,4,False,2,tea
+2227,Verbier,pink,black,2,5,True,19,tea
+2228,Verbier,green,pink,2,9,True,32,tea
+2229,Zermatt,pink,green,1,3,True,28,tea
+2230,Verbier,purple,pink,1,7,False,13,tea
+2231,Verbier,pink,green,2,9,True,43,tea
+2232,Zermatt,white,pink,1,10,True,46,tea
+2233,Verbier,red,green,2,4,False,1,tea
+2234,Verbier,yellow,white,1,7,True,23,tea
+2235,Zermatt,purple,red,2,9,True,26,tea
+2236,Zermatt,blue,red,2,8,True,25,tea
+2237,Verbier,grey,blue,2,9,False,6,tea
+2238,Zermatt,grey,pink,1,4,True,0,tea
+2239,Verbier,grey,purple,1,4,True,5,tea
+2240,Verbier,yellow,white,1,1,False,31,tea
+2241,Zermatt,blue,pink,2,7,False,46,tea
+2242,Verbier,purple,pink,2,7,True,20,tea
+2243,Verbier,green,black,2,6,False,21,tea
+2244,Verbier,yellow,blue,2,4,False,27,tea
+2245,Zermatt,pink,yellow,1,3,True,16,tea
+2246,Verbier,grey,red,1,3,False,24,tea
+2247,Zermatt,orange,yellow,1,5,False,46,tea
+2248,Zermatt,grey,blue,1,5,True,45,tea
+2249,Zermatt,pink,pink,2,6,True,49,tea
+2250,Zermatt,yellow,blue,1,3,False,7,tea
+2251,Verbier,grey,pink,1,8,False,32,tea
+2252,Verbier,black,red,1,2,False,6,tea
+2253,Zermatt,orange,blue,2,4,True,21,tea
+2254,Zermatt,blue,blue,1,6,False,47,tea
+2255,Verbier,grey,white,1,3,True,4,tea
+2256,Verbier,green,purple,2,2,False,7,tea
+2257,Zermatt,orange,pink,2,8,True,45,tea
+2258,Zermatt,green,purple,2,9,False,31,tea
+2259,Zermatt,yellow,blue,2,5,False,13,tea
+2260,Zermatt,black,pink,1,1,True,32,tea
+2261,Zermatt,red,yellow,2,2,False,44,tea
+2262,Verbier,blue,blue,1,2,True,34,tea
+2263,Verbier,yellow,yellow,1,1,True,7,tea
+2264,Zermatt,yellow,yellow,2,5,True,49,tea
+2265,Zermatt,grey,blue,1,4,False,6,tea
+2266,Zermatt,blue,red,1,4,True,18,tea
+2267,Zermatt,blue,pink,1,4,False,0,tea
+2268,Verbier,grey,grey,1,7,True,39,tea
+2269,Verbier,green,blue,1,9,False,31,tea
+2270,Zermatt,red,grey,1,1,True,13,tea
+2271,Zermatt,pink,yellow,1,1,False,37,tea
+2272,Verbier,pink,black,1,8,False,20,tea
+2273,Zermatt,black,orange,2,4,False,18,tea
+2274,Zermatt,red,pink,2,9,True,44,tea
+2275,Zermatt,yellow,purple,2,5,True,6,tea
+2276,Verbier,purple,pink,1,3,True,4,tea
+2277,Zermatt,orange,black,1,7,True,37,tea
+2278,Verbier,black,white,1,5,True,17,tea
+2279,Zermatt,white,purple,2,1,True,24,tea
+2280,Verbier,purple,red,1,4,True,22,tea
+2281,Verbier,red,grey,2,10,True,29,tea
+2282,Verbier,grey,blue,2,5,False,44,tea
+2283,Zermatt,purple,white,2,6,True,37,tea
+2284,Zermatt,purple,red,2,6,True,14,tea
+2285,Verbier,white,blue,1,5,False,6,tea
+2286,Zermatt,yellow,purple,2,2,True,5,tea
+2287,Verbier,red,white,1,4,True,1,tea
+2288,Verbier,grey,yellow,1,1,True,28,tea
+2289,Zermatt,red,white,2,10,True,15,tea
+2290,Verbier,pink,red,1,10,True,30,tea
+2291,Verbier,black,pink,1,4,False,4,tea
+2292,Zermatt,orange,blue,2,9,True,20,tea
+2293,Verbier,white,pink,1,6,True,2,tea
+2294,Verbier,white,black,1,2,False,41,tea
+2295,Zermatt,pink,black,1,2,True,46,tea
+2296,Zermatt,white,green,2,2,True,22,tea
+2297,Verbier,green,pink,1,6,False,20,tea
+2298,Verbier,orange,yellow,1,8,True,13,tea
+2299,Verbier,purple,white,2,1,True,18,tea
+2300,Zermatt,blue,orange,2,1,True,25,tea
+2301,Verbier,orange,white,1,5,False,35,tea
+2302,Verbier,blue,black,1,5,True,16,tea
+2303,Zermatt,red,blue,1,9,True,13,tea
+2304,Verbier,blue,yellow,2,3,True,45,tea
+2305,Verbier,orange,purple,2,6,False,39,tea
+2306,Verbier,black,red,2,9,True,26,tea
+2307,Verbier,blue,purple,2,2,True,25,tea
+2308,Verbier,grey,red,1,8,False,41,tea
+2309,Verbier,orange,orange,2,3,False,45,tea
+2310,Verbier,grey,grey,1,10,False,41,tea
+2311,Verbier,white,grey,1,8,True,44,tea
+2312,Verbier,grey,green,2,4,True,7,tea
+2313,Verbier,orange,white,1,7,True,39,tea
+2314,Zermatt,yellow,pink,2,3,False,36,tea
+2315,Zermatt,pink,black,2,1,False,19,tea
+2316,Verbier,grey,orange,2,10,False,37,tea
+2317,Verbier,purple,purple,1,3,False,3,tea
+2318,Verbier,black,white,2,2,True,33,tea
+2319,Zermatt,purple,black,1,10,False,33,tea
+2320,Verbier,green,orange,2,1,False,43,tea
+2321,Verbier,orange,white,1,5,True,11,tea
+2322,Zermatt,black,pink,1,10,True,8,tea
+2323,Verbier,orange,pink,1,2,False,31,tea
+2324,Zermatt,orange,blue,1,9,False,41,tea
+2325,Verbier,red,pink,2,7,True,36,tea
+2326,Zermatt,blue,grey,2,3,True,32,tea
+2327,Zermatt,pink,green,1,5,False,25,tea
+2328,Zermatt,orange,yellow,2,6,True,33,tea
+2329,Verbier,white,yellow,2,5,True,26,tea
+2330,Verbier,white,orange,1,3,False,28,tea
+2331,Verbier,black,grey,2,1,False,12,tea
+2332,Zermatt,blue,black,1,10,True,21,tea
+2333,Zermatt,pink,black,1,9,True,30,tea
+2334,Verbier,grey,black,2,8,False,46,tea
+2335,Zermatt,pink,purple,1,5,True,42,tea
+2336,Zermatt,blue,red,2,8,True,35,tea
+2337,Verbier,blue,grey,2,9,True,12,tea
+2338,Zermatt,blue,blue,1,6,False,11,tea
+2339,Verbier,pink,pink,1,10,True,26,tea
+2340,Zermatt,yellow,yellow,1,7,True,48,tea
+2341,Verbier,red,grey,1,3,False,36,tea
+2342,Zermatt,grey,red,2,3,False,23,tea
+2343,Zermatt,black,blue,1,8,False,43,tea
+2344,Zermatt,pink,grey,2,1,False,17,tea
+2345,Zermatt,blue,grey,1,6,True,5,tea
+2346,Zermatt,white,red,2,1,True,45,tea
+2347,Zermatt,black,grey,1,1,True,11,tea
+2348,Zermatt,yellow,pink,1,4,False,14,tea
+2349,Verbier,green,black,2,5,True,35,tea
+2350,Verbier,green,blue,1,4,False,16,tea
+2351,Verbier,black,grey,2,1,False,38,tea
+2352,Verbier,pink,black,2,8,True,31,tea
+2353,Zermatt,black,black,2,6,False,1,tea
+2354,Zermatt,pink,white,1,3,False,2,tea
+2355,Zermatt,red,yellow,2,4,False,36,tea
+2356,Zermatt,green,white,1,5,True,46,tea
+2357,Verbier,white,green,2,2,False,44,tea
+2358,Verbier,blue,yellow,1,9,False,0,tea
+2359,Verbier,purple,grey,2,10,True,13,tea
+2360,Verbier,grey,black,2,7,True,32,tea
+2361,Zermatt,black,grey,2,8,False,30,tea
+2362,Zermatt,black,blue,1,7,False,18,tea
+2363,Zermatt,white,purple,1,3,False,10,tea
+2364,Zermatt,red,grey,1,7,False,1,tea
+2365,Verbier,black,orange,2,2,False,21,tea
+2366,Verbier,orange,purple,2,4,False,19,tea
+2367,Verbier,grey,red,2,5,False,21,tea
+2368,Verbier,red,orange,1,8,False,45,tea
+2369,Zermatt,blue,grey,1,6,False,0,tea
+2370,Zermatt,black,purple,2,4,False,21,tea
+2371,Zermatt,green,yellow,1,1,True,24,tea
+2372,Verbier,yellow,green,2,6,True,39,tea
+2373,Zermatt,orange,white,2,2,True,16,tea
+2374,Zermatt,purple,purple,1,3,True,7,tea
+2375,Verbier,white,purple,1,2,True,49,tea
+2376,Verbier,pink,yellow,2,2,True,2,tea
+2377,Zermatt,pink,red,2,4,False,20,tea
+2378,Zermatt,yellow,purple,1,6,False,11,tea
+2379,Zermatt,red,white,1,3,False,22,tea
+2380,Zermatt,blue,grey,2,10,False,22,tea
+2381,Zermatt,orange,white,1,5,False,23,tea
+2382,Zermatt,yellow,purple,2,7,False,5,tea
+2383,Verbier,grey,orange,1,3,True,22,tea
+2384,Zermatt,pink,green,1,9,False,46,tea
+2385,Verbier,blue,pink,1,7,True,16,tea
+2386,Zermatt,red,white,2,9,False,18,tea
+2387,Verbier,blue,black,1,8,False,34,tea
+2388,Verbier,blue,grey,1,5,True,18,tea
+2389,Zermatt,blue,blue,1,6,True,28,tea
+2390,Zermatt,blue,blue,2,6,True,42,tea
+2391,Zermatt,yellow,pink,1,7,True,30,tea
+2392,Verbier,white,grey,2,10,False,19,tea
+2393,Zermatt,yellow,pink,2,3,False,49,tea
+2394,Verbier,pink,green,1,10,True,36,tea
+2395,Verbier,grey,pink,1,7,False,20,tea
+2396,Zermatt,grey,red,2,5,True,46,tea
+2397,Verbier,yellow,white,1,1,False,20,tea
+2398,Verbier,red,grey,2,8,False,1,tea
+2399,Zermatt,yellow,white,1,5,True,35,tea
+2400,Verbier,pink,pink,2,2,False,6,tea
+2401,Verbier,red,grey,2,2,True,29,tea
+2402,Zermatt,red,grey,2,9,False,32,tea
+2403,Zermatt,purple,blue,2,7,True,33,tea
+2404,Zermatt,purple,blue,1,5,False,16,tea
+2405,Zermatt,black,blue,1,4,False,12,tea
+2406,Verbier,black,pink,1,4,True,2,tea
+2407,Verbier,purple,grey,2,9,False,46,tea
+2408,Verbier,orange,orange,2,8,False,13,tea
+2409,Zermatt,grey,yellow,1,5,False,19,tea
+2410,Zermatt,black,green,2,5,True,23,tea
+2411,Verbier,green,yellow,1,3,True,49,tea
+2412,Verbier,grey,red,1,8,False,30,tea
+2413,Zermatt,black,red,2,7,True,11,tea
+2414,Zermatt,blue,purple,1,4,True,0,tea
+2415,Zermatt,orange,blue,2,2,True,5,tea
+2416,Verbier,pink,green,2,8,True,40,tea
+2417,Verbier,yellow,red,2,3,False,42,tea
+2418,Zermatt,orange,orange,2,6,False,1,tea
+2419,Verbier,white,orange,1,4,False,44,tea
+2420,Verbier,white,pink,1,5,False,0,tea
+2421,Verbier,white,orange,1,9,True,28,tea
+2422,Zermatt,white,grey,1,8,False,45,tea
+2423,Verbier,green,orange,1,5,False,29,tea
+2424,Zermatt,pink,green,1,8,False,13,tea
+2425,Zermatt,purple,black,1,4,True,10,tea
+2426,Zermatt,green,grey,2,1,True,22,tea
+2427,Verbier,purple,black,2,10,True,29,tea
+2428,Verbier,yellow,orange,2,4,False,16,tea
+2429,Zermatt,yellow,black,2,4,False,25,tea
+2430,Zermatt,green,purple,2,2,True,35,tea
+2431,Verbier,yellow,black,2,1,False,43,tea
+2432,Verbier,white,red,2,1,False,42,tea
+2433,Zermatt,pink,white,1,10,False,49,tea
+2434,Verbier,black,purple,1,2,False,34,tea
+2435,Verbier,pink,green,2,9,True,37,tea
+2436,Verbier,pink,black,2,10,True,7,tea
+2437,Verbier,green,grey,2,4,True,4,tea
+2438,Verbier,grey,black,1,8,True,34,tea
+2439,Zermatt,purple,green,2,10,True,16,tea
+2440,Zermatt,black,white,1,6,True,0,tea
+2441,Zermatt,white,pink,1,8,True,20,tea
+2442,Verbier,green,yellow,2,7,False,41,tea
+2443,Verbier,white,orange,1,9,False,38,tea
+2444,Zermatt,pink,purple,2,8,False,46,tea
+2445,Verbier,black,orange,2,7,False,47,tea
+2446,Zermatt,grey,purple,1,9,True,21,tea
+2447,Verbier,orange,orange,2,3,False,23,tea
+2448,Zermatt,pink,purple,1,1,False,7,tea
+2449,Zermatt,orange,white,2,3,False,10,tea
+2450,Verbier,red,purple,2,2,False,41,tea
+2451,Zermatt,grey,pink,1,1,True,38,tea
+2452,Zermatt,grey,yellow,1,6,False,35,tea
+2453,Verbier,blue,orange,1,6,True,2,tea
+2454,Verbier,black,purple,1,7,True,31,tea
+2455,Zermatt,black,black,1,8,False,28,tea
+2456,Verbier,grey,red,1,1,False,27,tea
+2457,Zermatt,white,green,2,6,True,20,tea
+2458,Verbier,green,blue,2,7,False,49,tea
+2459,Zermatt,red,orange,1,10,False,19,tea
+2460,Verbier,purple,purple,1,7,False,38,tea
+2461,Verbier,red,yellow,2,2,False,20,tea
+2462,Zermatt,red,orange,1,8,False,10,tea
+2463,Verbier,purple,green,1,6,True,32,tea
+2464,Zermatt,purple,yellow,2,9,False,27,tea
+2465,Zermatt,grey,green,1,4,True,8,tea
+2466,Zermatt,pink,yellow,1,6,True,14,tea
+2467,Verbier,black,blue,1,7,True,42,tea
+2468,Zermatt,yellow,orange,2,6,False,16,tea
+2469,Verbier,blue,white,2,4,True,28,tea
+2470,Verbier,purple,purple,1,7,True,21,tea
+2471,Zermatt,red,yellow,1,10,True,34,tea
+2472,Zermatt,grey,grey,1,6,False,20,tea
+2473,Verbier,green,white,2,3,False,4,tea
+2474,Verbier,orange,yellow,2,4,False,35,tea
+2475,Zermatt,yellow,black,2,7,True,41,tea
+2476,Zermatt,purple,white,2,6,True,42,tea
+2477,Verbier,grey,blue,1,8,True,37,tea
+2478,Verbier,blue,orange,2,2,False,3,tea
+2479,Zermatt,white,red,1,3,False,19,tea
+2480,Verbier,pink,purple,2,4,True,37,tea
+2481,Zermatt,white,white,1,4,False,5,tea
+2482,Zermatt,grey,pink,2,7,False,5,tea
+2483,Zermatt,green,blue,1,5,True,17,tea
+2484,Verbier,orange,purple,1,4,False,19,tea
+2485,Verbier,green,purple,2,9,False,0,tea
+2486,Zermatt,pink,black,2,5,False,24,tea
+2487,Verbier,blue,blue,1,5,True,26,tea
+2488,Verbier,black,grey,2,7,True,22,tea
+2489,Zermatt,white,pink,1,6,False,15,tea
+2490,Verbier,white,black,2,8,False,28,tea
+2491,Verbier,orange,blue,2,10,True,37,tea
+2492,Verbier,green,red,2,6,False,3,tea
+2493,Zermatt,green,grey,2,5,True,35,tea
+2494,Verbier,yellow,white,2,6,False,21,tea
+2495,Zermatt,white,orange,2,9,False,21,tea
+2496,Verbier,blue,blue,2,5,True,5,tea
+2497,Verbier,white,grey,1,10,True,24,tea
+2498,Verbier,yellow,black,2,4,True,23,tea
+2499,Verbier,yellow,purple,1,3,False,1,tea
+2500,Verbier,orange,pink,1,9,False,45,tea
+2501,Zermatt,red,white,2,1,True,48,tea
+2502,Zermatt,orange,white,1,8,True,20,tea
+2503,Zermatt,purple,grey,2,10,False,28,tea
+2504,Zermatt,black,green,2,3,False,16,tea
+2505,Verbier,purple,black,1,9,False,14,tea
+2506,Verbier,pink,grey,1,5,True,12,tea
+2507,Verbier,blue,grey,2,8,False,23,tea
+2508,Verbier,orange,blue,2,1,True,1,tea
+2509,Zermatt,red,yellow,1,2,True,33,tea
+2510,Zermatt,blue,yellow,1,2,True,3,tea
+2511,Verbier,black,red,2,4,True,30,tea
+2512,Verbier,pink,orange,1,4,True,30,tea
+2513,Verbier,purple,blue,1,3,True,26,tea
+2514,Verbier,white,blue,2,6,False,22,tea
+2515,Zermatt,pink,white,2,8,False,10,tea
+2516,Zermatt,black,black,1,1,True,47,tea
+2517,Zermatt,blue,green,2,3,False,4,tea
+2518,Zermatt,red,yellow,2,4,True,1,tea
+2519,Zermatt,white,orange,2,1,False,21,tea
+2520,Zermatt,green,orange,2,5,True,2,tea
+2521,Verbier,pink,yellow,2,1,True,26,tea
+2522,Verbier,yellow,purple,2,7,True,13,tea
+2523,Zermatt,orange,black,1,4,False,27,tea
+2524,Zermatt,white,yellow,2,8,True,13,tea
+2525,Zermatt,yellow,purple,1,3,True,5,tea
+2526,Verbier,purple,green,2,6,False,32,tea
+2527,Verbier,orange,purple,2,9,False,9,tea
+2528,Zermatt,purple,blue,2,8,False,0,tea
+2529,Zermatt,green,pink,1,9,False,17,tea
+2530,Verbier,purple,red,1,2,False,11,tea
+2531,Verbier,pink,black,2,6,True,32,tea
+2532,Zermatt,pink,green,1,8,False,32,tea
+2533,Zermatt,black,black,2,7,False,42,tea
+2534,Verbier,yellow,yellow,2,6,True,11,tea
+2535,Zermatt,purple,blue,1,1,False,15,tea
+2536,Zermatt,purple,green,2,9,True,41,tea
+2537,Verbier,green,purple,1,1,True,33,tea
+2538,Zermatt,yellow,pink,2,6,True,22,tea
+2539,Zermatt,blue,red,1,6,False,39,tea
+2540,Zermatt,black,red,1,6,True,10,tea
+2541,Verbier,green,white,1,1,False,48,tea
+2542,Zermatt,red,blue,1,2,False,5,tea
+2543,Zermatt,black,yellow,2,1,False,15,tea
+2544,Zermatt,blue,red,1,10,False,38,tea
+2545,Zermatt,black,purple,1,7,True,19,tea
+2546,Verbier,orange,pink,1,10,True,26,tea
+2547,Verbier,white,orange,2,4,False,3,tea
+2548,Verbier,orange,purple,1,7,True,26,tea
+2549,Zermatt,purple,yellow,2,4,True,14,tea
+2550,Zermatt,white,grey,2,10,True,28,tea
+2551,Zermatt,yellow,red,2,8,True,37,tea
+2552,Verbier,purple,black,2,4,False,6,tea
+2553,Zermatt,grey,black,2,5,True,36,tea
+2554,Zermatt,red,grey,2,4,True,31,tea
+2555,Zermatt,green,purple,1,7,True,36,tea
+2556,Zermatt,yellow,grey,1,7,True,25,tea
+2557,Verbier,blue,white,2,10,True,35,tea
+2558,Verbier,blue,white,1,9,False,29,tea
+2559,Zermatt,green,purple,2,5,True,22,tea
+2560,Verbier,red,black,1,4,False,34,tea
+2561,Zermatt,black,orange,1,4,True,18,tea
+2562,Verbier,yellow,purple,1,8,False,26,tea
+2563,Verbier,grey,pink,1,4,False,46,tea
+2564,Zermatt,green,red,2,9,True,2,tea
+2565,Verbier,purple,blue,1,2,False,33,tea
+2566,Verbier,purple,orange,2,7,False,1,tea
+2567,Verbier,red,yellow,1,10,True,35,tea
+2568,Verbier,pink,white,2,2,False,10,tea
+2569,Zermatt,yellow,purple,2,8,False,3,tea
+2570,Verbier,pink,green,1,7,False,14,tea
+2571,Zermatt,white,white,2,8,False,32,tea
+2572,Zermatt,grey,orange,1,5,True,2,tea
+2573,Verbier,pink,grey,2,3,True,34,tea
+2574,Verbier,grey,blue,1,6,True,44,tea
+2575,Verbier,orange,yellow,1,4,False,12,tea
+2576,Verbier,green,pink,2,6,True,4,tea
+2577,Verbier,black,orange,1,5,True,1,tea
+2578,Verbier,green,grey,2,6,False,33,tea
+2579,Zermatt,grey,pink,2,2,True,5,tea
+2580,Zermatt,grey,white,2,2,True,31,tea
+2581,Zermatt,green,pink,2,4,True,37,tea
+2582,Zermatt,blue,grey,1,9,True,35,tea
+2583,Zermatt,pink,purple,2,4,False,13,tea
+2584,Zermatt,blue,black,2,7,False,36,tea
+2585,Verbier,purple,purple,1,7,False,18,tea
+2586,Zermatt,black,white,2,5,False,9,tea
+2587,Verbier,black,white,1,10,False,40,tea
+2588,Verbier,black,black,1,7,True,46,tea
+2589,Verbier,pink,red,1,10,False,13,tea
+2590,Verbier,purple,green,1,6,True,36,tea
+2591,Zermatt,yellow,red,2,5,False,37,tea
+2592,Verbier,green,purple,2,3,True,29,tea
+2593,Zermatt,purple,pink,1,1,False,37,tea
+2594,Verbier,white,red,2,3,False,22,tea
+2595,Verbier,red,green,1,6,False,36,tea
+2596,Verbier,purple,blue,1,1,False,40,tea
+2597,Verbier,black,green,2,5,False,24,tea
+2598,Verbier,yellow,green,1,9,True,10,tea
+2599,Verbier,purple,white,1,2,False,12,tea
+2600,Zermatt,purple,pink,2,4,False,28,tea
+2601,Zermatt,white,purple,1,8,True,41,tea
+2602,Zermatt,orange,pink,1,8,False,24,tea
+2603,Verbier,grey,purple,1,3,True,7,tea
+2604,Zermatt,pink,pink,2,5,True,40,tea
+2605,Zermatt,white,yellow,1,10,False,24,tea
+2606,Zermatt,white,yellow,2,3,True,15,tea
+2607,Zermatt,purple,red,2,2,True,41,tea
+2608,Zermatt,white,purple,2,7,True,24,tea
+2609,Zermatt,grey,purple,1,6,False,15,tea
+2610,Zermatt,red,white,1,5,False,49,tea
+2611,Zermatt,black,black,1,5,True,5,tea
+2612,Verbier,orange,orange,2,5,True,9,tea
+2613,Zermatt,white,grey,2,7,False,30,tea
+2614,Zermatt,white,purple,2,8,False,20,tea
+2615,Verbier,yellow,orange,2,10,False,14,tea
+2616,Verbier,orange,black,2,7,False,24,tea
+2617,Zermatt,white,white,1,2,False,20,tea
+2618,Zermatt,purple,green,1,1,True,3,tea
+2619,Verbier,black,yellow,2,4,False,0,tea
+2620,Verbier,white,black,1,7,True,25,tea
+2621,Verbier,purple,yellow,2,9,True,48,tea
+2622,Verbier,grey,red,2,6,True,47,tea
+2623,Verbier,red,grey,2,1,False,27,tea
+2624,Zermatt,blue,green,2,9,False,49,tea
+2625,Verbier,green,pink,2,6,True,27,tea
+2626,Verbier,yellow,orange,1,10,False,21,tea
+2627,Zermatt,black,blue,2,5,True,20,tea
+2628,Zermatt,orange,orange,2,5,False,22,tea
+2629,Verbier,white,orange,2,7,True,20,tea
+2630,Verbier,blue,pink,1,8,False,11,tea
+2631,Zermatt,white,grey,2,6,False,34,tea
+2632,Verbier,red,pink,1,9,False,28,tea
+2633,Zermatt,orange,blue,1,2,False,5,tea
+2634,Verbier,pink,red,1,2,False,48,tea
+2635,Verbier,pink,black,2,5,False,35,tea
+2636,Verbier,red,green,2,4,True,24,tea
+2637,Verbier,blue,pink,1,8,False,7,tea
+2638,Zermatt,blue,yellow,2,3,True,4,tea
+2639,Verbier,purple,yellow,2,2,True,23,tea
+2640,Zermatt,black,white,1,6,True,2,tea
+2641,Verbier,red,white,2,7,False,19,tea
+2642,Zermatt,green,orange,1,5,False,3,tea
+2643,Verbier,blue,blue,1,4,True,39,tea
+2644,Verbier,green,grey,2,1,False,40,tea
+2645,Verbier,black,orange,1,9,False,26,tea
+2646,Zermatt,black,pink,1,7,False,2,tea
+2647,Verbier,green,red,1,8,True,33,tea
+2648,Verbier,green,red,1,1,False,33,tea
+2649,Zermatt,yellow,green,2,4,True,30,tea
+2650,Zermatt,black,grey,2,8,True,18,tea
+2651,Zermatt,white,black,2,4,False,27,tea
+2652,Verbier,grey,purple,2,10,True,5,tea
+2653,Verbier,grey,pink,2,1,True,16,tea
+2654,Verbier,green,white,1,9,False,21,tea
+2655,Verbier,green,red,2,10,True,15,tea
+2656,Zermatt,blue,grey,2,9,True,29,tea
+2657,Verbier,black,orange,1,4,True,22,tea
+2658,Verbier,green,white,1,3,True,37,tea
+2659,Verbier,blue,green,2,4,False,44,tea
+2660,Zermatt,black,purple,2,5,False,25,tea
+2661,Verbier,white,green,2,10,True,29,tea
+2662,Zermatt,black,orange,2,10,False,15,tea
+2663,Verbier,black,purple,2,4,True,10,tea
+2664,Zermatt,purple,orange,2,3,False,48,tea
+2665,Verbier,blue,grey,2,9,True,26,tea
+2666,Zermatt,yellow,pink,1,2,True,10,tea
+2667,Zermatt,grey,blue,2,9,False,4,tea
+2668,Zermatt,yellow,purple,2,6,False,47,tea
+2669,Zermatt,black,purple,2,4,False,45,tea
+2670,Zermatt,pink,white,2,6,True,10,tea
+2671,Verbier,yellow,yellow,2,3,True,0,tea
+2672,Zermatt,purple,grey,1,4,True,39,tea
+2673,Verbier,grey,purple,2,6,False,48,tea
+2674,Zermatt,pink,purple,1,2,False,33,tea
+2675,Zermatt,orange,blue,2,9,True,41,tea
+2676,Verbier,red,white,1,10,True,41,tea
+2677,Verbier,white,black,1,5,False,5,tea
+2678,Zermatt,blue,pink,1,8,False,3,tea
+2679,Zermatt,green,purple,2,7,True,43,tea
+2680,Zermatt,black,white,2,2,True,29,tea
+2681,Zermatt,yellow,white,1,1,False,0,tea
+2682,Verbier,blue,red,1,2,False,0,tea
+2683,Zermatt,green,yellow,1,5,True,26,tea
+2684,Zermatt,black,blue,2,6,False,26,tea
+2685,Verbier,black,purple,2,10,False,12,tea
+2686,Zermatt,blue,white,2,6,True,44,tea
+2687,Zermatt,blue,orange,1,1,False,13,tea
+2688,Verbier,black,grey,2,3,False,35,tea
+2689,Verbier,red,pink,1,5,False,26,tea
+2690,Zermatt,grey,black,1,10,True,43,tea
+2691,Zermatt,yellow,black,2,1,True,39,tea
+2692,Zermatt,black,white,1,5,True,33,tea
+2693,Zermatt,black,yellow,2,5,True,37,tea
+2694,Zermatt,purple,white,1,1,False,44,tea
+2695,Zermatt,green,orange,2,10,True,5,tea
+2696,Zermatt,orange,white,2,6,True,48,tea
+2697,Zermatt,green,white,1,9,False,27,tea
+2698,Zermatt,black,red,1,8,False,1,tea
+2699,Zermatt,pink,white,2,4,True,20,tea
+2700,Zermatt,green,pink,2,1,False,32,tea
+2701,St. Moritz,green,pink,3,7,True,45,snow_mocha
+2702,St. Moritz,grey,black,4,2,True,49,snow_mocha
+2703,Davos,pink,white,4,3,True,10,snow_mocha
+2704,St. Moritz,blue,grey,4,4,True,22,snow_mocha
+2705,Davos,red,green,4,2,True,21,snow_mocha
+2706,St. Moritz,black,green,4,8,False,37,snow_mocha
+2707,Davos,yellow,blue,4,4,True,41,snow_mocha
+2708,St. Moritz,orange,blue,3,8,True,13,snow_mocha
+2709,Davos,black,white,4,7,True,5,snow_mocha
+2710,Davos,blue,black,4,1,False,35,snow_mocha
+2711,St. Moritz,red,pink,4,6,False,7,snow_mocha
+2712,Davos,red,black,4,4,False,41,snow_mocha
+2713,Davos,yellow,yellow,4,8,False,35,snow_mocha
+2714,Davos,white,blue,4,5,False,23,snow_mocha
+2715,St. Moritz,grey,black,3,3,False,18,snow_mocha
+2716,Davos,red,black,4,3,True,47,snow_mocha
+2717,St. Moritz,blue,white,3,6,False,37,snow_mocha
+2718,St. Moritz,orange,grey,3,2,False,40,snow_mocha
+2719,Davos,black,grey,4,5,True,27,snow_mocha
+2720,St. Moritz,blue,green,4,2,False,34,snow_mocha
+2721,Davos,black,grey,3,1,False,48,snow_mocha
+2722,Davos,pink,yellow,3,6,True,30,snow_mocha
+2723,St. Moritz,red,yellow,3,10,False,29,snow_mocha
+2724,St. Moritz,blue,grey,3,3,False,12,snow_mocha
+2725,Davos,yellow,orange,4,4,True,15,snow_mocha
+2726,St. Moritz,yellow,black,3,3,True,3,snow_mocha
+2727,St. Moritz,pink,grey,3,5,True,8,snow_mocha
+2728,St. Moritz,grey,white,3,4,True,40,snow_mocha
+2729,St. Moritz,green,pink,4,2,True,43,snow_mocha
+2730,St. Moritz,white,green,4,3,True,40,snow_mocha
+2731,Davos,green,pink,3,2,True,19,snow_mocha
+2732,Davos,pink,blue,4,6,False,45,snow_mocha
+2733,St. Moritz,green,orange,4,4,True,13,snow_mocha
+2734,Davos,orange,pink,4,8,True,10,snow_mocha
+2735,Davos,white,red,4,5,False,30,snow_mocha
+2736,Davos,blue,black,4,5,False,5,snow_mocha
+2737,St. Moritz,orange,purple,3,9,False,47,snow_mocha
+2738,St. Moritz,pink,blue,3,2,False,30,snow_mocha
+2739,St. Moritz,grey,orange,4,7,False,39,snow_mocha
+2740,Davos,grey,red,4,9,True,4,snow_mocha
+2741,St. Moritz,purple,white,4,6,False,7,snow_mocha
+2742,Davos,green,pink,3,2,True,38,snow_mocha
+2743,St. Moritz,purple,red,3,6,False,0,snow_mocha
+2744,St. Moritz,white,blue,4,1,False,0,snow_mocha
+2745,Davos,orange,blue,3,7,False,15,snow_mocha
+2746,Davos,yellow,white,4,2,True,7,snow_mocha
+2747,Davos,black,pink,3,3,True,6,snow_mocha
+2748,St. Moritz,blue,orange,4,8,True,26,snow_mocha
+2749,St. Moritz,white,orange,3,3,False,15,snow_mocha
+2750,St. Moritz,red,green,3,4,True,6,snow_mocha
+2751,St. Moritz,purple,pink,3,9,False,35,snow_mocha
+2752,St. Moritz,white,grey,4,4,False,15,snow_mocha
+2753,St. Moritz,purple,pink,3,10,False,1,snow_mocha
+2754,St. Moritz,blue,purple,4,10,False,16,snow_mocha
+2755,Davos,red,black,3,8,True,22,snow_mocha
+2756,St. Moritz,purple,purple,4,1,False,26,snow_mocha
+2757,Davos,yellow,blue,3,5,True,31,snow_mocha
+2758,St. Moritz,white,yellow,3,2,True,27,snow_mocha
+2759,Davos,black,yellow,3,10,True,31,snow_mocha
+2760,St. Moritz,blue,black,4,2,True,8,snow_mocha
+2761,St. Moritz,purple,grey,4,8,True,30,snow_mocha
+2762,Davos,white,orange,3,9,False,31,snow_mocha
+2763,Davos,red,orange,3,6,False,14,snow_mocha
+2764,Davos,purple,white,3,9,False,1,snow_mocha
+2765,Davos,blue,pink,3,7,False,42,snow_mocha
+2766,St. Moritz,red,orange,3,9,False,31,snow_mocha
+2767,St. Moritz,orange,blue,3,8,False,0,snow_mocha
+2768,St. Moritz,pink,pink,3,9,False,31,snow_mocha
+2769,St. Moritz,orange,white,4,1,True,25,snow_mocha
+2770,St. Moritz,blue,purple,4,4,True,36,snow_mocha
+2771,Davos,orange,green,3,5,True,44,snow_mocha
+2772,Davos,red,black,4,10,True,41,snow_mocha
+2773,St. Moritz,blue,purple,4,4,False,14,snow_mocha
+2774,Davos,grey,orange,4,3,True,30,snow_mocha
+2775,Davos,blue,white,3,6,False,46,snow_mocha
+2776,Davos,purple,white,3,6,False,36,snow_mocha
+2777,Davos,green,grey,3,5,True,3,snow_mocha
+2778,St. Moritz,purple,black,3,1,False,28,snow_mocha
+2779,St. Moritz,purple,purple,3,6,False,41,snow_mocha
+2780,St. Moritz,red,pink,3,9,True,13,snow_mocha
+2781,Davos,yellow,purple,4,3,False,42,snow_mocha
+2782,St. Moritz,purple,red,4,3,True,19,snow_mocha
+2783,St. Moritz,red,yellow,3,1,True,36,snow_mocha
+2784,Davos,yellow,yellow,3,5,True,28,snow_mocha
+2785,Davos,red,green,3,2,False,41,snow_mocha
+2786,Davos,yellow,orange,3,7,False,2,snow_mocha
+2787,Davos,orange,orange,4,5,True,13,snow_mocha
+2788,St. Moritz,orange,green,4,4,True,47,snow_mocha
+2789,Davos,purple,green,4,5,False,2,snow_mocha
+2790,Davos,blue,grey,3,2,True,48,snow_mocha
+2791,St. Moritz,black,orange,4,3,True,5,snow_mocha
+2792,Davos,green,grey,3,9,True,30,snow_mocha
+2793,St. Moritz,blue,orange,4,9,True,38,snow_mocha
+2794,Davos,orange,red,4,2,False,48,snow_mocha
+2795,Davos,yellow,pink,4,5,True,0,snow_mocha
+2796,Davos,orange,white,4,7,True,11,snow_mocha
+2797,Davos,grey,yellow,3,4,True,20,snow_mocha
+2798,St. Moritz,green,black,4,3,False,8,snow_mocha
+2799,Davos,pink,grey,4,3,True,1,snow_mocha
+2800,St. Moritz,black,pink,4,4,True,10,snow_mocha
+2801,Davos,blue,black,3,2,True,2,snow_mocha
+2802,St. Moritz,pink,purple,4,6,True,20,snow_mocha
+2803,St. Moritz,red,white,4,4,False,28,snow_mocha
+2804,Davos,blue,yellow,4,6,False,22,snow_mocha
+2805,St. Moritz,yellow,black,4,9,True,1,snow_mocha
+2806,Davos,grey,black,4,9,True,18,snow_mocha
+2807,St. Moritz,yellow,red,4,6,False,16,snow_mocha
+2808,St. Moritz,pink,black,3,6,False,0,snow_mocha
+2809,Davos,blue,purple,4,5,False,29,snow_mocha
+2810,Davos,orange,red,4,4,False,3,snow_mocha
+2811,St. Moritz,white,grey,4,8,False,9,snow_mocha
+2812,Davos,purple,white,4,4,False,40,snow_mocha
+2813,Davos,pink,green,4,5,False,7,snow_mocha
+2814,St. Moritz,blue,yellow,4,3,False,20,snow_mocha
+2815,Davos,orange,green,4,10,False,5,snow_mocha
+2816,Davos,red,black,4,7,False,41,snow_mocha
+2817,St. Moritz,yellow,purple,4,9,False,25,snow_mocha
+2818,Davos,blue,green,3,3,True,44,snow_mocha
+2819,Davos,pink,blue,4,2,True,42,snow_mocha
+2820,Davos,grey,blue,3,1,True,49,snow_mocha
+2821,Davos,black,red,4,2,True,25,snow_mocha
+2822,Davos,black,grey,3,8,True,14,snow_mocha
+2823,Davos,grey,white,3,1,False,36,snow_mocha
+2824,St. Moritz,purple,yellow,3,6,False,3,snow_mocha
+2825,Davos,orange,black,4,8,True,31,snow_mocha
+2826,Davos,red,white,4,2,False,17,snow_mocha
+2827,Davos,white,white,4,8,True,13,snow_mocha
+2828,Davos,blue,white,3,6,False,30,snow_mocha
+2829,St. Moritz,orange,red,4,5,True,35,snow_mocha
+2830,Davos,grey,grey,3,3,False,41,snow_mocha
+2831,St. Moritz,green,red,3,2,True,23,snow_mocha
+2832,Davos,grey,blue,4,8,False,32,snow_mocha
+2833,Davos,green,green,4,4,False,38,snow_mocha
+2834,St. Moritz,red,purple,4,3,False,27,snow_mocha
+2835,St. Moritz,blue,white,3,9,False,27,snow_mocha
+2836,St. Moritz,grey,red,4,7,True,39,snow_mocha
+2837,Davos,white,blue,3,3,False,16,snow_mocha
+2838,Davos,green,pink,3,2,False,1,snow_mocha
+2839,Davos,green,pink,3,8,False,27,snow_mocha
+2840,St. Moritz,purple,grey,3,4,False,17,snow_mocha
+2841,St. Moritz,red,purple,3,8,False,8,snow_mocha
+2842,St. Moritz,grey,blue,3,7,True,7,snow_mocha
+2843,St. Moritz,blue,black,3,7,False,19,snow_mocha
+2844,Davos,purple,green,3,4,True,41,snow_mocha
+2845,St. Moritz,green,grey,3,3,False,10,snow_mocha
+2846,Davos,white,yellow,4,7,False,7,snow_mocha
+2847,Davos,yellow,grey,4,4,False,44,snow_mocha
+2848,St. Moritz,yellow,yellow,3,1,False,16,snow_mocha
+2849,St. Moritz,blue,white,3,8,False,45,snow_mocha
+2850,Davos,purple,red,3,10,True,44,snow_mocha
+2851,Davos,white,yellow,4,2,True,25,snow_mocha
+2852,Davos,green,grey,3,5,False,3,snow_mocha
+2853,St. Moritz,white,pink,3,10,False,10,snow_mocha
+2854,Davos,pink,orange,3,1,True,31,snow_mocha
+2855,St. Moritz,black,purple,4,6,False,48,snow_mocha
+2856,St. Moritz,red,blue,3,8,False,26,snow_mocha
+2857,St. Moritz,grey,grey,4,10,False,36,snow_mocha
+2858,St. Moritz,yellow,red,4,2,False,39,snow_mocha
+2859,Davos,blue,blue,4,5,True,38,snow_mocha
+2860,St. Moritz,pink,red,4,2,False,24,snow_mocha
+2861,St. Moritz,white,red,4,3,True,43,snow_mocha
+2862,St. Moritz,red,pink,3,10,False,42,snow_mocha
+2863,St. Moritz,green,purple,3,3,True,28,snow_mocha
+2864,St. Moritz,grey,green,4,9,True,1,snow_mocha
+2865,Davos,purple,black,3,4,True,19,snow_mocha
+2866,Davos,black,grey,4,1,False,8,snow_mocha
+2867,St. Moritz,pink,black,4,4,True,6,snow_mocha
+2868,St. Moritz,grey,red,3,9,True,25,snow_mocha
+2869,St. Moritz,grey,orange,4,7,False,12,snow_mocha
+2870,St. Moritz,orange,blue,4,7,False,1,snow_mocha
+2871,St. Moritz,red,purple,4,4,False,38,snow_mocha
+2872,St. Moritz,pink,purple,4,3,True,25,snow_mocha
+2873,Davos,white,white,4,5,False,33,snow_mocha
+2874,Davos,black,orange,3,7,False,6,snow_mocha
+2875,Davos,red,yellow,4,1,False,2,snow_mocha
+2876,Davos,red,black,3,10,True,49,snow_mocha
+2877,St. Moritz,green,blue,4,9,False,24,snow_mocha
+2878,St. Moritz,yellow,pink,4,2,False,1,snow_mocha
+2879,St. Moritz,red,white,4,8,False,20,snow_mocha
+2880,St. Moritz,grey,orange,3,7,True,47,snow_mocha
+2881,St. Moritz,green,orange,4,5,False,35,snow_mocha
+2882,St. Moritz,purple,white,4,7,True,13,snow_mocha
+2883,Davos,blue,black,4,10,True,40,snow_mocha
+2884,Davos,grey,purple,4,7,False,32,snow_mocha
+2885,St. Moritz,pink,red,3,4,True,49,snow_mocha
+2886,Davos,blue,purple,3,9,False,11,snow_mocha
+2887,Davos,pink,red,4,2,True,16,snow_mocha
+2888,St. Moritz,orange,purple,3,10,True,42,snow_mocha
+2889,St. Moritz,pink,purple,3,4,False,8,snow_mocha
+2890,St. Moritz,purple,purple,4,8,True,29,snow_mocha
+2891,Davos,red,white,3,1,False,18,snow_mocha
+2892,Davos,pink,blue,4,1,True,41,snow_mocha
+2893,Davos,orange,yellow,4,7,False,24,snow_mocha
+2894,Davos,black,grey,4,4,False,1,snow_mocha
+2895,Davos,green,orange,3,6,False,42,snow_mocha
+2896,St. Moritz,grey,pink,4,6,True,33,snow_mocha
+2897,St. Moritz,pink,grey,3,8,False,15,snow_mocha
+2898,Davos,orange,red,4,7,True,36,snow_mocha
+2899,St. Moritz,black,blue,4,1,False,12,snow_mocha
+2900,Davos,blue,white,4,10,False,40,snow_mocha
+2901,St. Moritz,yellow,yellow,3,4,True,1,snow_mocha
+2902,Davos,orange,white,4,7,True,47,snow_mocha
+2903,St. Moritz,orange,blue,3,5,False,16,snow_mocha
+2904,St. Moritz,green,grey,4,8,True,4,snow_mocha
+2905,Davos,purple,grey,3,3,False,44,snow_mocha
+2906,Davos,pink,grey,3,1,True,25,snow_mocha
+2907,Davos,green,black,4,4,False,38,snow_mocha
+2908,Davos,yellow,green,3,7,True,19,snow_mocha
+2909,St. Moritz,red,grey,3,2,True,22,snow_mocha
+2910,Davos,black,black,4,6,False,46,snow_mocha
+2911,St. Moritz,red,yellow,3,3,True,27,snow_mocha
+2912,St. Moritz,white,black,4,7,True,41,snow_mocha
+2913,St. Moritz,grey,grey,4,9,False,1,snow_mocha
+2914,St. Moritz,white,yellow,3,4,False,46,snow_mocha
+2915,St. Moritz,purple,black,3,10,True,44,snow_mocha
+2916,Davos,yellow,yellow,4,5,True,2,snow_mocha
+2917,St. Moritz,white,red,4,1,True,4,snow_mocha
+2918,St. Moritz,black,red,4,3,False,27,snow_mocha
+2919,Davos,blue,yellow,3,9,True,1,snow_mocha
+2920,Davos,grey,black,4,6,True,1,snow_mocha
+2921,St. Moritz,green,pink,3,3,True,35,snow_mocha
+2922,Davos,white,purple,3,8,True,27,snow_mocha
+2923,St. Moritz,green,red,3,5,True,46,snow_mocha
+2924,Davos,pink,orange,3,5,False,24,snow_mocha
+2925,St. Moritz,yellow,red,4,8,True,1,snow_mocha
+2926,St. Moritz,white,purple,4,9,True,19,snow_mocha
+2927,Davos,red,green,3,10,True,38,snow_mocha
+2928,Davos,blue,orange,3,1,True,9,snow_mocha
+2929,St. Moritz,pink,green,3,10,True,26,snow_mocha
+2930,St. Moritz,pink,green,4,7,False,12,snow_mocha
+2931,St. Moritz,pink,grey,3,3,False,28,snow_mocha
+2932,St. Moritz,red,white,3,10,True,5,snow_mocha
+2933,Davos,green,yellow,4,7,True,12,snow_mocha
+2934,Davos,orange,white,3,7,False,20,snow_mocha
+2935,St. Moritz,white,red,3,9,False,13,snow_mocha
+2936,Davos,grey,black,3,10,False,49,snow_mocha
+2937,St. Moritz,white,white,4,3,True,35,snow_mocha
+2938,St. Moritz,white,black,4,3,True,22,snow_mocha
+2939,St. Moritz,grey,red,3,1,False,1,snow_mocha
+2940,Davos,black,red,3,1,False,8,snow_mocha
+2941,Davos,red,red,3,6,False,7,snow_mocha
+2942,Davos,green,grey,3,7,False,39,snow_mocha
+2943,St. Moritz,green,white,4,4,False,26,snow_mocha
+2944,St. Moritz,orange,pink,3,5,False,8,snow_mocha
+2945,Davos,blue,black,3,4,True,11,snow_mocha
+2946,Davos,black,white,4,5,True,31,snow_mocha
+2947,Davos,green,orange,3,3,True,49,snow_mocha
+2948,St. Moritz,white,purple,4,8,False,43,snow_mocha
+2949,St. Moritz,pink,red,3,1,False,35,snow_mocha
+2950,Davos,blue,pink,4,4,True,40,snow_mocha
+2951,St. Moritz,pink,green,4,10,True,20,snow_mocha
+2952,Davos,orange,yellow,4,2,True,3,snow_mocha
+2953,St. Moritz,grey,pink,3,9,False,26,snow_mocha
+2954,St. Moritz,white,red,3,3,False,12,snow_mocha
+2955,St. Moritz,green,red,4,8,True,46,snow_mocha
+2956,St. Moritz,white,red,3,7,True,8,snow_mocha
+2957,St. Moritz,pink,green,3,7,True,23,snow_mocha
+2958,St. Moritz,red,white,4,2,False,12,snow_mocha
+2959,St. Moritz,purple,white,3,10,True,47,snow_mocha
+2960,Davos,black,pink,4,9,True,27,snow_mocha
+2961,St. Moritz,white,orange,3,7,True,24,snow_mocha
+2962,St. Moritz,pink,pink,4,6,True,22,snow_mocha
+2963,Davos,white,white,4,3,False,0,snow_mocha
+2964,St. Moritz,yellow,blue,3,1,True,28,snow_mocha
+2965,St. Moritz,green,pink,3,3,True,8,snow_mocha
+2966,Davos,yellow,purple,4,2,False,45,snow_mocha
+2967,St. Moritz,orange,orange,4,2,True,35,snow_mocha
+2968,Davos,grey,grey,3,5,True,35,snow_mocha
+2969,St. Moritz,green,pink,3,10,True,24,snow_mocha
+2970,St. Moritz,white,yellow,4,8,False,6,snow_mocha
+2971,Davos,grey,green,4,5,True,17,snow_mocha
+2972,Davos,purple,white,4,4,False,39,snow_mocha
+2973,Davos,blue,blue,3,1,True,38,snow_mocha
+2974,Davos,red,grey,3,7,False,13,snow_mocha
+2975,Davos,green,red,3,2,True,49,snow_mocha
+2976,Davos,green,orange,3,5,False,10,snow_mocha
+2977,Davos,red,pink,3,8,True,9,snow_mocha
+2978,Davos,orange,yellow,3,6,False,18,snow_mocha
+2979,St. Moritz,black,grey,4,4,False,43,snow_mocha
+2980,St. Moritz,black,grey,3,3,False,10,snow_mocha
+2981,St. Moritz,grey,orange,4,9,True,49,snow_mocha
+2982,St. Moritz,blue,orange,4,9,False,28,snow_mocha
+2983,Davos,pink,orange,3,8,False,4,snow_mocha
+2984,St. Moritz,grey,orange,4,8,True,3,snow_mocha
+2985,St. Moritz,purple,yellow,3,1,True,20,snow_mocha
+2986,Davos,purple,white,4,4,True,2,snow_mocha
+2987,Davos,black,white,3,6,True,13,snow_mocha
+2988,Davos,orange,yellow,3,3,False,48,snow_mocha
+2989,Davos,blue,blue,4,2,False,25,snow_mocha
+2990,Davos,yellow,red,3,5,False,6,snow_mocha
+2991,St. Moritz,grey,green,4,3,False,31,snow_mocha
+2992,St. Moritz,green,red,4,1,True,30,snow_mocha
+2993,St. Moritz,orange,black,4,7,False,47,snow_mocha
+2994,St. Moritz,yellow,orange,4,8,False,11,snow_mocha
+2995,Davos,orange,grey,3,3,False,26,snow_mocha
+2996,St. Moritz,blue,white,4,8,True,13,snow_mocha
+2997,St. Moritz,blue,orange,3,3,False,1,snow_mocha
+2998,St. Moritz,blue,white,3,6,False,21,snow_mocha
+2999,Davos,green,orange,3,2,True,29,snow_mocha
+3000,Davos,green,green,4,6,True,36,snow_mocha
+3001,St. Moritz,yellow,red,3,5,True,1,snow_mocha
+3002,Davos,purple,yellow,3,6,False,3,snow_mocha
+3003,Davos,white,purple,4,1,False,4,snow_mocha
+3004,St. Moritz,red,pink,4,2,False,32,snow_mocha
+3005,Davos,grey,pink,3,6,True,15,snow_mocha
+3006,Davos,red,orange,3,7,True,24,snow_mocha
+3007,Davos,yellow,red,3,1,True,17,snow_mocha
+3008,St. Moritz,pink,grey,3,9,False,16,snow_mocha
+3009,St. Moritz,orange,blue,3,1,True,8,snow_mocha
+3010,St. Moritz,purple,black,3,6,True,1,snow_mocha
+3011,Davos,red,yellow,3,3,False,48,snow_mocha
+3012,St. Moritz,yellow,black,3,7,False,23,snow_mocha
+3013,Davos,green,green,4,1,True,5,snow_mocha
+3014,St. Moritz,purple,purple,3,5,True,19,snow_mocha
+3015,Davos,green,yellow,3,1,True,33,snow_mocha
+3016,St. Moritz,grey,orange,3,3,True,45,snow_mocha
+3017,Davos,black,orange,3,5,False,48,snow_mocha
+3018,Davos,blue,orange,3,10,False,30,snow_mocha
+3019,St. Moritz,orange,pink,3,9,True,47,snow_mocha
+3020,St. Moritz,purple,pink,3,4,False,15,snow_mocha
+3021,Davos,red,pink,4,10,False,4,snow_mocha
+3022,St. Moritz,pink,white,3,10,False,45,snow_mocha
+3023,Davos,yellow,green,3,5,True,14,snow_mocha
+3024,Davos,orange,red,3,7,False,12,snow_mocha
+3025,St. Moritz,white,white,4,8,True,11,snow_mocha
+3026,St. Moritz,white,green,4,4,False,43,snow_mocha
+3027,Davos,red,white,4,8,True,34,snow_mocha
+3028,Davos,pink,red,4,2,True,19,snow_mocha
+3029,Davos,pink,red,4,7,True,36,snow_mocha
+3030,Davos,orange,black,4,7,True,36,snow_mocha
+3031,St. Moritz,pink,pink,3,10,False,49,snow_mocha
+3032,St. Moritz,yellow,green,3,9,True,29,snow_mocha
+3033,Davos,white,white,3,1,True,41,snow_mocha
+3034,Davos,red,red,3,10,True,21,snow_mocha
+3035,Davos,green,blue,3,2,True,37,snow_mocha
+3036,Davos,red,pink,4,4,False,42,snow_mocha
+3037,St. Moritz,white,orange,3,7,True,16,snow_mocha
+3038,St. Moritz,black,purple,4,1,False,0,snow_mocha
+3039,St. Moritz,green,grey,3,2,True,17,snow_mocha
+3040,Davos,white,blue,3,8,True,25,snow_mocha
+3041,St. Moritz,orange,black,4,3,True,38,snow_mocha
+3042,Davos,green,orange,4,6,False,28,snow_mocha
+3043,St. Moritz,white,grey,4,1,False,3,snow_mocha
+3044,Davos,red,red,3,3,True,7,snow_mocha
+3045,Davos,grey,green,3,10,False,8,snow_mocha
+3046,St. Moritz,purple,grey,4,1,True,17,snow_mocha
+3047,St. Moritz,yellow,black,4,1,False,42,snow_mocha
+3048,St. Moritz,blue,pink,4,10,True,48,snow_mocha
+3049,Davos,purple,white,4,6,False,19,snow_mocha
+3050,Davos,black,white,4,1,False,22,snow_mocha
+3051,St. Moritz,grey,red,4,6,False,18,snow_mocha
+3052,Davos,blue,black,4,5,False,34,snow_mocha
+3053,St. Moritz,red,pink,4,4,True,45,snow_mocha
+3054,Davos,green,white,4,1,True,0,snow_mocha
+3055,St. Moritz,grey,green,4,6,True,39,snow_mocha
+3056,Davos,black,black,3,5,False,3,snow_mocha
+3057,Davos,purple,white,4,6,False,26,snow_mocha
+3058,Davos,grey,orange,4,3,True,20,snow_mocha
+3059,St. Moritz,yellow,blue,3,10,False,43,snow_mocha
+3060,St. Moritz,blue,yellow,3,7,True,39,snow_mocha
+3061,St. Moritz,purple,black,4,6,False,2,snow_mocha
+3062,St. Moritz,black,yellow,4,9,True,48,snow_mocha
+3063,Davos,purple,blue,4,4,True,28,snow_mocha
+3064,St. Moritz,orange,pink,3,3,True,46,snow_mocha
+3065,St. Moritz,white,yellow,3,10,True,44,snow_mocha
+3066,Davos,black,purple,4,8,False,19,snow_mocha
+3067,Davos,pink,grey,4,5,True,41,snow_mocha
+3068,Davos,red,green,4,10,True,39,snow_mocha
+3069,St. Moritz,purple,pink,4,4,False,17,snow_mocha
+3070,St. Moritz,yellow,purple,3,9,False,25,snow_mocha
+3071,St. Moritz,blue,blue,3,6,True,9,snow_mocha
+3072,Davos,green,pink,3,4,False,40,snow_mocha
+3073,Davos,yellow,blue,3,7,True,14,snow_mocha
+3074,Davos,blue,pink,4,4,True,35,snow_mocha
+3075,Davos,grey,pink,4,7,False,9,snow_mocha
+3076,Davos,purple,purple,3,2,False,29,snow_mocha
+3077,Davos,green,yellow,3,3,False,12,snow_mocha
+3078,Davos,green,orange,3,1,True,26,snow_mocha
+3079,St. Moritz,green,green,4,3,True,5,snow_mocha
+3080,Davos,orange,white,3,9,False,26,snow_mocha
+3081,St. Moritz,purple,pink,4,5,False,49,snow_mocha
+3082,St. Moritz,red,grey,3,2,False,36,snow_mocha
+3083,Davos,red,green,4,4,True,4,snow_mocha
+3084,St. Moritz,grey,orange,4,2,False,4,snow_mocha
+3085,Davos,grey,black,3,6,True,44,snow_mocha
+3086,St. Moritz,black,black,3,10,True,34,snow_mocha
+3087,St. Moritz,orange,red,4,6,False,34,snow_mocha
+3088,St. Moritz,yellow,grey,3,1,True,10,snow_mocha
+3089,Davos,orange,pink,4,8,True,6,snow_mocha
+3090,St. Moritz,white,yellow,3,1,False,18,snow_mocha
+3091,St. Moritz,red,red,3,6,True,0,snow_mocha
+3092,St. Moritz,yellow,red,4,8,True,36,snow_mocha
+3093,St. Moritz,yellow,green,3,5,True,31,snow_mocha
+3094,St. Moritz,red,white,4,3,True,8,snow_mocha
+3095,St. Moritz,black,black,4,2,True,47,snow_mocha
+3096,Davos,orange,black,3,4,True,35,snow_mocha
+3097,St. Moritz,black,pink,4,2,True,9,snow_mocha
+3098,Davos,grey,red,3,7,True,40,snow_mocha
+3099,St. Moritz,pink,yellow,4,1,True,1,snow_mocha
+3100,St. Moritz,red,green,4,4,True,15,snow_mocha
+3101,St. Moritz,white,black,4,5,True,17,snow_mocha
+3102,Davos,pink,yellow,4,5,False,26,snow_mocha
+3103,St. Moritz,pink,orange,4,2,False,21,snow_mocha
+3104,St. Moritz,white,grey,4,10,False,28,snow_mocha
+3105,St. Moritz,purple,black,3,9,True,8,snow_mocha
+3106,Davos,orange,orange,4,5,True,26,snow_mocha
+3107,St. Moritz,yellow,black,3,1,False,8,snow_mocha
+3108,Davos,white,green,4,8,False,15,snow_mocha
+3109,St. Moritz,pink,black,3,10,True,15,snow_mocha
+3110,St. Moritz,black,grey,4,4,True,4,snow_mocha
+3111,Davos,green,purple,3,4,False,14,snow_mocha
+3112,St. Moritz,purple,green,4,10,False,21,snow_mocha
+3113,St. Moritz,orange,blue,3,9,False,31,snow_mocha
+3114,Davos,green,black,4,2,False,19,snow_mocha
+3115,St. Moritz,blue,yellow,3,10,True,9,snow_mocha
+3116,St. Moritz,black,white,4,1,False,5,snow_mocha
+3117,Davos,black,red,4,5,True,41,snow_mocha
+3118,St. Moritz,black,grey,3,3,False,28,snow_mocha
+3119,Davos,green,red,4,8,True,7,snow_mocha
+3120,St. Moritz,white,orange,3,4,False,25,snow_mocha
+3121,Davos,orange,green,3,7,True,28,snow_mocha
+3122,St. Moritz,yellow,black,3,5,True,3,snow_mocha
+3123,St. Moritz,red,green,3,4,True,6,snow_mocha
+3124,St. Moritz,green,red,4,7,False,49,snow_mocha
+3125,St. Moritz,red,black,4,9,False,14,snow_mocha
+3126,St. Moritz,yellow,blue,3,8,True,34,snow_mocha
+3127,St. Moritz,grey,red,4,4,True,39,snow_mocha
+3128,St. Moritz,white,purple,3,9,True,34,snow_mocha
+3129,St. Moritz,grey,yellow,4,2,True,44,snow_mocha
+3130,St. Moritz,red,pink,4,8,False,37,snow_mocha
+3131,Davos,purple,red,3,4,True,47,snow_mocha
+3132,St. Moritz,black,yellow,4,10,True,29,snow_mocha
+3133,St. Moritz,purple,grey,4,8,False,29,snow_mocha
+3134,St. Moritz,red,red,3,1,True,5,snow_mocha
+3135,St. Moritz,yellow,green,4,2,False,28,snow_mocha
+3136,Davos,orange,orange,3,9,True,39,snow_mocha
+3137,St. Moritz,red,purple,4,9,True,48,snow_mocha
+3138,St. Moritz,white,purple,4,8,False,28,snow_mocha
+3139,Davos,grey,yellow,3,5,False,33,snow_mocha
+3140,Davos,orange,yellow,4,9,False,20,snow_mocha
+3141,St. Moritz,purple,pink,4,4,False,33,snow_mocha
+3142,St. Moritz,pink,green,3,4,True,29,snow_mocha
+3143,St. Moritz,green,purple,4,5,True,15,snow_mocha
+3144,St. Moritz,pink,green,4,1,False,42,snow_mocha
+3145,St. Moritz,black,orange,3,10,False,15,snow_mocha
+3146,Davos,blue,purple,3,4,False,4,snow_mocha
+3147,Davos,pink,grey,4,6,False,20,snow_mocha
+3148,St. Moritz,blue,yellow,4,3,False,8,snow_mocha
+3149,Davos,black,yellow,3,10,False,42,snow_mocha
+3150,Davos,green,white,3,8,True,21,snow_mocha
+3151,Davos,white,orange,3,2,False,0,snow_mocha
+3152,Davos,orange,pink,4,2,True,17,snow_mocha
+3153,Davos,black,blue,4,3,True,46,snow_mocha
+3154,St. Moritz,pink,orange,3,9,False,10,snow_mocha
+3155,Davos,green,purple,4,7,True,4,snow_mocha
+3156,St. Moritz,yellow,grey,3,3,True,20,snow_mocha
+3157,Davos,blue,yellow,4,4,True,14,snow_mocha
+3158,Davos,white,red,3,2,False,49,snow_mocha
+3159,Davos,yellow,yellow,3,2,True,5,snow_mocha
+3160,Davos,blue,black,3,4,True,27,snow_mocha
+3161,St. Moritz,yellow,green,4,2,False,26,snow_mocha
+3162,Davos,red,grey,4,8,False,8,snow_mocha
+3163,St. Moritz,green,orange,3,1,False,11,snow_mocha
+3164,Davos,purple,green,3,10,True,42,snow_mocha
+3165,St. Moritz,green,blue,4,10,False,18,snow_mocha
+3166,St. Moritz,red,purple,4,7,False,14,snow_mocha
+3167,St. Moritz,white,grey,4,2,False,46,snow_mocha
+3168,St. Moritz,pink,blue,4,10,True,30,snow_mocha
+3169,St. Moritz,green,black,3,7,True,33,snow_mocha
+3170,Davos,green,white,3,1,True,30,snow_mocha
+3171,St. Moritz,red,blue,4,7,True,14,snow_mocha
+3172,Davos,black,pink,3,10,True,27,snow_mocha
+3173,St. Moritz,green,green,3,5,True,19,snow_mocha
+3174,Davos,red,pink,3,6,False,33,snow_mocha
+3175,St. Moritz,black,pink,4,5,True,20,snow_mocha
+3176,Davos,grey,grey,3,4,True,46,snow_mocha
+3177,Davos,blue,blue,4,10,True,17,snow_mocha
+3178,St. Moritz,green,grey,4,6,True,31,snow_mocha
+3179,St. Moritz,blue,yellow,4,7,False,29,snow_mocha
+3180,St. Moritz,black,red,3,1,True,33,snow_mocha
+3181,Davos,orange,red,3,9,False,16,snow_mocha
+3182,St. Moritz,yellow,yellow,3,4,True,49,snow_mocha
+3183,St. Moritz,yellow,grey,4,5,False,34,snow_mocha
+3184,St. Moritz,white,black,4,2,False,39,snow_mocha
+3185,Davos,yellow,yellow,3,7,True,12,snow_mocha
+3186,St. Moritz,purple,green,4,6,True,12,snow_mocha
+3187,St. Moritz,green,white,3,9,True,26,snow_mocha
+3188,Davos,black,pink,4,8,False,43,snow_mocha
+3189,St. Moritz,grey,orange,3,8,False,1,snow_mocha
+3190,St. Moritz,pink,black,3,9,True,15,snow_mocha
+3191,St. Moritz,green,purple,3,1,False,16,snow_mocha
+3192,St. Moritz,green,orange,4,7,False,0,snow_mocha
+3193,St. Moritz,red,black,4,8,False,26,snow_mocha
+3194,St. Moritz,black,orange,4,8,False,5,snow_mocha
+3195,St. Moritz,orange,yellow,3,10,True,29,snow_mocha
+3196,Davos,yellow,white,4,9,True,31,snow_mocha
+3197,Davos,purple,red,4,6,False,46,snow_mocha
+3198,St. Moritz,yellow,pink,3,4,True,41,snow_mocha
+3199,Davos,pink,purple,3,4,False,8,snow_mocha
+3200,Davos,black,grey,4,7,False,2,snow_mocha
+3201,Davos,pink,pink,3,10,True,20,snow_mocha
+3202,Davos,blue,purple,3,10,True,1,snow_mocha
+3203,St. Moritz,white,black,4,6,False,36,snow_mocha
+3204,Davos,grey,purple,3,1,True,1,snow_mocha
+3205,Davos,orange,purple,4,3,False,1,snow_mocha
+3206,St. Moritz,blue,green,4,8,True,23,snow_mocha
+3207,St. Moritz,green,pink,3,10,False,2,snow_mocha
+3208,St. Moritz,yellow,white,4,4,True,3,snow_mocha
+3209,St. Moritz,purple,white,3,7,False,39,snow_mocha
+3210,Davos,white,grey,4,1,False,38,snow_mocha
+3211,Davos,green,white,3,8,True,5,snow_mocha
+3212,St. Moritz,black,black,3,8,False,45,snow_mocha
+3213,Davos,green,red,3,4,False,22,snow_mocha
+3214,Davos,white,purple,3,3,True,8,snow_mocha
+3215,St. Moritz,purple,pink,4,3,True,45,snow_mocha
+3216,Davos,black,red,4,10,True,43,snow_mocha
+3217,St. Moritz,red,purple,4,3,False,26,snow_mocha
+3218,Davos,orange,blue,4,6,False,41,snow_mocha
+3219,Davos,yellow,pink,4,4,False,44,snow_mocha
+3220,Davos,white,purple,4,7,False,26,snow_mocha
+3221,Davos,black,red,4,9,False,28,snow_mocha
+3222,St. Moritz,purple,red,3,7,True,5,snow_mocha
+3223,St. Moritz,blue,red,3,6,True,33,snow_mocha
+3224,Davos,black,orange,4,9,True,41,snow_mocha
+3225,Davos,red,white,3,7,False,4,snow_mocha
+3226,Davos,orange,yellow,4,10,False,24,snow_mocha
+3227,Davos,grey,blue,4,3,True,17,snow_mocha
+3228,St. Moritz,black,white,4,10,True,1,snow_mocha
+3229,St. Moritz,white,red,3,10,True,13,snow_mocha
+3230,St. Moritz,blue,yellow,3,1,False,26,snow_mocha
+3231,Davos,white,white,3,7,False,44,snow_mocha
+3232,St. Moritz,orange,white,3,9,True,47,snow_mocha
+3233,St. Moritz,yellow,yellow,4,9,True,19,snow_mocha
+3234,St. Moritz,pink,grey,4,7,True,5,snow_mocha
+3235,Davos,red,white,4,6,False,49,snow_mocha
+3236,Davos,grey,green,4,2,True,29,snow_mocha
+3237,St. Moritz,purple,blue,3,7,False,48,snow_mocha
+3238,St. Moritz,purple,grey,3,10,True,23,snow_mocha
+3239,St. Moritz,pink,purple,4,8,True,4,snow_mocha
+3240,Davos,green,white,4,8,True,11,snow_mocha
+3241,Davos,purple,white,4,6,False,7,snow_mocha
+3242,Davos,black,grey,3,7,False,16,snow_mocha
+3243,Davos,blue,grey,3,7,True,21,snow_mocha
+3244,St. Moritz,purple,red,4,10,True,33,snow_mocha
+3245,St. Moritz,purple,red,3,9,False,20,snow_mocha
+3246,St. Moritz,white,white,4,1,True,34,snow_mocha
+3247,Davos,red,white,3,10,True,37,snow_mocha
+3248,Davos,red,blue,4,3,False,21,snow_mocha
+3249,St. Moritz,yellow,black,4,5,False,29,snow_mocha
+3250,Davos,blue,yellow,4,1,True,41,snow_mocha
+3251,Davos,pink,purple,4,1,True,44,snow_mocha
+3252,St. Moritz,green,black,3,6,False,44,snow_mocha
+3253,Davos,blue,orange,3,7,False,48,snow_mocha
+3254,St. Moritz,grey,purple,3,7,True,14,snow_mocha
+3255,Davos,blue,orange,4,1,True,27,snow_mocha
+3256,St. Moritz,pink,white,3,3,True,31,snow_mocha
+3257,St. Moritz,green,blue,4,2,False,31,snow_mocha
+3258,St. Moritz,grey,grey,4,4,True,4,snow_mocha
+3259,Davos,purple,white,4,1,True,29,snow_mocha
+3260,Davos,yellow,orange,3,7,False,3,snow_mocha
+3261,Davos,white,pink,4,7,True,12,snow_mocha
+3262,St. Moritz,pink,black,4,1,True,29,snow_mocha
+3263,St. Moritz,orange,yellow,4,9,False,6,snow_mocha
+3264,Davos,red,grey,4,4,True,32,snow_mocha
+3265,Davos,purple,pink,4,3,True,6,snow_mocha
+3266,St. Moritz,black,pink,3,8,True,35,snow_mocha
+3267,St. Moritz,yellow,black,3,5,True,41,snow_mocha
+3268,Davos,pink,white,3,9,True,6,snow_mocha
+3269,Davos,yellow,red,4,3,True,34,snow_mocha
+3270,Davos,blue,blue,3,9,False,10,snow_mocha
+3271,Davos,grey,purple,4,5,False,16,snow_mocha
+3272,St. Moritz,orange,green,4,4,False,35,snow_mocha
+3273,St. Moritz,black,white,4,1,False,23,snow_mocha
+3274,Davos,white,black,3,1,False,33,snow_mocha
+3275,Davos,black,black,4,1,True,11,snow_mocha
+3276,Davos,blue,white,3,3,False,7,snow_mocha
+3277,Davos,grey,red,4,5,True,23,snow_mocha
+3278,Davos,orange,pink,4,2,True,29,snow_mocha
+3279,Davos,orange,green,4,9,False,22,snow_mocha
+3280,St. Moritz,pink,orange,3,6,False,6,snow_mocha
+3281,Davos,red,purple,4,4,True,29,snow_mocha
+3282,Davos,blue,orange,4,5,True,36,snow_mocha
+3283,Davos,green,black,3,1,False,24,snow_mocha
+3284,Davos,white,blue,3,3,False,26,snow_mocha
+3285,Davos,pink,red,4,1,False,2,snow_mocha
+3286,St. Moritz,black,blue,4,1,False,20,snow_mocha
+3287,Davos,black,purple,4,9,True,5,snow_mocha
+3288,St. Moritz,pink,green,3,8,False,30,snow_mocha
+3289,St. Moritz,black,black,4,6,False,40,snow_mocha
+3290,Davos,purple,yellow,3,1,True,21,snow_mocha
+3291,St. Moritz,black,grey,3,9,True,11,snow_mocha
+3292,Davos,green,white,4,5,False,15,snow_mocha
+3293,Davos,green,pink,4,7,True,7,snow_mocha
+3294,St. Moritz,white,blue,3,9,True,27,snow_mocha
+3295,St. Moritz,grey,red,3,8,False,48,snow_mocha
+3296,Davos,yellow,yellow,4,5,False,10,snow_mocha
+3297,Davos,blue,orange,3,2,False,22,snow_mocha
+3298,St. Moritz,purple,yellow,3,1,False,2,snow_mocha
+3299,St. Moritz,green,blue,3,3,False,16,snow_mocha
+3300,St. Moritz,black,blue,3,5,True,35,snow_mocha
