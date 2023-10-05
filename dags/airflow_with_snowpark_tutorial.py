@@ -15,7 +15,7 @@ from astronomer.providers.snowflake.utils.snowpark_helpers import SnowparkTable
 
 # toggle this to False if you are NOT using the Snowflake XCOM backend or
 # had the necessary objects created already
-SETUP_TEARDOWN_SNOWFLAKE_CUSTOM_XCOM_BACKEND = True
+SETUP_TEARDOWN_SNOWFLAKE_CUSTOM_XCOM_BACKEND = False
 MY_SNOWFLAKE_XCOM_DATABASE = "SNOWPARK_XCOM_DB"
 MY_SNOWFLAKE_XCOM_SCHEMA = "SNOWPARK_XCOM_SCHEMA"
 MY_SNOWFLAKE_XCOM_STAGE = "XCOM_STAGE"
