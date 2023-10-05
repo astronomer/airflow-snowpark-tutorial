@@ -13,8 +13,9 @@ from airflow.models.baseoperator import chain
 from astronomer.providers.snowflake.utils.snowpark_helpers import SnowparkTable
 
 
-# toggle this to False if you are NOT using the Snowflake XCOM backend or
-# had the necessary objects created already
+# toggle this to True if you are using the Snowflake XCOM backend and want to
+# use setup/ teardown tasks to create all necessary objects and clean up the XCOM table
+# after the DAG has run
 SETUP_TEARDOWN_SNOWFLAKE_CUSTOM_XCOM_BACKEND = False
 MY_SNOWFLAKE_XCOM_DATABASE = "SNOWPARK_XCOM_DB"
 MY_SNOWFLAKE_XCOM_SCHEMA = "SNOWPARK_XCOM_SCHEMA"
@@ -30,8 +31,8 @@ SNOWFLAKE_CONN_ID = "snowflake_default"
 SNOWPARK_BIN = "/home/astro/.venv/snowpark/bin/python"
 
 # while this tutorial will run with the default Snowflake warehouse, larger
-# datasets may require a Snowpark optimized warehouse. Set the following toggle to true to
-# use such a warehouse. And provide your Snowpark and regular warehouses' names.
+# datasets may require a Snowpark optimized warehouse. Set the following toggle to True to
+# use such a warehouse and provide your Snowpark and regular warehouses' names
 USE_SNOWPARK_WAREHOUSE = True
 MY_SNOWPARK_WAREHOUSE = "SNOWPARK_WH"
 MY_SNOWFLAKE_REGULAR_WAREHOUSE = "HUMANS"
